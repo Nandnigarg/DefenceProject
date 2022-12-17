@@ -36,10 +36,10 @@ function Home() {
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 8th Class</h4>
-                                <p>9th,10th,11th & 12th <br />
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>9th,10th,11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p>Integrated Residential Programme</p>
-                                <p>For 8th Passed Students</p>
+                                <p style={{fontWeight: "bold"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold"}}>For 8th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">

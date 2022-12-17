@@ -28,7 +28,7 @@ function Navbar() {
                                 </li>
                             </NavLink>
                             <NavLink exact to="/schooling-program" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success me-2 mt-2">Schooling Program</button></li>
+                                <li class="nav-item"><button class="btn btn-success me-2 mt-2">School Integrated Program</button></li>
                             </NavLink>
                             <NavLink exact to="/hostel-facility" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success me-2 mt-2">Hostel Facility</button></li>

@@ -20,7 +20,7 @@ function Header() {
                 <div className="col-md-6">
                     <div class="heading">
                         <h5>Our Branches: </h5>
-                        <h6>CHANDIGARH | DELHI</h6>
+                        <h6>CHANDIGARH | DELHI </h6>
                     </div>
                     <div class="heading">
                         <h5>India's #1 Defence Academy</h5>
