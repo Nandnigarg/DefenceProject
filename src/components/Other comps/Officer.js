@@ -7,7 +7,7 @@ function Officer() {
     return (
         <div className="container-fluid mt-5">
             <div style={{ textAlign: "center" }} className="container pt-4">
-                <h3>GUIDANCE AND TRAINING UNDER RETD. OFFICERS</h3>
+                <h3 style={{color: "rgb(55, 146, 55)", fontSize: "2.8rem", fontWeight: "bold"}}>GUIDANCE AND TRAINING UNDER RETD. OFFICERS</h3>
                 <div className="row pt-4">
                     <div className="col-md-3 mb-4">
                         <img height="auto" width="auto" src={OF1} alt="" />

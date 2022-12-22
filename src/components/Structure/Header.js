@@ -7,11 +7,18 @@ function Header() {
 
     const headerButton = {
         backgroundColor: "rgb(111,105,172)",
-        margin: "2% 0",
+        marginTop: "2%",
+        marginBottom: "6%",
         color: "white",
         width: "80%",
+        height: "37px",
         border: "none",
         borderRadius: "7px"
+    }
+
+    const linkStyle ={
+        textDecoration: "none",
+        color: "black"
     }
 
     return (
@@ -39,8 +46,8 @@ function Header() {
                     </div>
                     <div>
                         <p><span class="text text-primary font-weight-bold">Helpline & Support (24 X 7) </span><br/>
-                        <i class="fa-solid fa-phone"></i><span>XXXXXXXXXX &nbsp;&nbsp;&nbsp;</span>
-                        <i class="fa-brands fa-whatsapp"></i><span>XXXXXXXXXX</span>
+                        <i class="fa-solid fa-phone"></i><a href="tel:08968024595" style={linkStyle}><span>8968024595 &nbsp;&nbsp;&nbsp;</span></a>
+                        <i class="fa-brands fa-whatsapp"></i><a href="#" style={linkStyle}><span>8968024595</span></a>
                         </p>
                     </div>
                 </div>

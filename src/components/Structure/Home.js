@@ -1,7 +1,6 @@
 import Officer from '../Other comps/Officer';
-import Branch from '../Other comps/Branch';
 import Form from '../Other comps/Form';
-import ndaBanner from '../assets/nda banner.jpg';
+import mainBanner from '../assets/main banner.jpg';
 import homeBanner from '../assets/home banner.jpg';
 import hB1 from '../assets/hB1.jpg';
 import hB2 from '../assets/hB2.jpg';
@@ -26,7 +25,7 @@ function Home() {
 
     return (
         <div>
-            <img style={{ maxWidth: "100%", height: "auto" }} src={ndaBanner} alt="" />
+            <img width="100%" height="auto" style={{maxHeight: "670px"}} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
                     <div style={boxStyle} className="bg bg-success">
@@ -38,49 +37,49 @@ function Home() {
                                 <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 8th Class</h4>
                                 <p style={{fontWeight: "bold", fontSize: "20px"}}>9th,10th,11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p style={{fontWeight: "bold"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold"}}>For 8th Passed Students</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 8th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 9th Class</h4>
-                                <p>10th,11th & 12th <br />
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>10th,11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p>Integrated Residential Programme</p>
-                                <p>For 9th Passed Students</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 9th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid green", ...divStyle }} className="div">
                                 <h4 style={{ color: "green" }}>NDA + SSB Coaching After 10th Class</h4>
-                                <p>11th & 12th <br />
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p>Integrated Residential Programme</p>
-                                <p>For 10th Passed Students</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 10th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 11th Class</h4>
-                                <p>Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p>Integrated Residential Programme</p>
-                                <p>For 11th Passed Students</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 11th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 12th Class</h4>
-                                <p>Integrated Residential Programme</p>
-                                <p>For 12th Passed Students</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 12th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid green", ...divStyle }} className="div">
                                 <h4 style={{ color: "green" }}>SSB Training</h4>
-                                <p>WE STRIVE FOR EXCELLENCE</p>
-                                <p>By Senior Experienced Ex. SSB Officers</p>
-                                <p>For More Information On SSB Training</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>WE STRIVE FOR EXCELLENCE</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>By Senior Experienced Ex. SSB Officers</p>
+                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For More Information On SSB Training</p>
                             </div>
                         </div>
                     </div>
@@ -108,28 +107,28 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3>Nation Defence Academy</h3>
-                            <p>The well-known DCG Defence Academy in Chandigarh teaches and trains
+                            <h3 style={{color: "rgb(21, 52, 98)", fontSize: "2.8rem", fontWeight: "bold"}}>DCG Defence Academy</h3>
+                            <p style={{fontSize: "18px"}}>The well-known DCG Defence Academy in Chandigarh teaches and trains
                                 students for bright futures in the Army, Navy, and Airforce. The
-                                finest Defense Exam Preparation is provided by DCG Defence Academy.
+                                finest Defense Exam Preparation is provided by our Academy.
                                 It's challenging to join any of these forces, though. Students must
                                 succeed on a national admission test. Passing this admission test is
-                                difficult. The DCG Academy in Chandigarh provides the best instruction
+                                difficult. DCG Defence Academy in Chandigarh provides the best instruction
                                 for defence exams. To be well-prepared for the test, students must put
-                                in a lot of work, which is made feasible by Defence Coaching In Chandigarh.
-                                The DCG Defence Academy can be quite helpful in this situation. For defence
-                                exam preparation, DCG Defence Academy, the premier coaching academy in Chandigarh,
+                                in a lot of work, which is made feasible by our Coaching In Chandigarh.
+                                This Academy can be quite helpful in this situation. For defence
+                                exam preparation, our premier coaching academy in Chandigarh,
                                 provides up-to-date study materials, a comfortable setting, and qualified teachers.</p>
-                            <p>The best venue for candidates to go and prepare for the NDA and SSB is DCG
-                                Defence Academy. Coaching sessions in Chandigarh are well-equipped and
-                                include up-to-date resources. Our skilled crew develops cutting-edge
-                                learning resources for pupils. Defense Preparation Classes in Chandigarh
-                                focus on both interview skills and written test preparation. Students
-                                develop confidence and are able to pass the test with ease after receiving
-                                the Best Preparation In Chandigarg from DCG Defence Academy.</p>
+                            <p style={{fontSize: "18px"}}>This is the best venue for candidates to go and prepare for the NDA and SSB. 
+                                Coaching sessions in Chandigarh are well-equipped and include up-to-date 
+                                resources. Our skilled crew develops cutting-edge learning resources for 
+                                pupils. Defense Preparation Classes focus on both interview 
+                                skills and written test preparation. Students develop confidence and are able 
+                                to pass the test with ease after receiving the Best Preparation In 
+                                Chandigarh from DCG Defence Academy.</p>
                         </div>
                             <div style={{backgroundColor: "rgb(233,242,235)", ...boxStyle}} className="col-md-6">
-                            <img height="auto" width="100%" src={homeBanner} alt="" />
+                            <img width="100%" height="auto" style={{maxHeight: "500px"}} src={homeBanner} alt="" />
                             <div className="row mt-3">
                                 <div className="col-md-4">
                                     <img height="auto" width="100%" src={hB1} alt="" />
@@ -146,7 +145,6 @@ function Home() {
                 </div>
             </div>
             <Officer />
-            <Branch />
             <Form />
         </div>
     )

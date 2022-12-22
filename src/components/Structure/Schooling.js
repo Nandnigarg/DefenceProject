@@ -1,5 +1,4 @@
 import Officer from "../Other comps/Officer";
-import Branch from "../Other comps/Branch";
 import Form from "../Other comps/Form";
 import ndaBanner from '../assets/nda banner.jpg';
 import schoolingBanner from '../assets/schooling banner.jpg';
@@ -20,7 +19,7 @@ function Schooling() {
 
     return (
         <div>
-            <img height="auto" width="100%" src={ndaBanner} alt="" />
+            <img width="100%" height="auto" style={{maxHeight: "670px"}} src={ndaBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%", textAlign: "center"}} className="container-fluid">
                 <div className="container">
                     <div className="row">
@@ -58,25 +57,25 @@ function Schooling() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3>NDA With Schooling Program</h3>
-                            <p>The National Defense Academy Foundation (NDA) is a programme created to assist 
+                            <h3 style={{color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold"}}>NDA With Schooling Program</h3>
+                            <p style={{fontSize: "18px"}}>The DCG Defense Academy Foundation is a programme created to assist 
                                 students in becoming future leaders of the country's armed forces. Teachers with 
                                 extensive knowledge and former military people mentor young brains. Complete two 
                                 years of personal development coursework in addition to your NDA training. The 
                                 NDA foundation programme in Chandigarh focuses on giving students the finest 
-                                training possible while they are still enrolled in school. The goal of the NDA 
+                                training possible while they are still enrolled in school. The goal of the this 
                                 foundation course is to thoroughly prepare the student to take the NDA exam after 
                                 finishing school.</p>
-                            <h3>NDA Preparation After 10th Class In Chandigarh</h3>
-                            <p>DCG Defence Academy provides a specific coordinator for NDA trainers who was trained 
+                            <h3 style={{color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold"}}>NDA Preparation After 10th Class In Chandigarh</h3>
+                            <p style={{fontSize: "18px"}}>DCG Defence Academy provides a specific coordinator for NDA trainers who was trained 
                                 by applicants who are ready to be led by excellence. A group of highly qualified 
-                                academic staff members and former military officers instruct NDA-SIP sessions. The 
-                                DCG Institute provides supplemental lessons and doubt sessions for weak pupils. DCG 
-                                Academy instructors and experts instruct students on how to join NDA following the 
+                                academic staff members and former military officers instruct NDA-SIP sessions. This 
+                                Institute provides supplemental lessons and doubt sessions for weak pupils. 
+                                Instructors and experts here instruct students on how to join NDA following the 
                                 tenth grade.</p>
                         </div>
                         <div style={{backgroundColor: "rgb(233,242,235)", ...boxStyle}} className="col-md-6">
-                            <img height="auto" width="100%" src={schoolingBanner} alt="" />
+                            <img width="100%" height="auto" style={{maxHeight: "500px"}} src={schoolingBanner} alt="" />
                             <div className="row mt-3">
                                 <div className="col-md-4">
                                     <img height="auto" width="100%" src={hB1} alt="" />
@@ -93,7 +92,6 @@ function Schooling() {
                 </div>
             </div>
             <Officer />
-            <Branch />
             <Form />
         </div>
     )
