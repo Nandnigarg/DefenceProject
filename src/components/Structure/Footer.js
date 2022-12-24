@@ -7,6 +7,7 @@ function Footer() {
         <div class="container-fluid bg bg-success" style={{ textAlign: "center", padding: "5% 2%" }}>
             <h1 style={{color: "rgb(255,255,0)"}}>Contact Us</h1>
             <h4 style={{color: "white"}}>DCG Defence Academy</h4>
+            <h6  style={{color: "white"}}>Unit of Delhi Career Group</h6>
             <div className="container mt-5">
                 <div className="row pt-3 pb-4">
                     <div className="col-sm-6">
