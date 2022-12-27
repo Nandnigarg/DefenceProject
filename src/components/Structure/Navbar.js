@@ -2,8 +2,9 @@ import { NavLink } from 'react-router-dom';
 import dcgLogo from '../assets/dcg logo.jpeg';
 
 function Navbar() {
+
     return (
-        <div style={{backgroundColor: "rgb(247,247,247)"}} class="container-fluid">
+        <div style={{ backgroundColor: "rgb(247,247,247)" }} class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <img width="25%" class="navbar-brand" src={dcgLogo} alt="" />
@@ -16,15 +17,21 @@ function Navbar() {
                                 <li class="nav-item"><button class="btn btn-success me-2 mt-2">Home</button></li>
                             </NavLink>
                             <NavLink class="nav-link">
-                                <li class="nav-item dropdown">
-                                    <button class="btn btn-success me-2 mt-2 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
+                                <li class="nav-item dropdown dropdown-mega">
+                                    <button class="btn btn-success me-2 mt-2 dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <NavLink exact to="/nda-after-8"><li>NDA After 8th</li></NavLink>
-                                        <NavLink exact to="/nda-after-9"><li>NDA After 9th</li></NavLink>
-                                        <NavLink exact to="/nda-after-10"><li>NDA After 10th</li></NavLink>
-                                        <NavLink exact to="/nda-after-11"><li>NDA After 11th</li></NavLink>
-                                        <NavLink exact to="/nda-after-12"><li>NDA After 12th</li></NavLink>
-                                        <NavLink exact to="/ssb-training"><li>SSB Training</li></NavLink>
+                                        <li class="dropend">
+                                            <NavLink class="dropdown-item dropdown-toggle text text-success text-bolder" data-bs-toggle="dropdown">NDA + School Integrated Program</NavLink>
+                                            <ul class="dropdown-menu shadow">
+                                                <li><NavLink exact to="/nda-after-8th" class="nav-link dropdown-item text text-success text-bolder">NDA After 8th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-9th" class="nav-link dropdown-item text text-success text-bolder">NDA After 9th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-10th" class="nav-link dropdown-item text text-success text-bolder">NDA After 10th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-11th" class="nav-link dropdown-item text text-success text-bolder">NDA After 811h</NavLink></li>
+                                            </ul>
+                                        </li>
+                                        <NavLink exact to="/nda-only"  class="nav-link text text-success text-bolder"><li>NDA only</li></NavLink>
+                                        <NavLink exact to="/nda-after-12"  class="nav-link text text-success text-bolder"><li>NDA + Graduation Integrated Program</li></NavLink>
+                                        <NavLink exact to="/ssb-training"  class="nav-link text text-success text-bolder"><li>SSB Training</li></NavLink>
                                     </ul>
                                 </li>
                             </NavLink>
