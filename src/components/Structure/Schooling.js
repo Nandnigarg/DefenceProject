@@ -1,6 +1,6 @@
 import Officer from "../Other comps/Officer";
 import Form from "../Other comps/Form";
-import ndaBanner from '../assets/nda banner.jpg';
+import ndaBanner from '../assets/main banner.jpg';
 import schoolingBanner from '../assets/schooling banner.jpg';
 import hB1 from '../assets/hB1.jpg';
 import hB2 from '../assets/hB2.jpg';

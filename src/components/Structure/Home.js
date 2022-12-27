@@ -1,6 +1,6 @@
 import Officer from '../Other comps/Officer';
 import Form from '../Other comps/Form';
-import mainBanner from '../assets/main banner.jpg';
+import mainBanner from '../assets/nda banner.jpg';
 import homeBanner from '../assets/home banner.jpg';
 import hB1 from '../assets/hB1.jpg';
 import hB2 from '../assets/hB2.jpg';
@@ -107,25 +107,26 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3 style={{color: "rgb(21, 52, 98)", fontSize: "2.8rem", fontWeight: "bold"}}>DCG Defence Academy</h3>
-                            <p style={{fontSize: "18px"}}>The well-known DCG Defence Academy in Chandigarh teaches and trains
+                            <h3 style={{color: "rgb(198,3,12)", fontSize: "2.8rem", fontWeight: "bold"}}>DCG Defence Academy</h3>
+                            <p style={{fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold"}}>The well-known DCG Defence Academy in Chandigarh teaches and trains
                                 students for bright futures in the Army, Navy, and Airforce. The
                                 finest Defense Exam Preparation is provided by our Academy.
                                 It's challenging to join any of these forces, though. Students must
                                 succeed on a national admission test. Passing this admission test is
-                                difficult. DCG Defence Academy in Chandigarh provides the best instruction
-                                for defence exams. To be well-prepared for the test, students must put
-                                in a lot of work, which is made feasible by our Coaching In Chandigarh.
-                                This Academy can be quite helpful in this situation. For defence
-                                exam preparation, our premier coaching academy in Chandigarh,
-                                provides up-to-date study materials, a comfortable setting, and qualified teachers.</p>
-                            <p style={{fontSize: "18px"}}>This is the best venue for candidates to go and prepare for the NDA and SSB. 
-                                Coaching sessions in Chandigarh are well-equipped and include up-to-date 
+                                difficult. Our provides the best instructionfor defence exams. To be 
+                                well-prepared for the test, students must put in a lot of work, which 
+                                is made feasible by our Coaching. This Academy can be quite helpful 
+                                in this situation. For defence exam preparation, our premier coaching 
+                                academy,provides up-to-date study materials, a comfortable setting, 
+                                and qualified teachers.</p>
+                            <p style={{fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold"}}>This is 
+                                the best venue for candidates to go and prepare for the NDA and SSB. 
+                                Coaching sessions here are well-equipped and include up-to-date 
                                 resources. Our skilled crew develops cutting-edge learning resources for 
                                 pupils. Defense Preparation Classes focus on both interview 
                                 skills and written test preparation. Students develop confidence and are able 
-                                to pass the test with ease after receiving the Best Preparation In 
-                                Chandigarh from DCG Defence Academy.</p>
+                                to pass the test with ease after receiving the best training from our 
+                                academy.</p>
                         </div>
                             <div style={{backgroundColor: "rgb(233,242,235)", ...boxStyle}} className="col-md-6">
                             <img width="100%" height="auto" style={{maxHeight: "500px"}} src={homeBanner} alt="" />

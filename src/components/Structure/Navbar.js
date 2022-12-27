@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
+import dcgLogo from '../assets/dcg logo.jpeg';
 
 function Navbar() {
     return (
-        <div class="container-fluid">
+        <div style={{backgroundColor: "rgb(247,247,247)"}} class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img class="navbar-brand" src="https://www.defence-academy.co.in/images/logoquality.png" alt="" />
+                    <img width="25%" class="navbar-brand" src={dcgLogo} alt="" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                     </button>
@@ -31,10 +32,7 @@ function Navbar() {
                                 <li class="nav-item"><button class="btn btn-success me-2 mt-2">School Integrated Program</button></li>
                             </NavLink>
                             <NavLink exact to="/hostel-facility" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success me-2 mt-2">Hostel Facility</button></li>
-                            </NavLink>
-                            <NavLink exact to="/fee-payment" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success me-2 mt-2">Fee Paymenet</button></li>
+                                <li class="nav-item"><button class="btn btn-success me-2 mt-2">Registration Form</button></li>
                             </NavLink>
                             <NavLink exact to="/gallery" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success me-2 mt-2">Gallery</button></li>
