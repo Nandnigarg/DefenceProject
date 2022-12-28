@@ -24,19 +24,19 @@ function Footer() {
                 <div style={{color: "white", ...iconSize}} className="row pt-5">
                     <div className="col-sm-3">
                         <i class="fa-brands fa-linkedin"></i>
-                        <a class="text text-light text-decoration-none" href="https://www.linkedin.com/mwlite/in/nation-defence-academy-955627242" target="_blank"><span> LinkedIn</span></a>
+                        <a class="text text-light text-decoration-none" href="https://www.linkedin.com/in/delhi-career-group-885b2810a/" target="_blank"><span> LinkedIn</span></a>
                     </div>
                     <div className="col-sm-3">
                         <i class="fa-brands fa-square-twitter"></i>
-                        <a class="text text-light text-decoration-none" href="" target="_blank"><span> Twitter</span></a>
+                        <a class="text text-light text-decoration-none" href="https://twitter.com/Delhicareergrou" target="_blank"><span> Twitter</span></a>
                     </div>
                     <div className="col-sm-3">
                         <i class="fa-brands fa-square-facebook"></i>
-                        <a class="text text-light text-decoration-none" href="https://www.facebook.com/profile.php?id=100082153520461" target="_blank"><span> Facebook</span></a>
+                        <a class="text text-light text-decoration-none" href="https://www.facebook.com/dcgacademy/" target="_blank"><span> Facebook</span></a>
                     </div>
                     <div className="col-sm-3">
                         <i class="fa-brands fa-square-instagram"></i>
-                        <a class="text text-light text-decoration-none" href="https://www.instagram.com/nationdefenceacademy/" target="_blank"><span> Instagram</span></a>
+                        <a class="text text-light text-decoration-none" href="https://www.instagram.com/delhi_career_group/" target="_blank"><span> Instagram</span></a>
                     </div>
                 </div>
             </div>

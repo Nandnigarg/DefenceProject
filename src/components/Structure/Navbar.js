@@ -21,17 +21,17 @@ function Navbar() {
                                     <button class="btn btn-success me-2 mt-2 dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li class="dropend">
-                                            <NavLink class="dropdown-item dropdown-toggle text text-success text-bolder" data-bs-toggle="dropdown">NDA + School Integrated Program</NavLink>
+                                            <NavLink class="dropdown-item dropdown-toggle text text-success" data-bs-toggle="dropdown">NDA + School Integrated Program</NavLink>
                                             <ul class="dropdown-menu shadow">
-                                                <li><NavLink exact to="/nda-after-8th" class="nav-link dropdown-item text text-success text-bolder">NDA After 8th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-9th" class="nav-link dropdown-item text text-success text-bolder">NDA After 9th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-10th" class="nav-link dropdown-item text text-success text-bolder">NDA After 10th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-11th" class="nav-link dropdown-item text text-success text-bolder">NDA After 811h</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-8th" class="nav-link dropdown-item text text-success">NDA After 8th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-9th" class="nav-link dropdown-item text text-success">NDA After 9th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-10th" class="nav-link dropdown-item text text-success">NDA After 10th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-11th" class="nav-link dropdown-item text text-success">NDA After 811h</NavLink></li>
                                             </ul>
                                         </li>
-                                        <NavLink exact to="/nda-only"  class="nav-link text text-success text-bolder"><li>NDA only</li></NavLink>
-                                        <NavLink exact to="/nda-after-12"  class="nav-link text text-success text-bolder"><li>NDA + Graduation Integrated Program</li></NavLink>
-                                        <NavLink exact to="/ssb-training"  class="nav-link text text-success text-bolder"><li>SSB Training</li></NavLink>
+                                        <NavLink exact to="/nda-only"  class="nav-link text text-success"><li>NDA only</li></NavLink>
+                                        <NavLink exact to="/nda-after-12"  class="nav-link text text-success"><li>NDA + Graduation Integrated Program</li></NavLink>
+                                        <NavLink exact to="/ssb-training"  class="nav-link text text-success"><li>SSB Training</li></NavLink>
                                     </ul>
                                 </li>
                             </NavLink>

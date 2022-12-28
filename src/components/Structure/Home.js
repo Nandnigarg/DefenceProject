@@ -25,61 +25,61 @@ function Home() {
 
     return (
         <div>
-            <img width="100%" height="auto" style={{maxHeight: "670px"}} src={mainBanner} alt="" />
+            <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
                     <div style={boxStyle} className="bg bg-success">
-                        <p>BEST NDA COACHING IN INDIA & Top NDA FOUNDATION COACHING IN INDIA with Schooling Subjects Coaching after 8th, 10th and NDA coaching after 12th class at Chandigarh Campus for everyone.</p>
+                        <p>Delhi Career Group offers the BEST NDA COACHING & Top NDA FOUNDATION COACHING IN INDIA with Schooling Subjects Coaching starting immediately after 8th, 10th and NDA coaching after 12th class for everyone.</p>
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 8th Class</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>9th,10th,11th & 12th <br />
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>9th,10th,11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 8th Passed Students</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 8th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 9th Class</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>10th,11th & 12th <br />
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>10th,11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 9th Passed Students</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 9th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid green", ...divStyle }} className="div">
                                 <h4 style={{ color: "green" }}>NDA + SSB Coaching After 10th Class</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>11th & 12th <br />
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>11th & 12th <br />
                                     Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 10th Passed Students</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 10th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 11th Class</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 11th Passed Students</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 11th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 12th Class</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>Integrated Residential Programme</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For 12th Passed Students</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid green", ...divStyle }} className="div">
                                 <h4 style={{ color: "green" }}>SSB Training</h4>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>WE STRIVE FOR EXCELLENCE</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>By Senior Experienced Ex. SSB Officers</p>
-                                <p style={{fontWeight: "bold", fontSize: "20px"}}>For More Information On SSB Training</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>WE STRIVE FOR EXCELLENCE</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>By Senior Experienced Ex. SSB Officers</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For More Information On SSB Training</p>
                             </div>
                         </div>
                     </div>
@@ -107,29 +107,32 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3 style={{color: "rgb(198,3,12)", fontSize: "2.8rem", fontWeight: "bold"}}>DCG Defence Academy</h3>
-                            <p style={{fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold"}}>The well-known DCG Defence Academy in Chandigarh teaches and trains
+                            <div style={{ textAlign: "center" }}>
+                                <h3 style={{ color: "rgb(198,3,12)", fontSize: "3rem", fontWeight: "bold" }}>DCG Defence Academy</h3>
+                                <h5 style={{ color: "rgb(198,3,12)", fontSize: "1.5rem", fontWeight: "bold" }}>Unit of Delhi Career Group</h5>
+                            </div>
+                            <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>The well-known DCG Defence Academy in Chandigarh teaches and trains
                                 students for bright futures in the Army, Navy, and Airforce. The
                                 finest Defense Exam Preparation is provided by our Academy.
                                 It's challenging to join any of these forces, though. Students must
                                 succeed on a national admission test. Passing this admission test is
-                                difficult. Our provides the best instructionfor defence exams. To be 
-                                well-prepared for the test, students must put in a lot of work, which 
-                                is made feasible by our Coaching. This Academy can be quite helpful 
-                                in this situation. For defence exam preparation, our premier coaching 
-                                academy,provides up-to-date study materials, a comfortable setting, 
+                                difficult. Our provides the best instructionfor defence exams. To be
+                                well-prepared for the test, students must put in a lot of work, which
+                                is made feasible by our Coaching. This Academy can be quite helpful
+                                in this situation. For defence exam preparation, our premier coaching
+                                academy,provides up-to-date study materials, a comfortable setting,
                                 and qualified teachers.</p>
-                            <p style={{fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold"}}>This is 
-                                the best venue for candidates to go and prepare for the NDA and SSB. 
-                                Coaching sessions here are well-equipped and include up-to-date 
-                                resources. Our skilled crew develops cutting-edge learning resources for 
-                                pupils. Defense Preparation Classes focus on both interview 
-                                skills and written test preparation. Students develop confidence and are able 
-                                to pass the test with ease after receiving the best training from our 
+                            <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>This is
+                                the best venue for candidates to go and prepare for the NDA and SSB.
+                                Coaching sessions here are well-equipped and include up-to-date
+                                resources. Our skilled crew develops cutting-edge learning resources for
+                                pupils. Defense Preparation Classes focus on both interview
+                                skills and written test preparation. Students develop confidence and are able
+                                to pass the test with ease after receiving the best training from our
                                 academy.</p>
                         </div>
-                            <div style={{backgroundColor: "rgb(233,242,235)", ...boxStyle}} className="col-md-6">
-                            <img width="100%" height="auto" style={{maxHeight: "500px"}} src={homeBanner} alt="" />
+                        <div style={{ backgroundColor: "rgb(233,242,235)", ...boxStyle }} className="col-md-6">
+                            <img width="100%" height="auto" style={{ maxHeight: "500px" }} src={homeBanner} alt="" />
                             <div className="row mt-3">
                                 <div className="col-md-4">
                                     <img height="auto" width="100%" src={hB1} alt="" />
