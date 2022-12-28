@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import dcgLogo from '../assets/dcg logo.jpeg';
+import dcgLogo from '../assets/dcgLogo.jpg';
 
 function Navbar() {
 
@@ -7,7 +7,7 @@ function Navbar() {
         <div style={{ backgroundColor: "rgb(247,247,247)" }} class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img width="25%" class="navbar-brand" src={dcgLogo} alt="" />
+                    <img width="25%" height="auto" style={{maxHeight: "250px"}} class="navbar-brand" src={dcgLogo} alt="" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                     </button>
@@ -21,17 +21,17 @@ function Navbar() {
                                     <button class="btn btn-success me-2 mt-2 dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li class="dropend">
-                                            <NavLink class="dropdown-item dropdown-toggle text text-success" data-bs-toggle="dropdown">NDA + School Integrated Program</NavLink>
+                                            <NavLink class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">NDA + School Integrated Program</NavLink>
                                             <ul class="dropdown-menu shadow">
-                                                <li><NavLink exact to="/nda-after-8th" class="nav-link dropdown-item text text-success">NDA After 8th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-9th" class="nav-link dropdown-item text text-success">NDA After 9th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-10th" class="nav-link dropdown-item text text-success">NDA After 10th</NavLink></li>
-                                                <li><NavLink exact to="/nda-after-11th" class="nav-link dropdown-item text text-success">NDA After 811h</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-8th" class="nav-link dropdown-item">NDA After 8th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-9th" class="nav-link dropdown-item">NDA After 9th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-10th" class="nav-link dropdown-item">NDA After 10th</NavLink></li>
+                                                <li><NavLink exact to="/nda-after-11th" class="nav-link dropdown-item">NDA After 811h</NavLink></li>
                                             </ul>
                                         </li>
-                                        <NavLink exact to="/nda-only"  class="nav-link text text-success"><li>NDA only</li></NavLink>
-                                        <NavLink exact to="/nda-after-12"  class="nav-link text text-success"><li>NDA + Graduation Integrated Program</li></NavLink>
-                                        <NavLink exact to="/ssb-training"  class="nav-link text text-success"><li>SSB Training</li></NavLink>
+                                        <NavLink exact to="/nda-only"  class="nav-link"><li>NDA only</li></NavLink>
+                                        <NavLink exact to="/nda-after-12"  class="nav-link"><li>NDA + Graduation Integrated Program</li></NavLink>
+                                        <NavLink exact to="/ssb-training"  class="nav-link"><li>SSB Training</li></NavLink>
                                     </ul>
                                 </li>
                             </NavLink>
