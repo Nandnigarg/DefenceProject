@@ -2,6 +2,7 @@ import Header from "./components/Structure/Header";
 import Navbar from "./components/Structure/Navbar";
 import Home from "./components/Structure/Home";
 import {Routes, Route} from 'react-router-dom';
+import Faq from "./components/Structure/Faq";
 import Schooling from "./components/Structure/Schooling";
 import Registration from "./components/Structure/Registration";
 import Gallery from "./components/Structure/Gallery";
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/faq" element={<Faq/>}/>
         <Route path="/schooling-program" element={<Schooling/>}/>
         <Route path="/hostel-facility" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
