@@ -80,6 +80,43 @@ function Faq() {
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h5>What is NDA application fee?</h5>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>NDA application fees are INR 100, however, SC/ST candidates/Sons 
+                                    of JCOs/NCOs/ORs are exempted from paying the fees. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <h5>Who conducts NDA recruitment?</h5>
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>NDA recruitment is conducted by the Union Public Service Commission(UPSC).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <h5>What is the mode of NDA application?</h5>
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>NDA application form should be submitted online only. No offline applications will be accepted for the exam.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

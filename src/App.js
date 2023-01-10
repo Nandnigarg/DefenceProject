@@ -7,6 +7,10 @@ import Schooling from "./components/Structure/Schooling";
 import Registration from "./components/Structure/Registration";
 import Gallery from "./components/Structure/Gallery";
 import Footer from "./components/Structure/Footer";
+import Nda8 from "./components/Other comps/Nda8";
+import Nda9 from "./components/Other comps/Nda9";
+import Nda10 from "./components/Other comps/Nda10";
+import Nda11 from "./components/Other comps/Nda11";
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/faq" element={<Faq/>}/>
+        <Route path="/nda-after-8th" element={<Nda8/>}/>
+        <Route path="/nda-after-9th" element={<Nda9/>}/>
+        <Route path="/nda-after-10th" element={<Nda10/>}/>
+        <Route path="/nda-after-11th" element={<Nda11/>}/>
         <Route path="/schooling-program" element={<Schooling/>}/>
         <Route path="/hostel-facility" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
