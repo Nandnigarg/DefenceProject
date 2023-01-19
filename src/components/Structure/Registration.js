@@ -17,23 +17,31 @@ function Hostel() {
             <div className="container-fluid mt-4 mb-5">
                 <div style={{ maxWidth: "800px", textAlign: "center" }} className="container">
                     <form>
-                        <h2>Fill Registration Form</h2>
+                        <h2>REGISTRATION FORM</h2>
+                        <div class="mb-3 mt-3">
+                            <input type="text" class="form-control" id="name" placeholder="Student Name *" />
+                        </div>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" id="mobile" placeholder="Mobile Number *" />
-                            {/* <button class="btn btn-danger" type="button" onClick={generateOTP}>Send OTP</button>
+                            <button class="btn btn-danger" type="button">Send OTP</button>
                         </div>
                         <div class="mb-3">
-                            <input style={{ display: "none" }} id="otp" type="text" class="form-control" placeholder="Enter OTP" /> */}
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="name" placeholder="Student Name *" />
+                            <input style={{ display: "none" }} id="otp" type="text" class="form-control" placeholder="Enter OTP" />
                         </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="mail" placeholder="Email Id *" />
                         </div>
                         <div class="mb-3">
                             <select class="form-select" aria-label="Default select example">
-                                <option selected disabled hidden>Select Test Mode *</option>
+                                <option selected disabled hidden>Select Present Class *</option>
+                                <option value="chd">3rd appearing</option>
+                                <option value="delhi">4th appearing</option>
+                                <option value="online">12th Pass</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected disabled hidden>Select Class Mode *</option>
                                 <option value="online">Online</option>
                                 <option value="offline">Offline</option>
                             </select>
@@ -88,6 +96,7 @@ function Hostel() {
                                 <option selected disabled hidden>Select Stude Center *</option>
                                 <option value="chd">Chandigarh</option>
                                 <option value="delhi">Delhi</option>
+                                <option value="online">Online Classes</option>
                             </select>
                         </div>
                         <button class="btn btn-dark mt-2 mb-5">Submit</button>
