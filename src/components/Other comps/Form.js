@@ -1,24 +1,43 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 function Form() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
+            .then((result) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(result.text);
+            }, (error) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(error.text);
+            });
+    };
     return (
         <div className="container">
             <div style={{ maxWidth: "700px", textAlign: "center" }} className="container-fluid mt-4">
-                <form>
+                <form ref={form} onSubmit={sendEmail} id="feed_form">
                     <h2 class="text text-danger">Get Call Back From DCG Academic Counsellor</h2>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="name" placeholder="text" />
+                        <input type="text" class="form-control" id="name" placeholder="text" name="name" />
                         <label for="name">Enter Student Name</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="number" class="form-control" id="num" placeholder="number" />
-                        <label for="num">Enter Mobile/WhatsApp Number</label>
+                        <input type="number" class="form-control" id="number" placeholder="number" name="number" />
+                        <label for="number">Enter Mobile/WhatsApp Number</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="email" class="form-control" id="mail" placeholder="text" />
+                        <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />
                         <label for="mail">Enter Email Id</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <textarea class="form-control h-25" id="msg" placeholder="text" rows="4" />
-                        <label for="msg">Enter Your Message</label>
+                        <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
+                        <label for="message">Enter Your Message</label>
                     </div>
                     <button class="btn btn-dark mt-2 mb-5">Submit</button>
                 </form>
