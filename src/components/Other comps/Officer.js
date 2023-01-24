@@ -21,7 +21,7 @@ function Officer() {
                     </div>
                     <div className="col-md-3 mb-4">
                         <img height="auto" width="auto" src={OF3} alt="" />
-                        <h5>Captian Uttam Singh Gill (Retd.)</h5>
+                        <h5>Captain Uttam Singh Gill (Retd.)</h5>
                         <p>+14 Years Experience With DCG</p>
                     </div>
                     <div className="col-md-3 mb-4">

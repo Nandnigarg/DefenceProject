@@ -1,13 +1,33 @@
 import bg from '../assets/AfpiBG.jpg';
 import Afibanner from '../assets/Afibanner.jpg';
+import Officer from './Officer';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Afpi() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
+            .then((result) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(result.text);
+            }, (error) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(error.text);
+            });
+    };
+
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
             <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
                 <div className="container p-5">
-                    <div style={{ color: "white" }} className="row">
-                        <div className="col-md-6">
+                    <div className="row">
+                        <div style={{ color: "white" }} className="col-md-6">
                             <h1><span style={{ color: "rgb(255,255,0)" }}>MAHARAJA RANJIT SINGH Entrance Exam</span> Coaching in India</h1>
                             <br /><br /><br /><br /><br />
                             <h1><span style={{ color: "rgb(255,255,0)" }}>AFPI online coaching</span></h1>
@@ -15,7 +35,29 @@ function Afpi() {
                             <br />
                             <h4>+10k Selections in Defence Exams</h4>
                         </div>
-                        <div className="col-md-6"></div>
+                        <div style={{ textAlign: "center" }} className="col-md-6">
+                            <form class="bg bg-warning p-4" ref={form} onSubmit={sendEmail} id="feed_form">
+                                <h2 className="text text-success">Get "MAHARAJA RANJIT SINGH AFPI Coaching"</h2>
+                                <p>AFPI EXPERT: Get all your queries answered</p>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="name" placeholder="text" name="name" />
+                                    <label for="name">Enter Student Name</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="number" class="form-control" id="number" placeholder="number" name="number" />
+                                    <label for="number">Enter Mobile/WhatsApp Number</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />
+                                    <label for="mail">Enter Email Id</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
+                                    <label for="message">Enter Your Message</label>
+                                </div>
+                                <button class="btn btn-dark mt-2 mb-5">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,62 +124,67 @@ function Afpi() {
                 </ul>
                 <br />
 
-                <table class="table table-striped table-hover" style={{ border: "3px solid black", width: "80%", textAlign: "center" }}>
-                    <tr>
-                        <th style={{ border: "2px solid black" }}>Name of Tests</th>
-                        <th style={{ border: "2px solid black" }}>Questions</th>
-                        <th style={{ border: "2px solid black" }}>Maximum Marks</th>
-                        <th style={{ border: "2px solid black" }}>Duration</th>
-                    </tr>
-                    <tr>
-                        <td style={{ border: "2px solid black" }}>English</td>
-                        <td style={{ border: "2px solid black" }}>40</td>
-                        <td style={{ border: "2px solid black" }}>160</td>
-                        <td style={{ border: "2px solid black" }}>3 hours</td>
-                    </tr>
-                    <tr>
-                        <td style={{ border: "2px solid black" }}>Mathematics
-                            (Quantitative + Qualitative)</td>
-                        <td style={{ border: "2px solid black" }}>80</td>
-                        <td style={{ border: "2px solid black" }}>320</td>
-                    </tr>
-                    <tr>
-                        <td style={{ border: "2px solid black" }}>Social Studies</td>
-                        <td style={{ border: "2px solid black" }}>30</td>
-                        <td style={{ border: "2px solid black" }}>120</td>
-                    </tr>
-                    <tr>
-                        <td style={{ border: "2px solid black" }}>Total</td>
-                        <td style={{ border: "2px solid black" }}>150 Questions</td>
-                        <td style={{ border: "2px solid black" }}>600 marks</td>
-                    </tr>
+                <table class="table table-striped table-hover" style={{textAlign: "center"}}>
+                    <thead className="table-secondary">
+                        <tr>
+                            <th style={{ border: "2px solid black" }}>Name of Tests</th>
+                            <th style={{ border: "2px solid black" }}>Questions</th>
+                            <th style={{ border: "2px solid black" }}>Maximum Marks</th>
+                            <th style={{ border: "2px solid black" }}>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ border: "2px solid black" }}>English</td>
+                            <td style={{ border: "2px solid black" }}>40</td>
+                            <td style={{ border: "2px solid black" }}>160</td>
+                            <td style={{ border: "2px solid black" }}>3 hours</td>
+                        </tr>
+                        <tr>
+                            <td style={{ border: "2px solid black" }}>Mathematics
+                                (Quantitative + Qualitative)</td>
+                            <td style={{ border: "2px solid black" }}>80</td>
+                            <td style={{ border: "2px solid black" }}>320</td>
+                        </tr>
+                        <tr>
+                            <td style={{ border: "2px solid black" }}>Social Studies</td>
+                            <td style={{ border: "2px solid black" }}>30</td>
+                            <td style={{ border: "2px solid black" }}>120</td>
+                        </tr>
+                        <tr>
+                            <td style={{ border: "2px solid black" }}>Total</td>
+                            <td style={{ border: "2px solid black" }}>150 Questions</td>
+                            <td style={{ border: "2px solid black" }}>600 marks</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <br />
 
-                <div className="row">
+                <div className="row pt-3">
                     <div className="col-md-6">
                         <h2 className="text text-success mt-5">Maharaja Ranjit Singh (AFPI) Entrance Exam Syllabus</h2>
-                        <p><span style={{fontWeight: "bold"}}>Mathematics:</span> Surds & Indices | HCF & LCM | Unitary 
-                        method | Simplification | Series | Time & Distance | Ratio & Proportion | Average | Numbers | 
-                        Mensuration | Trigonometry | Algebra | Statistics | Clocks | Calendar | Interest | Geometry 
-                        | Probability | Miscellaneous</p>
+                        <p><span style={{ fontWeight: "bold" }}>Mathematics:</span> Surds & Indices | HCF & LCM | Unitary
+                            method | Simplification | Series | Time & Distance | Ratio & Proportion | Average | Numbers |
+                            Mensuration | Trigonometry | Algebra | Statistics | Clocks | Calendar | Interest | Geometry
+                            | Probability | Miscellaneous</p>
                         <br />
 
-                        <p><span style={{fontWeight: "bold"}}>English:</span> Unseen Passages | Fill In The Blanks 
-                        | Para Jumbles | Word Power | Spotting Error | Word Substitute | Wrongly Spelt | Idioms & 
-                        Phrases.</p><br />
+                        <p><span style={{ fontWeight: "bold" }}>English:</span> Unseen Passages | Fill In The Blanks
+                            | Para Jumbles | Word Power | Spotting Error | Word Substitute | Wrongly Spelt | Idioms &
+                            Phrases.</p><br />
 
-                        <p><span style={{fontWeight: "bold"}}>Social Studies:</span> History | Polity | Geography | Economy</p>
+                        <p><span style={{ fontWeight: "bold" }}>Social Studies:</span> History | Polity | Geography | Economy</p>
                         <br />
 
-                        <p>Best AFPI coaching in India. AFPI Online coaching, Maharaja Ranjit Singh Entrance AFPI coaching in 
+                        <p>Best AFPI coaching in India. AFPI Online coaching, Maharaja Ranjit Singh Entrance AFPI coaching in
                             Delhi, Maharaja Ranjit Singh Entrance (AFPI) Offline Coaching, AFPI Coaching Near Me.</p>
                     </div>
-                    <div className="col-md-6">
-                        <img height="auto" width="100%" style={{maxWidth: "400px"}} src={Afibanner} alt="" />
+                    <div style={{ textAlign: "center" }} className="col-md-6 mt-5">
+                        <img height="100%" width="100%" style={{ maxWidth: "400px" }} src={Afibanner} alt="" />
                     </div>
                 </div>
             </div>
+            <Officer />
         </div>
     )
 }

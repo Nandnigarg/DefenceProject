@@ -1,7 +1,9 @@
 function Faq() {
     return (
-        <div class="container-fluid mt-5 mb-5">
-            <div className="container pt-4 pb-5">
+        <div class="container-fluid mt-2 mb-5">
+            <div style={{textAlign: "center"}} className="container pt-2 pb-5">
+                <h1 style={{fontFamily: "cursive"}} className="text text-danger">NDA</h1>
+                <h1 style={{fontFamily: "cursive"}} className="text text-danger mb-5">NATIONAL DEFENCE ACADEMY</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item mb-3">
                         <h2 class="accordion-header" id="headingOne">

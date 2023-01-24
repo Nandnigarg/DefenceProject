@@ -28,6 +28,7 @@ function Header() {
             <div className="row">
                 <div className="col-md-6">
                     <img width="100%" height="auto" style={{ maxHeight: "300px", maxWidth: "300px" }} src={dcgLogo} alt="" />
+                    <p>EMPOWERING YOUNG MINDS</p>
                 </div>
                 <div className="col-md-6">
                     <div>

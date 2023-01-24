@@ -13,6 +13,8 @@ import Nda10 from "./components/Other comps/Nda10";
 import Nda11 from "./components/Other comps/Nda11";
 import Scholarship from "./components/Structure/Scholarship";
 import Afpi from "./components/Other comps/Afpi";
+import Gurukul from "./components/Other comps/Gurukul";
+import Army from "./components/Other comps/Army";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/nda-after-10th" element={<Nda10/>}/>
         <Route path="/nda-after-11th" element={<Nda11/>}/>
         <Route path="/afpi" element={<Afpi/>}/>
+        <Route path="/gurukul" element={<Gurukul/>}/>
+        <Route path="/army-public-school" element={<Army/>}/>
         <Route path="/schooling-program" element={<Schooling/>}/>
         <Route path="/hostel-facility" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>

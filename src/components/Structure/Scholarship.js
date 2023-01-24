@@ -20,7 +20,7 @@ function Scholarship() {
                     </div>
                 </div>
                 <hr />
-                <h4>Why you should take DCG Scholarship Test?</h4>
+                <h4>Why you should take DCG-SAT?</h4>
                 <div className="container mt-4">
                     <div style={{ textAlign: "center" }} className="row">
                         <div className="col-md-6 mt-3 mb-4">
@@ -75,7 +75,7 @@ function Scholarship() {
                         </div>
                     </div>
                 </div>
-                <h4>How to clear DCG Scholarship Test?</h4>
+                <h4>How to clear DCG-SAT?</h4>
                 <div className="container mt-4">
                     <div className="row">
                         <div className="col-md-4">

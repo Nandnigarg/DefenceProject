@@ -16,18 +16,19 @@ import i13 from '../assets/img13.jpg';
 import i14 from '../assets/img14.jpg';
 import i15 from '../assets/img15.jpg';
 import i16 from '../assets/img16.jpg';
-
-
-
+import SH1 from "../assets/SH1.jpg";
+import SH2 from "../assets/SH2.jpg";
+import SH3 from "../assets/SH3.jpg";
 
 function Gallery(){
     return(
         <div>
             <img width="100%" height="auto" style={{maxHeight: "670px"}} src={galleryBanner} alt="" />
             <div className="container-fluid mt-5">
-                <div style={{textAlign: "center"}} className="container pt-4">
-                    <h1>Gallery</h1>
-                    <div className="row mt-5 pt-4">
+                <div style={{textAlign: "center"}} className="container pt-2">
+                    <h1 style={{fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold"}} className="text text-danger">Gallery</h1>
+                    <hr />
+                    <div className="row pt-4">
                         {/* row-1 */}
                         <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i1} alt="" />
@@ -84,6 +85,21 @@ function Gallery(){
                             <img width="100%" height="auto" src={i16} alt="" />
                         </div>
 
+                    </div>
+                </div>
+            </div>
+            <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%", textAlign: "center" }} className="container-fluid mt-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 mb-4">
+                            <img height="auto" width="90%" src={SH1} alt="" />
+                        </div>
+                        <div className="col-md-4 mb-4">
+                            <img height="auto" width="90%" src={SH2} alt="" />
+                        </div>
+                        <div className="col-md-4 mb-4">
+                            <img height="auto" width="90%" src={SH3} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
