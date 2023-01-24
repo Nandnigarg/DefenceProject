@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import dcgLogo from '../assets/dcgLogo.jpg';
 
 function Header() {
@@ -28,7 +29,7 @@ function Header() {
             <div className="row">
                 <div className="col-md-6">
                     <img width="100%" height="auto" style={{ maxHeight: "300px", maxWidth: "300px" }} src={dcgLogo} alt="" />
-                    <p>EMPOWERING YOUNG MINDS</p>
+                    <p style={{ fontWeight: "bold" }} className="text text-danger">EMPOWERING YOUNG MINDS</p>
                 </div>
                 <div className="col-md-6">
                     <div>
@@ -37,7 +38,7 @@ function Header() {
                                 <a href="https://play.google.com/store/apps/details?id=com.app.testseries.delhicareergroup&pli=1" target="_blank"><button style={headerButton}>Download App</button></a>
                             </div>
                             <div className="col-sm-4">
-                                <button style={headerButton}>Check Eligibility</button>
+                                <Link exact to="/eligibility"><button style={headerButton}>Check Eligibility</button></Link>
                             </div>
                             <div className="col-sm-4">
                                 <button style={headerButton}>Pay Online</button>

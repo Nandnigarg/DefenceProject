@@ -9,8 +9,17 @@ function Afpi() {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        var name = document.querySelector('#name').value;
+        var num = document.querySelector('#number').value;
+        var mail = document.querySelector('#mail').value;
+        var msg = document.querySelector('#message').value;
 
-        emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
+        if(name === '' || num === '' || mail === '' || msg === ''){
+            window.alert('Please enter all the details carefully!')
+        }
+        
+        else{
+            emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
             .then((result) => {
                 var element = document.getElementById("feed_form");
                 element.reset();
@@ -20,6 +29,7 @@ function Afpi() {
                 element.reset();
                 console.log(error.text);
             });
+        }
     };
 
     return (

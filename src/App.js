@@ -15,6 +15,7 @@ import Scholarship from "./components/Structure/Scholarship";
 import Afpi from "./components/Other comps/Afpi";
 import Gurukul from "./components/Other comps/Gurukul";
 import Army from "./components/Other comps/Army";
+import Eligibility from "./components/Other comps/Eligibility";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/eligibility" element={<Eligibility/>}/>
         <Route path="/faq" element={<Faq/>}/>
         <Route path="/scholarship" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
