@@ -14,7 +14,7 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav ms-auto">
                             <Link exact to="/" class="nav-link active">
-                                <li class="nav-item"><button class="btn btn-success">Home</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</button></li>
                             </Link>
                             <Link class="nav-link">
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
@@ -23,57 +23,57 @@ function Navbar() {
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA + School</Link>
                                             <ul class="dropdown-menu shadow">
-                                                <Link exact to="/nda-after-8th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA After 8th</li></Link>
-                                                <Link exact to="/nda-after-9th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA After 9th</li></Link>
-                                                <Link exact to="/nda-after-10th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA After 10th</li></Link>
-                                                <Link exact to="/nda-after-11th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA After 11th</li></Link>
+                                                <Link exact to="/nda-after-8th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 8th</li></Link>
+                                                <Link exact to="/nda-after-9th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 9th</li></Link>
+                                                <Link exact to="/nda-after-10th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 10th</li></Link>
+                                                <Link exact to="/nda-after-11th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 11th</li></Link>
                                             </ul>
                                         </li>
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA Only</Link>
                                             <ul class="dropdown-menu shadow">
-                                                <Link exact to="/nda-crash-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA Crash Course</li></Link>
-                                                <Link exact to="/nda-detail-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA Detail Course</li></Link>
-                                                <Link exact to="/nda-foundation" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA Foundation</li></Link>
-                                                <Link exact to="/nda-nurture" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">NDA Nurture</li></Link>
+                                                <Link exact to="/nda-crash-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Crash Course</li></Link>
+                                                <Link exact to="/nda-detail-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Detail Course</li></Link>
+                                                <Link exact to="/nda-foundation" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Foundation</li></Link>
+                                                <Link exact to="/nda-nurture" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Nurture</li></Link>
                                             </ul>
                                         </li>
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA + Graduation</Link>
                                             <ul class="dropdown-menu shadow">
-                                                <Link exact to="/residential" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">Residential Graduation Integrated Program</li></Link>
-                                                <Link exact to="/coaching" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">Coaching Classes Only</li></Link>
+                                                <Link exact to="/residential" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Residential Graduation Integrated Program</li></Link>
+                                                <Link exact to="/coaching" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Coaching Classes Only</li></Link>
                                             </ul>
                                         </li>
-                                        <Link exact to="/ssb-training" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2">SSB & Interview</li></Link>
+                                        <Link exact to="/ssb-training" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">SSB & Interview</li></Link>
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">AFPI Entrance</Link>
                                             <ul class="dropdown-menu shadow">
-                                                <Link exact to="/afpi" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">Maharaja Ranjit Singh Armed Force Preparatory Instituse</li></Link>
-                                                <Link exact to="/gurukul" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">Gurukul</li></Link>
-                                                <Link exact to="/army-public-school" class="dropdown-item"><li class="nav-item text text-success text-decoration-none">Army Public School (APS)</li></Link>
+                                                <Link exact to="/afpi" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Maharaja Ranjit Singh Armed Force Preparatory Instituse</li></Link>
+                                                <Link exact to="/gurukul" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gurukul</li></Link>
+                                                <Link exact to="/army-public-school" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Army Public School (APS)</li></Link>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                             </Link>
                             <Link exact to="/faq" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">FAQ</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">FAQ</button></li>
                             </Link>
                             <Link exact to="/scholarship" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">Scholarship</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Scholarship</button></li>
                             </Link>
                             <Link exact to="/schooling-program" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">School Integrated Program</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">School Integrated Program</button></li>
                             </Link>
                             <Link exact to="/hostel-facility" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">Registration Form</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Registration Form</button></li>
                             </Link>
                             <Link exact to="/gallery" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">Gallery</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</button></li>
                             </Link>
                             <Link exact to="/contact-us" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success">Contact Us</button></li>
+                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact Us</button></li>
                             </Link>
                         </ul>
                     </div>
