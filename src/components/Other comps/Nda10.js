@@ -3,12 +3,12 @@ function Nda10() {
         <div class="container-fluid mt-5 mb-5">
             <div className="container pt-2 pb-4">
                 <div style={{ textAlign: "center" }}>
-                    <h1>NDA After 10 Program</h1>
+                    <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA After 10 Program</h1>
                     <hr />
                 </div>
                 <div>
-                    <h5>Program Focus & Objectives:</h5>
-                    <p>Excellence in NDA and officer entries in Defence entrance exams emphasis 
+                    <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Program Focus & Objectives:</h3>
+                    <p style={{ fontSize: "18px" }}>Excellence in NDA and officer entries in Defence entrance exams emphasis 
                         on making the students imbibe the fundamental concepts of Physics, 
                         Chemistry, Mathematics, GK, English and on sharpening their analytical 
                         skills and parallel thinking process which makes them capable of 

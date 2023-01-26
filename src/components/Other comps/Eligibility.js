@@ -1,6 +1,18 @@
 import bg from '../assets/AfpiBG.jpg';
 
 function Eligibility() {
+    function checkEligible(e){
+        e.preventDefault();
+        var name = document.querySelector('#name').value;
+        var quali = document.querySelector('#qualification').value;
+        if(name === '' || quali === 'select'){
+            window.alert("Please Enter All The Details Carefully!");
+        }
+        else{
+            document.querySelector('#text-div').innerHTML = `Hello ${name}. You are eligible for -  courses!`
+        }
+    }
+
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
             <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "750px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
@@ -36,7 +48,7 @@ function Eligibility() {
                             <div style={{ textAlign: "left" }} class="mb-3">
                                 <label for="qualification">Qualification</label>
                                 <select id="qualification" name="qualification" class="form-select" aria-label="Default select example" required>
-                                    <option selected disabled hidden>Select Qualification </option>
+                                    <option value="select" selected disabled hidden>Select Qualification </option>
                                     <option value="10th app">10th (Appearing)</option>
                                     <option value="10th">10th</option>
                                     <option value="12th app">12th (Appearing)</option>
@@ -47,10 +59,13 @@ function Eligibility() {
                                     <option value="Graduation">Graduation</option>
                                 </select>
                             </div>
-                            <button className="btn btn-success">Check Eligibility -&gt;</button>
+                            <button className="btn btn-success" onClick={checkEligible}>Check Eligibility -&gt;</button>
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="container">
+                <h3 className="text text-danger" id="text-div"></h3>
             </div>
         </div>
     )

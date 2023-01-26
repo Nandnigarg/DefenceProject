@@ -5,13 +5,14 @@ function Hostel() {
             <div className="container-fluid mt-4 mb-5">
                 <div style={{ maxWidth: "800px", textAlign: "center" }} className="container">
                     <form>
-                        <h2>REGISTRATION FORM</h2>
+                        <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">REGISTRATION FORM</h1>
+                        <hr />
                         <div class="mb-3 mt-3">
                             <input type="text" class="form-control" id="name" placeholder="Student Name *" />
                         </div>
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" id="mobile" placeholder="Mobile Number *" />
-                            <button class="btn btn-danger" type="button">Send OTP</button>
+                            <button class="btn btn-primary" type="button">Send OTP</button>
                         </div>
                         <div class="mb-3">
                             <input style={{ display: "none" }} id="otp" type="text" class="form-control" placeholder="Enter OTP" />
