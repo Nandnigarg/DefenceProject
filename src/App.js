@@ -16,6 +16,7 @@ import Afpi from "./components/Other comps/Afpi";
 import Gurukul from "./components/Other comps/Gurukul";
 import Army from "./components/Other comps/Army";
 import Eligibility from "./components/Other comps/Eligibility";
+import Contact from "./components/Structure/Contact";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/schooling-program" element={<Schooling/>}/>
         <Route path="/hostel-facility" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/contact-us" element={<Contact/>}/>
       </Routes>
       <Footer />
     </div>

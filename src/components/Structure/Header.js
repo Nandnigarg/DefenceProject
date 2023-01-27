@@ -19,11 +19,6 @@ function Header() {
         borderRadius: "7px"
     }
 
-    const linkStyle = {
-        textDecoration: "none",
-        color: "black"
-    }
-
     return (
         <div className="container-fluid" style={headerStyle}>
             <div className="row">
@@ -46,10 +41,9 @@ function Header() {
                         </div>
                     </div>
                     <div>
-                        <h6><span class="text text-primary font-weight-bold">Helpline & Support (24 X 7) </span><br />
-                            <a href="tel:08968024595" style={linkStyle}><i class="fa-solid fa-phone"></i><span>8968024595 &nbsp;&nbsp;&nbsp;</span></a>
-                            <a href="https://wa.me/+918968024595" target="_blank" style={linkStyle}><i class="fa-brands fa-whatsapp"></i><span>8968024595</span></a>
-                        </h6>
+                        <h6 style={{ color: "rgb(21, 52, 98)", fontSize: "1.2rem", fontWeight: "bold", lineHeight: "0.3" }}>Helpline & Support (24 X 7)<br /></h6>
+                            <p><a href="tel:08968024595" className="text-decoration-none"><i class="fa-solid fa-phone"></i><span>8968024595 &nbsp;&nbsp;&nbsp;</span></a>
+                            <a href="https://wa.me/+918968024595" target="_blank" className="text-decoration-none"><i class="fa-brands fa-whatsapp"></i><span>8968024595</span></a></p>
                     </div>
                 </div>
             </div>

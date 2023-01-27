@@ -1,3 +1,6 @@
+import prospectus from "../assets/PROSPECTUS 2023-24.pdf";
+import syllabus from "../assets/E-SYLLABUS.pdf";
+
 function Gurukul() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
@@ -24,11 +27,19 @@ function Gurukul() {
                         will be rejected. A copy of birth certificate, school leaving certificate
                         of the previous institution and attested copy of the detailed marks sheet
                         are submitted after the admission.</p>
-
-                        <h3 className="mt-5 mb-4" style={{ color: "rgb(21, 52, 98)", fontSize: "2.5rem", fontWeight: "bold", textAlign: "center"}}><a href="https://gurukuladmission.com/" target="_blank">Click here for Gurukul Online Admission form link</a></h3>
                 </div>
+                <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold", textAlign: "left" }}>Download Links:-</h3>
+                <div className="row mt-4">
+                    <div className="col-md-6">
+                        <a href={prospectus} className="text-decoration-none" download><button className="btn btn-danger">Download Prospectus</button></a>
+                    </div>
+                    <div className="col-md-6">
+                        <a href={syllabus} className="text-decoration-none" download><button className="btn btn-danger">Download Syllabus</button></a>
+                    </div>
+                </div>
+                <h3 className="mt-5 mb-4" style={{ color: "rgb(21, 52, 98)", fontSize: "2.5rem", fontWeight: "bold", textAlign: "center" }}><a href="https://gurukuladmission.com/" target="_blank">Click here for Gurukul Online Admission form link</a></h3>
             </div>
-        </div>
+        </div >
     )
 }
 
