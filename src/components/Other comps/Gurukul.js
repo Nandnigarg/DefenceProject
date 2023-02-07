@@ -1,10 +1,12 @@
 import prospectus from "../assets/PROSPECTUS 2023-24.pdf";
 import syllabus from "../assets/E-SYLLABUS.pdf";
+import Background from "./Background";
 
 function Gurukul() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <div style={{ textAlign: "center" }} className="container mt-3 mb-5">
+            <Background text="GURUKUL"/>
+            <div style={{ textAlign: "center" }} className="container mt-5 mb-5">
                 <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold" }} className="text text-danger">GURUKUL</h1>
                 <hr />
                 <div style={{ textAlign: "left" }} className="mt-4">

@@ -60,14 +60,18 @@ function Navbar() {
                             <Link exact to="/faq" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">FAQ</button></li>
                             </Link>
-                            <Link exact to="/scholarship" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Scholarship</button></li>
-                            </Link>
                             <Link exact to="/schooling-program" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">School Integrated Program</button></li>
                             </Link>
                             <Link exact to="/hostel-facility" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Registration Form</button></li>
+                                <li class="nav-item dropdown dropdown-mega text-decoration-none">
+                                    <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Application Forms</button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <Link exact to="/enquiry-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Enquiry Form</li></Link>
+                                        <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Admission Form</li></Link>
+                                        <Link exact to="/scholarship-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Scholarship Form</li></Link>
+                                    </ul>
+                                </li>
                             </Link>
                             <Link exact to="/gallery" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</button></li>

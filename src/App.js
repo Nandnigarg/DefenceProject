@@ -17,6 +17,8 @@ import Gurukul from "./components/Other comps/Gurukul";
 import Army from "./components/Other comps/Army";
 import Eligibility from "./components/Other comps/Eligibility";
 import Contact from "./components/Structure/Contact";
+import Payment from "./components/Other comps/Payment";
+import Form from "./components/Other comps/Form";
 
 function App() {
   return (
@@ -26,8 +28,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/eligibility" element={<Eligibility/>}/>
+        <Route path="/payment" element={<Payment/>}/>
+        <Route path="/enquiry-form" element={<Form/>}/>
         <Route path="/faq" element={<Faq/>}/>
-        <Route path="/scholarship" element={<Scholarship/>}/>
+        <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
         <Route path="/nda-after-9th" element={<Nda9/>}/>
         <Route path="/nda-after-10th" element={<Nda10/>}/>
@@ -36,7 +40,7 @@ function App() {
         <Route path="/gurukul" element={<Gurukul/>}/>
         <Route path="/army-public-school" element={<Army/>}/>
         <Route path="/schooling-program" element={<Schooling/>}/>
-        <Route path="/hostel-facility" element={<Registration />}/>
+        <Route path="/admission-form" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
       </Routes>
