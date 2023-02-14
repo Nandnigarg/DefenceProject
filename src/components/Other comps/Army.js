@@ -5,7 +5,7 @@ function Army() {
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
             <Background text="ARMY PUBLIC SCHOOL"/>
             <div className="container mt-5 mb-5">
-                <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">ARMY PUBLIC SCHOOL</h1>
+                <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">ARMY PUBLIC SCHOOL</h1>
                 <hr />
                 <br /><br />
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Aims & Objectives </h3>

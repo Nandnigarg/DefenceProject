@@ -29,7 +29,7 @@ function Gallery() {
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={galleryBanner} alt="" />
             <div className="container-fluid mt-5">
                 <div style={{ textAlign: "center" }} className="container pt-2">
-                    <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold" }} className="text text-danger">Gallery</h1>
+                    <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold" }} className="text text-danger">Gallery</h1>
                     <hr />
                     <div className="row pt-4">
                         {/* row-1 */}

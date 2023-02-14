@@ -1,21 +1,56 @@
-function Hostel() {
+import React, { useState } from 'react';
+import { firebase, auth } from '../../firebase';
+
+function Registration() {
+    const [otp, setotp] = useState('');
+    const [show, setshow] = useState(false);
+    const [final, setfinal] = useState(null);
+
+    const sendOTP = () => {
+        var num = document.getElementById('mobile').value;
+        var mynumber = `+91${num}`;
+        if (mynumber === "" || mynumber.length < 10) return;
+
+        let verify = new firebase.auth.RecaptchaVerifier('recaptcha-container');
+        auth.signInWithPhoneNumber(mynumber, verify).then((result) => {
+            setfinal(result);
+            console.log(result);
+            window.alert("code sent");
+            setshow(true);
+        })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
+
+    const ValidateOtp = () => {
+        if (otp === null || final === null)
+            return;
+        final.confirm(otp).then((result) => {
+            window.alert("Verification Successful!!")
+        }).catch((err) => {
+            window.alert("Wrong code!!");
+        })
+    }
 
     return (
         <div>
             <div className="container-fluid mt-4 mb-5">
                 <div style={{ maxWidth: "800px", textAlign: "center" }} className="container">
                     <form>
-                        <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">REGISTRATION FORM</h1>
+                        <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">REGISTRATION FORM</h1>
                         <hr />
                         <div class="mb-3 mt-3">
                             <input type="text" class="form-control" id="name" placeholder="Student Name *" />
                         </div>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="mobile" placeholder="Mobile Number *" />
-                            <button class="btn btn-primary" type="button">Send OTP</button>
+                            <input type="text" maxLength="10" class="form-control" id="mobile" placeholder="Mobile Number *" />
+                            <div id="recaptcha-container"></div>
+                            <button class="btn btn-primary" type="button" onClick={sendOTP}>Send OTP</button>
                         </div>
-                        <div class="mb-3">
-                            <input style={{ display: "none" }} id="otp" type="text" class="form-control" placeholder="Enter OTP" />
+                        <div class="input-group mb-3">
+                            <input style={{ display: show ? "block" : "none" }} class="form-control" type="text" placeholder={"Enter your OTP"} value={otp} onChange={(e) => { setotp(e.target.value)}} />
+                            <button style={{ display: show ? "block" : "none" }} class="btn btn-success" onClick={ValidateOtp}>Verify</button>
                         </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="mail" placeholder="Email Id *" />
@@ -32,7 +67,7 @@ function Hostel() {
                                 <option value="9th">9th appearing</option>
                                 <option value="10th">10th appearing</option>
                                 <option value="11th">11th appearing</option>
-                                <option value="12th">12th appearing</option> 
+                                <option value="12th">12th appearing</option>
                                 <option value="online">12th Pass</option>
                             </select>
                         </div>
@@ -100,9 +135,8 @@ function Hostel() {
                     </form>
                 </div>
             </div>
-            {/* <Form /> */}
         </div>
     )
 }
 
-export default Hostel;
+export default Registration;

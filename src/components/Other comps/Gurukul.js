@@ -7,7 +7,7 @@ function Gurukul() {
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
             <Background text="GURUKUL"/>
             <div style={{ textAlign: "center" }} className="container mt-5 mb-5">
-                <h1 style={{ fontFamily: "cursive", fontSize: "3.5rem", fontWeight: "bold" }} className="text text-danger">GURUKUL</h1>
+                <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold" }} className="text text-danger">GURUKUL</h1>
                 <hr />
                 <div style={{ textAlign: "left" }} className="mt-4">
                     <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>About Gurukul, Kurukshetra</h3>
