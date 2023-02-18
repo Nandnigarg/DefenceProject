@@ -6,7 +6,8 @@ function Registration() {
     const [show, setshow] = useState(false);
     const [final, setfinal] = useState(null);
 
-    const sendOTP = () => {
+    const sendOTP = (e) => {
+        e.preventDefault();
         var num = document.getElementById('mobile').value;
         var mynumber = `+91${num}`;
         if (mynumber === "" || mynumber.length < 10) return;
@@ -23,9 +24,12 @@ function Registration() {
             });
     }
 
-    const ValidateOtp = () => {
-        if (otp === null || final === null)
-            return;
+    const ValidateOtp = (e) => {
+        e.preventDefault();
+        if (otp === null || final === null){
+            window.alert("Something wrong!!");
+            window.location.reload();
+        }
         final.confirm(otp).then((result) => {
             window.alert("Verification Successful!!")
         }).catch((err) => {
