@@ -32,10 +32,10 @@ function Gurukul() {
                 </div>
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold", textAlign: "left" }}>Download Links:-</h3>
                 <div className="row mt-4">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt-3">
                         <a href={prospectus} className="text-decoration-none" download><button className="btn btn-danger">Download Prospectus</button></a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt-3">
                         <a href={syllabus} className="text-decoration-none" download><button className="btn btn-danger">Download Syllabus</button></a>
                     </div>
                 </div>

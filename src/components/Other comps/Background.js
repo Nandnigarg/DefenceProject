@@ -11,13 +11,14 @@ function Background(props) {
         var num = document.querySelector('#number').value;
         var mail = document.querySelector('#mail').value;
         var msg = document.querySelector('#message').value;
+        var src = `${props.src}`
 
-        if(name === '' || num === '' || mail === '' || msg === ''){
+        if(name === '' || num === '' || mail === '' || msg === '' || src === ''){
             window.alert('Please enter all the details carefully!')
         }
         
         else{
-            emailjs.sendForm('service_pa5g7tp', `${props.tempId}`, form.current, 'SMWY2N68zRuPkdjMx')
+            emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
             .then((result) => {
                 var element = document.getElementById("feed_form");
                 element.reset();
@@ -60,6 +61,9 @@ function Background(props) {
                             <div class="form-floating mb-2">
                                 <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
                                 <label for="message">Enter Your Message</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="text" disabled class="form-control" id="source" name="source" value={props.src} placeholder={props.src} />
                             </div>
                             <button class="btn btn-dark mt-2 mb-5">Submit</button>
                         </form>

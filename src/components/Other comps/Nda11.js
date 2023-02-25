@@ -7,16 +7,15 @@ function Nda11() {
                     <hr />
                 </div>
                 <div>
+                    <p style={{ fontSize: "18px" }}>DCG Defence Academy is a renowned institute in India that provides coaching for the NDA examination, particularly the NDA Foundation Course, for class 12th students. If you aspire to become a part of the Indian Armed Forces, then the foundation course is one of the best options to prepare for the NDA examination.</p>
+                    <p style={{ fontSize: "18px" }}>DCG Defence Academy offers the best NDA foundation coaching for class 12th students after 11th standard. The course is designed to provide basic to advanced level training for the NDA selection stages. The foundation course prepares students for the NDA written exam conducted by UPSC, SSB interview, medical test, etc.</p>
+                    <p style={{ fontSize: "18px" }}>The NDA selection process is rigorous and requires extensive preparation. The foundation course provides comprehensive preparation for both the board exams and the NDA written exam. The questions in the NDA written exam are based on the syllabus of class 11th and 12th, making it easier for students to prepare for both exams.</p>
+                    <p style={{ fontSize: "18px" }}>Joining the foundation course after passing class 10th or 11th is beneficial as it provides ample time for preparation. Moreover, there is a limited age limit to appear for NDA, and starting early gives students an edge. The foundation course is an excellent opportunity to start preparing for NDA while simultaneously preparing for the board exams.</p>
+                    <p style={{ fontSize: "18px" }}>The syllabus for the NDA written exam is vast and requires dedication and hard work. The foundation course is designed to provide students with the necessary tips and tricks to prepare for the examination. The course also provides healthy competition among students, motivating them to prepare harder and beat the competition.</p>
+                    <p style={{ fontSize: "18px" }}>DCG Defence Academy's foundation course is unique because of its expert faculty, which includes ex-defence examiners, officers, and qualified teachers. The institute provides proper training for the SSB interview and physical fitness test, which are crucial for selection.</p>
+                    <p style={{ fontSize: "18px" }}>DCG Defence Academy's aim is to train students in every possible manner and make them eligible to clear the NDA exam and become officers in the Indian Armed Forces. Joining the foundation course can help students be at a different level and succeed in clearing the NDA examination.</p>
                     <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Program Focus & Objectives:</h3>
-                    <p style={{ fontSize: "18px" }}>Excellence in NDA and officer entries in Defence entrance exams emphasis
-                        on making the students imbibe the fundamental concepts of Physics,
-                        Chemistry, Mathematics, GK, English and on sharpening their analytical
-                        skills and parallel thinking process which makes them capable of
-                        creatively resolving complex and tricky problems by mere application
-                        of basic concepts for a quantum jump in their performance in NDA
-                        Preparation after 11th . Each student has the right strategy for
-                        himself /herself for TIME MANAGEMENT to ensure optimum output. This
-                        enables the students to excel not only in NDA but also in XII Board Exams.</p>
+                    <p style={{ fontSize: "18px" }}>The achievement of success in Defence entrance exams through NDA and officer entries requires students to internalize fundamental concepts of Physics, Chemistry, Mathematics, GK, and English, as well as develop their analytical skills and parallel thinking abilities. Such skills enable students to creatively resolve complex and tricky problems, leading to a significant improvement in their NDA preparation after 11th grade. To ensure maximum output, each student should devise a unique time management strategy that suits their individual needs. This approach not only allows students to excel in NDA but also in XII Board Exams.</p>
                 </div>
             </div>
         </div>

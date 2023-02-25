@@ -19,6 +19,7 @@ import Eligibility from "./components/Other comps/Eligibility";
 import Contact from "./components/Structure/Contact";
 import Payment from "./components/Other comps/Payment";
 import Form from "./components/Other comps/Form";
+import Hostel from "./components/Structure/Hostel";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
         <Route path="/afpi" element={<Afpi/>}/>
         <Route path="/gurukul" element={<Gurukul/>}/>
         <Route path="/army-public-school" element={<Army/>}/>
-        <Route path="/schooling-program" element={<Schooling/>}/>
+        <Route path="/school-integrated-programme" element={<Schooling/>}/>
+        <Route path="/hostel-facility" element={<Hostel/>}/>
         <Route path="/admission-form" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/contact-us" element={<Contact/>}/>

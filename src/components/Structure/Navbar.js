@@ -54,14 +54,29 @@ function Navbar() {
                                                 <Link exact to="/army-public-school" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Army Public School (APS)</li></Link>
                                             </ul>
                                         </li>
+                                        <li class="dropend">
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">Sainik & Military School</Link>
+                                            <ul class="dropdown-menu shadow">
+                                                <Link exact to="/aissee" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Sainik School - AISSEE for 6th & 9th entry</li></Link>
+                                                <Link exact to="/rms" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Rashtriya Military School - RMS for 6th & 9th entry</li></Link>
+                                                <Link exact to="/rimc" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Rashtriya Indian Military College - RIMC for 8th entry</li></Link>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                             </Link>
                             <Link exact to="/faq" class="nav-link">
                                 <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">FAQ</button></li>
                             </Link>
-                            <Link exact to="/schooling-program" class="nav-link">
-                                <li class="nav-item"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">School Integrated Program</button></li>
+                            <Link class="nav-link">
+                                <li class="nav-item dropdown dropdown-mega text-decoration-none">
+                                    <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">School Integrated Programme</button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <Link exact to="/school-integrated-programme" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Programme Details</li></Link>
+                                        <Link exact to="/physical-ssb-training" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Physical & SSB Training</li></Link>
+                                        <Link exact to="/hostel-facility" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Hostel Facilites</li></Link>
+                                    </ul>
+                                </li>
                             </Link>
                             <Link exact to="/hostel-facility" class="nav-link">
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
@@ -81,9 +96,9 @@ function Navbar() {
                             </Link>
                         </ul>
                     </div>
-                </div>
-            </nav>
-        </div>
+                </div >
+            </nav >
+        </div >
     );
 }
 

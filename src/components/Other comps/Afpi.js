@@ -5,7 +5,7 @@ import Officer from './Officer';
 function Afpi() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Background text="MAHARAJA RANJIT SINGH AFPI" tempId="template_zuy64pe"/>
+            <Background text="MAHARAJA RANJIT SINGH AFPI" src="MAHARAJA RANJIT SINGH AFPI"/>
             <div className="container mt-3 mb-5">
                 <h2 className="text text-success mt-5">MAHARAJA RANJIT SINGH AFPI Coaching</h2>
                 <p>Maharaja Ranjit Singh Academy for Armed Forces Preparatory Institute (AFPI) was set up in

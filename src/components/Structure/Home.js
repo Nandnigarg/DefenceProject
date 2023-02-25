@@ -25,49 +25,55 @@ function Home() {
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
                     <div style={boxStyle} className="bg bg-success">
-                        <p>Delhi Career Group offers the BEST NDA COACHING & Top NDA FOUNDATION COACHING IN INDIA with Schooling Subjects Coaching starting immediately after 8th, 10th and NDA coaching after 12th class for everyone.</p>
+                        <p>Delhi Career Group's DCG Defence Academy provides top-tier coaching for defense entrance 
+                            exams in India. They specialize in preparing candidates for the NDA Written, Physical, 
+                            and SSB of the examination. Additionally, they offer a Foundation Batch that includes 
+                            NDA entrance exam preparation and a CBSE Residential School Integrated Program. These 
+                            programs aim to provide a comprehensive approach to preparing students for a career 
+                            in defense. The DCG Defence Academy is committed to delivering exceptional coaching 
+                            that ensures students are well-prepared to succeed in their chosen field.</p>
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 8th Class</h4>
+                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB coaching after 8th Class</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>9th,10th,11th & 12th <br />
-                                    Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 8th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 9th Class</h4>
+                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB coaching after 9th Class</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>10th,11th & 12th <br />
-                                    Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 9th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid green", ...divStyle }} className="div">
-                                <h4 style={{ color: "green" }}>NDA + SSB Coaching After 10th Class</h4>
+                                <h4 style={{ color: "green" }}>NDA + SSB coaching after 10th Class</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>11th & 12th <br />
-                                    Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 10th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB Coaching After 11th Class</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Schooling+NDA+SSB, INTEGRATED PROGRAMME</p>
+                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB coaching after 11th Class</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 11th Passed Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB Coaching After 12th Class</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Passed Students</p>
+                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA coaching classes</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}><b style={{fontSize: "25px"}}>NDA Target Batch</b> <br/> Written + Physical + SSB & Interview</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Appearing & Passout Students</p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
@@ -76,6 +82,30 @@ function Home() {
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>WE STRIVE FOR EXCELLENCE</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>By Senior Experienced Ex. SSB Officers</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For More Information On SSB Training</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
+                                <h4 style={{ color: "rgb(242,113,0)" }}>Sainik & Military School Admission Entrance Coaching Only</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
+                            <h4 style={{ color: "rgb(51, 47, 208)" }}>Residential CBSE School Programme with Entrance Exam Coaching</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid green", ...divStyle }} className="div">
+                                <h4 style={{ color: "green" }}>AFPI School Admission Entrance Exam Coaching</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Maharaja Ranjit Singh Armed Force Preparatory Institute (APFI)</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Gurukul</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Army Public School</p>
                             </div>
                         </div>
                     </div>
@@ -102,28 +132,34 @@ function Home() {
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
                     <div style={{ textAlign: "center" }}>
-                        <h3 style={{ color: "rgb(198,3,12)", fontSize: "3rem", fontWeight: "bold" }}>DCG Defence Academy</h3>
-                        <h5 style={{ color: "rgb(198,3,12)", fontSize: "1.5rem", fontWeight: "bold" }}>Unit of Delhi Career Group</h5>
+                        <h3 style={{ color: "rgb(198,3,12)", fontSize: "3rem", fontWeight: "bold" }}>ABOUT US</h3>
                     </div>
-                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>The well-known DCG Defence Academy in Chandigarh teaches and trains
-                        students for bright futures in the Army, Navy, and Airforce. The
-                        finest Defense Exam Preparation is provided by our Academy.
-                        It's challenging to join any of these forces, though. Students must
-                        succeed on a national admission test. Passing this admission test is
-                        difficult. Our provides the best instructionfor defence exams. To be
-                        well-prepared for the test, students must put in a lot of work, which
-                        is made feasible by our Coaching. This Academy can be quite helpful
-                        in this situation. For defence exam preparation, our premier coaching
-                        academy,provides up-to-date study materials, a comfortable setting,
-                        and qualified teachers.</p>
-                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>This is
-                        the best venue for candidates to go and prepare for the NDA and SSB.
-                        Coaching sessions here are well-equipped and include up-to-date
-                        resources. Our skilled crew develops cutting-edge learning resources for
-                        pupils. Defense Preparation Classes focus on both interview
-                        skills and written test preparation. Students develop confidence and are able
-                        to pass the test with ease after receiving the best training from our
-                        academy.</p>
+                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>DCG Defence Academy, a defense unit of \
+                    Delhi Career Group, is renowned for providing exceptional education and training to 
+                    students aspiring to join the NDA, Army, Navy, and Air Force. We also prepare students 
+                    for entrance exams into various Armed Forces Preparatory Institute (AFPI) schools in 
+                    India, such as Sainik School, Rashtriya Military School, Rashtriya Indian Military 
+                    College (RIMC), and Army Public School (APS). Our academy offers top-notch Defense 
+                    Entrance Exam Preparation for written, physical, interview, and SSB exams, which can 
+                    help students achieve their dream careers in these elite forces.</p>
+                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>While the 
+                    national admission test to qualify for these forces is incredibly challenging, our
+                     academy provides the best guidance and resources to ensure that students pass the 
+                     test with flying colors. Preparing for defense exams requires extensive effort, 
+                     and our coaching program makes it feasible for students to put in the hard work 
+                     required to succeed. Our premier coaching academy provides up-to-date study materials, 
+                     a comfortable learning environment, and qualified teachers to help students prepare 
+                     for the NDA and SSB exams.</p>
+                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>Our coaching 
+                    sessions are well-equipped with cutting-edge learning resources that our skilled team 
+                    has developed for pupils. Our Defense Preparation Classes offer comprehensive training 
+                    that focuses on both written test preparation, physical training, and SSB & Interview 
+                    skills. With the best training and guidance from our academy, students develop 
+                    confidence and can pass the test with ease.</p>
+                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>In 
+                    summary, our Academy is the best venue for candidates looking to prepare for 
+                    defense exams. We pride ourselves on providing exceptional education and training 
+                    to aspiring defense personnel.</p>
                 </div>
             </div>
             <Officer />
