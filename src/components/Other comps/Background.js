@@ -63,7 +63,7 @@ function Background(props) {
                                 <label for="message">Enter Your Message</label>
                             </div>
                             <div class="form-floating mb-2">
-                                <input type="text" disabled class="form-control" id="source" name="source" value={props.src} placeholder={props.src} />
+                                <input type="text" class="form-control" id="source" name="source" value={props.src} placeholder={props.src} />
                             </div>
                             <button class="btn btn-dark mt-2 mb-5">Submit</button>
                         </form>

@@ -3,31 +3,23 @@ import Background from "./Background";
 function Army() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Background text="ARMY PUBLIC SCHOOL"/>
+            <Background text="ARMY PUBLIC SCHOOL" src="ARMY PUBLIC SCHOOL"/>
             <div className="container mt-5 mb-5">
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">ARMY PUBLIC SCHOOL</h1>
                 <hr />
                 <br /><br />
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Aims & Objectives </h3>
-                <p style={{ fontSize: "18px" }}>Army Public School motto to provide
-                    quality education at an affordable cost, the school has set the following
-                    aims and objectives:</p>
+                <p style={{ fontSize: "18px" }}>The Army Public School is committed to delivering excellent education at a reasonable cost, and to achieve this goal, the institution has laid down the following objectives:</p>
                 <ul style={{ fontSize: "18px", paddingLeft: "0", paddingRight: "0" }}>
-                    <li>To provide quality education with an emphasis on holistic development of children.</li>
-                    <li>To develop technological competence and communication skills integrated with sound value system.</li>
-                    <li>Ensure growth and development of scholastic & co-scholastic domains of students and create in them a zest for learning.</li>
-                    <li>Ensure continuous comprehensive growth of a child through healthy recreational activities and hobbies as well as develop correct reading habits for pleasure and joy.</li>
-                    <li>Channelize youthful energies towards creativity and self-actualization.</li>
+                    <li><span style={{fontWeight: "bold"}}>Holistic Development:</span> The school aims to provide comprehensive education that focuses on the all-round development of students, ensuring that they excel in all aspects of life. This includes academics, extracurricular activities, and character development.</li>
+                    <li><span style={{fontWeight: "bold"}}>Technological and Communication Skills:</span> In today's digital age, it is essential to equip students with technological and communication skills. The school strives to impart these skills, along with a strong value system, to help students become responsible and ethical individuals.</li>
+                    <li><span style={{fontWeight: "bold"}}>Scholastic and Co-scholastic Growth:</span> The school believes in nurturing the talents and abilities of every student, encouraging them to pursue their interests and passions. This includes both scholastic and co-scholastic domains, such as sports, music, art, and drama.</li>
+                    <li><span style={{fontWeight: "bold"}}>Joyful Learning:</span> Learning should be a pleasurable experience, and the school recognizes this by encouraging students to develop correct reading habits that bring joy and pleasure to their lives.</li>
+                    <li><span style={{fontWeight: "bold"}}>Creativity and Self-Actualization:</span> Youthful energies need to be channelized in the right direction, and the school seeks to do this by promoting creativity and self-actualization. The school encourages students to explore their creativity and pursue their dreams, helping them become fulfilled and successful individuals.</li>
                 </ul>
                 <br />
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Common Entrance Test </h3>
-                <p style={{ fontSize: "18px" }}>Common Entrance Test for admission to class V to IX in five English
-                    Medium Residential Army Public Schools across the country affiliated to
-                    CBSE i.e. Daghsai , Noida (Girls Only), Dhaula Kuan (Boys Only), Beas
-                    and Gen BC Joshi APS, Pithoragarh for the Academic Session 2023-24,
-                    will be conducted under the aegis of Army Welfare Education Society
-                    (AWES) New Delhi. Detailed information is as under:
-                </p>
+                <p style={{ fontSize: "18px" }}>Under the guidance of the Army Welfare Education Society (AWES) in New Delhi, a Common Entrance Test will be held for admission to classes V to IX in five English Medium Residential Army Public Schools. These schools are affiliated with the Central Board of Secondary Education (CBSE) and are located in Daghsai, Noida (Girls Only), Dhaula Kuan (Boys Only), Beas, and Gen BC Joshi APS in Pithoragarh. The entrance exam will be conducted for the academic session of 2023-24. Further information regarding the exam can be found below.</p>
                 <table className="table table-striped table-hover" style={{ textAlign: "center", paddingLeft: "0", paddingRight: "0" }}>
                     <tbody>
                         <tr>

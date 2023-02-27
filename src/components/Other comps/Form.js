@@ -16,7 +16,7 @@ function Form() {
         }
 
         else{
-            emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
+            emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
             .then((result) => {
                 var element = document.getElementById("feed_form");
                 element.reset();
@@ -48,6 +48,9 @@ function Form() {
                     <div class="form-floating mb-2">
                         <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
                         <label for="message">Enter Your Message</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="source" name="source" value="ENQUIRY FORM" placeholder="ENQUIRY FORM" />
                     </div>
                     <button class="btn btn-dark mt-2 mb-5">Submit</button>
                 </form>

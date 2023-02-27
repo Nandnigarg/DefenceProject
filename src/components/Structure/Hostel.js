@@ -12,37 +12,12 @@ function Hostel() {
                     <div style={{ textAlign: "left" }} className="col-md-6">
                         <h3 style={{ fontSize: "2rem", fontWeight: "bold" }} className="text text-success">RESIDENTIAL LIFE</h3>
                         <h5 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>About DCG-SIP ( School Integrated Program) Hostel</h5>
-                        <p style={{ fontSize: "18px" }}>The Hostel is the second home for a child, where he/she feels comfortable and spends
-                            most of the time. DCG-SIP hostel provides excellent pastoral care, cosy interiors
-                            and comfortable living rooms. The school's tranquil campus with its beautiful flora
-                            and bird life provide students with ample green space and fresh air where they are
-                            able to live and learn. The hostel facility is available to students of grade four
-                            and above. There are cordoned off buildings equipped with excellent facilities and
-                            amenities such as vast study areas, dining space and recreational facilities.</p>
+                        <p style={{ fontSize: "18px" }}>The DCG-SIP hostel is a home away from home for students, providing a comfortable and nurturing environment. The hostel offers excellent pastoral care, cosy interiors, and comfortable living rooms to ensure students feel at ease. With its tranquil campus, beautiful flora, and birdlife, the hostel offers ample green space and fresh air for students to learn and grow. Equipped with top-notch facilities and amenities such as vast study areas, dining space, and recreational facilities, the hostel provides a safe and secure environment for students in grade four and above.</p>
                         <h5 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Life in the School Hostel</h5>
-                        <p style={{ fontSize: "18px" }}>The school hostel provides residents with a peaceful and calm environment, creating an
-                            atmosphere of harmony and co-operation amongst them, which in turn inculcate the sense
-                            of responsibility and discipline in every aspect of their personality development.
-                            The hostel is a hub of academic, social, physical and cultural activities. The students
-                            dwell in a healthy environment that helps them to grow and learn without any obstacle.
-                            Rooms are designed to accommodate three to eight students from the same age group in one
-                            room.</p>
-                        <p style={{ fontSize: "18px" }}>School has excellent boarding facilities that give the students a feel of home away from
-                            home in a green and clean environment. The school provides boarding facilities for both
-                            only till date. Students can feel safe within the walls of the campus as the campus is
-                            fully secured with round the clock guards on duty. Students are also provided with healthy
-                            and scrumptious home-like food during their stay.</p>
-                        <p style={{ fontSize: "18px" }}>The boarding is well administered by the House Masters, who is assisted by warden.
-                            The study schedules and remedial classes at School give a great opportunity for Students to
-                            flourish academically. Students also follow a strict code of rules, and it should be noted
-                            that any form of misconduct (bullying, misbehaving, bringing banned substances like
-                            tobacco, alcohol, gutkha, supari etc.) will result in strict disciplinary action and the
-                            students may be asked to leave the school. Sports and games are quintessential for the overall
-                            development of Students. As such, all students are encouraged to participate in different
-                            sporting activities to improve their health, team-skills, confidence and self-esteem.</p>
-                        <p style={{ fontSize: "18px" }}>Boarding life is not all about work. Every second Sunday, the students enjoy a movie.
-                            On Sundays, Risers spend some time in the library, and the remaining day is spent
-                            playing games and in recreational activities.</p>
+                        <p style={{ fontSize: "18px" }}>The student hostel at the school is a serene and tranquil haven that fosters a spirit of cooperation and unity among residents. This in turn leads to the development of a sense of responsibility and discipline in all aspects of their personal growth. The hostel serves as a bustling hub of academic, social, physical, and cultural activities. The rooms are thoughtfully designed to house between three to eight students of the same age group, ensuring a comfortable living space.</p>
+                        <p style={{ fontSize: "18px" }}>The school offers excellent boarding facilities that provide students with a sense of being at home in a green and hygienic environment. The boarding facilities cater to both male and female students. The campus is fully secured with round-the-clock guards on duty, making students feel secure and protected. The school ensures that students are provided with wholesome and delicious meals that are reminiscent of home-cooked food.</p>
+                        <p style={{ fontSize: "18px" }}>The House Masters, with the assistance of wardens, manage the boarding facilities with great care and attention. The school provides a conducive study schedule and remedial classes to enable students to excel academically. The students are expected to adhere to a strict code of conduct, and any instances of misconduct such as bullying, misbehaving, or bringing prohibited substances such as tobacco, alcohol, gutkha, or supari will result in disciplinary action, and in severe cases, students may be asked to leave the school. Participation in sports and games is strongly encouraged as it plays a pivotal role in the overall development of students. This participation helps in enhancing their health, team skills, confidence, and self-esteem.</p>
+                        <p style={{ fontSize: "18px" }}>Boarding life is not solely focused on work. Every second Sunday, the students enjoy a movie, and on other Sundays, students can spend some time in the library, followed by indulging in recreational activities and games for the rest of the day.</p>
                     </div>
                     <div className="col-md-6">
                         <iframe width="100%" height="400" src="https://www.youtube.com/embed/u3XXOdjpKwI" title="Physical Training Session | NDA FOUNDATION | NDA Course | #motivation  #nda #dcg #viral" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -11,6 +11,8 @@ import Pattern from '../assets/pattern.jpg';
 import N1 from '../assets/number1.jpg';
 import N2 from '../assets/number2.jpg';
 import N3 from '../assets/number3.jpg';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Scholarship() {
     const [otp, setotp] = useState('');
@@ -48,6 +50,33 @@ function Scholarship() {
         })
     }
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        var name = document.querySelector('#name').value;
+        var num = document.querySelector('#number').value;
+        var mail = document.querySelector('#mail').value;
+        var msg = document.querySelector('#message').value;
+
+        if(name === '' || num === '' || mail === '' || msg === ''){
+            window.alert('Please enter all the details carefully!')
+        }
+
+        else{
+            emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
+            .then((result) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(result.text);
+            }, (error) => {
+                var element = document.getElementById("feed_form");
+                element.reset();
+                console.log(error.text);
+            });
+        }
+    };
+
     return (
         <div className="container-fluid mb-4">
             <div className="container">
@@ -58,7 +87,7 @@ function Scholarship() {
                         <h5 style={{ fontFamily: "cursive", color: "rgb(21, 52, 98)", fontSize: "1.2rem", fontWeight: "bold" }}>Take First step towards becoming an officer</h5>
                     </div>
                     <div style={{textAlign: "center"}} className="col-md-6">
-                        <form>
+                        <form ref={form} onSubmit={sendEmail} id="feed_form">
                             <div class="mb-3 mt-3">
                                 <input type="text" class="form-control" id="name" placeholder="Student Name *" />
                             </div>

@@ -134,7 +134,7 @@ function Home() {
                     <div style={{ textAlign: "center" }}>
                         <h3 style={{ color: "rgb(198,3,12)", fontSize: "3rem", fontWeight: "bold" }}>ABOUT US</h3>
                     </div>
-                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>DCG Defence Academy, a defense unit of \
+                    <p style={{ fontSize: "18px", color: "rgb(23,77,4)", fontWeight: "bold" }}>DCG Defence Academy, a defense unit of 
                     Delhi Career Group, is renowned for providing exceptional education and training to 
                     students aspiring to join the NDA, Army, Navy, and Air Force. We also prepare students 
                     for entrance exams into various Armed Forces Preparatory Institute (AFPI) schools in 

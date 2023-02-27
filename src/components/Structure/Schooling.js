@@ -36,25 +36,14 @@ function Schooling() {
                     <div className="row">
                         <div className="col-md-6">
                             <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>NDA With Schooling Program</h3>
-                            <p style={{ fontSize: "18px" }}>The DCG Defense Academy Foundation is a programme created to assist
-                                students in becoming future leaders of the country's armed forces. Teachers with
-                                extensive knowledge and former military people mentor young brains. Complete two
-                                years of personal development coursework in addition to your NDA training. The
-                                NDA foundation programme in Chandigarh focuses on giving students the finest
-                                training possible while they are still enrolled in school. The goal of the this
-                                foundation course is to thoroughly prepare the student to take the NDA exam after
-                                finishing school.</p>
+                            <p style={{ fontSize: "18px" }}>The DCG Defense Academy Foundation is an exclusive program designed to help students become the next generation of leaders in the country's armed forces. This program provides a unique opportunity for students to receive guidance and mentoring from experienced teachers and former military personnel, who share their knowledge and expertise to help students excel in their academic pursuits and personal growth.</p>
+                            <p style={{ fontSize: "18px" }}>In addition to the rigorous NDA training, students who enroll in the Foundation are required to complete two years of personal development coursework. The program is designed to provide students with the skills and knowledge necessary to excel in the NDA exam after completing their school education. The NDA foundation program in Chandigarh is one of the most prominent examples of the Foundation's commitment to providing top-notch training and support to its students. The program is tailored to meet the specific needs of students, providing them with the best possible training while they are still enrolled in school. The ultimate goal of the foundation course is to equip students with the necessary knowledge and skills to become successful leaders in the armed forces.</p>
                             <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>NDA Preparation After 10th Class In Chandigarh</h3>
-                            <p style={{ fontSize: "18px" }}>DCG Defence Academy provides a specific coordinator for NDA trainers who was trained
-                                by applicants who are ready to be led by excellence. A group of highly qualified
-                                academic staff members and former military officers instruct NDA-SIP sessions. This
-                                Institute provides supplemental lessons and doubt sessions for weak pupils.
-                                Instructors and experts here instruct students on how to join NDA following the
-                                tenth grade.</p>
+                            <p style={{ fontSize: "18px" }}>At DCG Defence Academy, there is a dedicated coordinator for NDA training who has been trained to lead applicants to excellence. The academy boasts a team of highly qualified academic staff members and former military officers who conduct NDA-SIP sessions. The academy also offers additional lessons and doubt sessions for weaker students. The instructors and experts at the academy guide students on how to join NDA after completing their tenth-grade education.</p>
                         </div>
                         <div style={{ backgroundColor: "rgb(233,242,235)", ...boxStyle }} className="col-md-6">
-                            <img height="auto" width="100%" src={schoolBanner} alt="" />
-                            <video className="mt-2" height="auto" width="100%" src={schoolVideo} controls></video>
+                            <img className="mt-3 mb-2" height="auto" width="100%" src={schoolBanner} alt="" />
+                            <video className="mt-3" height="auto" width="100%" src={schoolVideo} controls></video>
                         </div>
                     </div>
                 </div>
