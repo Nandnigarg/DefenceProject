@@ -13,6 +13,9 @@ import N2 from '../assets/number2.jpg';
 import N3 from '../assets/number3.jpg';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Scholar1 from '../assets/Scholar-1.jpg';
+import Scholar2 from '../assets/Scholar-2.jpg';
+
 
 function Scholarship() {
     const [otp, setotp] = useState('');
@@ -59,34 +62,34 @@ function Scholarship() {
         var mail = document.querySelector('#mail').value;
         var msg = document.querySelector('#message').value;
 
-        if(name === '' || num === '' || mail === '' || msg === ''){
+        if (name === '' || num === '' || mail === '' || msg === '') {
             window.alert('Please enter all the details carefully!')
         }
 
-        else{
+        else {
             emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
-            .then((result) => {
-                var element = document.getElementById("feed_form");
-                element.reset();
-                console.log(result.text);
-            }, (error) => {
-                var element = document.getElementById("feed_form");
-                element.reset();
-                console.log(error.text);
-            });
+                .then((result) => {
+                    var element = document.getElementById("feed_form");
+                    element.reset();
+                    console.log(result.text);
+                }, (error) => {
+                    var element = document.getElementById("feed_form");
+                    element.reset();
+                    console.log(error.text);
+                });
         }
     };
 
     return (
         <div className="container-fluid mb-4">
-            <div className="container">
-                <div style={{ minHeight: "60vh" }} className="row mt-4">
-                    <div className="col-md-6">
-                        <img width="100%" height="auto" style={{ maxHeight: "300px", maxWidth: "300px" }} src={dcgLogo} alt="" />
-                        <h2 style={{ fontFamily: "cursive", fontSize: "2.2rem", fontWeight: "bold" }} className="text text-danger">SCHOLARSHIP TEST</h2>
-                        <h5 style={{ fontFamily: "cursive", color: "rgb(21, 52, 98)", fontSize: "1.2rem", fontWeight: "bold" }}>Take First step towards becoming an officer</h5>
+            <div className="container" style={{ textAlign: "justify" }}>
+                <div style={{ minHeight: "60vh" }}>
+                    <div style={{ textAlign: "center" }} className="mt-4 mb-5">
+                        <img width="100%" height="auto" style={{ maxHeight: "400px", maxWidth: "400px" }} src={dcgLogo} alt="" />
+                        <h2 style={{ fontFamily: "cursive", fontSize: "2.5rem", fontWeight: "bold" }} className="text text-danger mt-3">SCHOLARSHIP TEST</h2>
+                        <h5 style={{ fontFamily: "cursive", color: "rgb(21, 52, 98)", fontSize: "1.5rem", fontWeight: "bold" }}>Take First step towards becoming an officer</h5>
                     </div>
-                    <div style={{textAlign: "center"}} className="col-md-6">
+                    <div style={{ textAlign: "center" }}>
                         <form ref={form} onSubmit={sendEmail} id="feed_form">
                             <div class="mb-3 mt-3">
                                 <input type="text" class="form-control" id="name" placeholder="Student Name *" />
@@ -106,13 +109,13 @@ function Scholarship() {
                             <div class="mb-3">
                                 <select class="form-select" aria-label="Default select example">
                                     <option selected disabled hidden>Select Present Class *</option>
-                                    <option value="3rd">3rd appearing</option>
+                                    {/* <option value="3rd">3rd appearing</option>
                                     <option value="4th">4th appearing</option>
                                     <option value="5th">5th appearing</option>
                                     <option value="6th">6th appearing</option>
                                     <option value="7th">7th appearing</option>
                                     <option value="8th">8th appearing</option>
-                                    <option value="9th">9th appearing</option>
+                                    <option value="9th">9th appearing</option> */}
                                     <option value="10th">10th appearing</option>
                                     <option value="11th">11th appearing</option>
                                     <option value="12th">12th appearing</option>
@@ -181,6 +184,18 @@ function Scholarship() {
                             </div>
                             <button class="btn btn-dark mt-2 mb-5">Submit</button>
                         </form>
+                    </div>
+                </div>
+                <div style={{ textAlign: "center" }}>
+                    <h2 style={{ fontSize: "2.7rem", fontWeight: "bold", textTransform: "uppercase", fontFamily: "cursive" }} className="text text-success">Scholarship Test Details</h2>
+                </div>
+                <hr />
+                <div className="row mt-5">
+                    <div className="col-md-6">
+                        <img height="auto" width="100%" src={Scholar1} alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <img height="auto" width="100%" src={Scholar2} alt="" />
                     </div>
                 </div>
                 <hr />
@@ -259,7 +274,7 @@ function Scholarship() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

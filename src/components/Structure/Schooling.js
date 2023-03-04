@@ -15,7 +15,7 @@ function Schooling() {
     }
 
     return (
-        <div>
+        <div style={{textAlign: "justify"}}>
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={ndaBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%", textAlign: "center" }} className="container-fluid">
                 <div className="container">

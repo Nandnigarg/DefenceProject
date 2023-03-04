@@ -36,7 +36,7 @@ function Background(props) {
             <div className="container p-5">
                 <div className="row">
                     <div style={{ color: "white" }} className="col-md-6">
-                        <h1><span style={{ color: "rgb(255,255,0)" }}>{props.text} </span>Entrance Exam Coaching</h1>
+                        <h1><span style={{ color: "rgb(255,255,0)" }}>{props.text} </span><br/>{props.t2}</h1>
                         <br /><br /><br /><br /><br />
                         <h1><span style={{ color: "rgb(255,255,0)" }}>ONLINE & OFFLINE Coaching</span></h1>
                         <br />

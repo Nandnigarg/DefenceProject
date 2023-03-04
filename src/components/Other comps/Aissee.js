@@ -22,7 +22,7 @@ import S20 from '../assets/Sainik-20.jpg';
 function Aissee() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <div className="container mt-5 mb-4">
+            <div className="container mt-5 mb-4" style={{textAlign: "justify"}}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Sainik School - AISSEE</h1>
                 <hr />
                 <br /><br />
@@ -49,7 +49,9 @@ function Aissee() {
                         <iframe width="100%" height="400" src="https://www.youtube.com/embed/4sIbchkPOvY" title="Sainik School 2023 Achievers &amp; Parents Feedback | Achievers Experience | Topper |  #dcg #result" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div className="row mt-5">
+                <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger mt-5">Result</h1>
+                <hr />
+                <div className="row mt-2">
                     <div className="col-md-3 mt-3 p-2">
                         <img src={S1} alt="" height="auto" width="100%" />
                     </div>

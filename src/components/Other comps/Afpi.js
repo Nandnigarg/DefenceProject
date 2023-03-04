@@ -5,8 +5,8 @@ import Officer from './Officer';
 function Afpi() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Background text="MAHARAJA RANJIT SINGH AFPI" src="MAHARAJA RANJIT SINGH AFPI"/>
-            <div className="container mt-3 mb-5">
+            <Background text="MAHARAJA RANJIT SINGH AFPI" t2="Entrance Exam Coaching" src="MAHARAJA RANJIT SINGH AFPI"/>
+            <div className="container mt-3 mb-5" style={{textAlign: "justify"}}>
                 <h2 className="text text-success mt-5">MAHARAJA RANJIT SINGH AFPI Coaching</h2>
                 <p style={{ fontSize: "18px" }}>In 2011, the Government of Punjab established the Maharaja Ranjit Singh Academy for Armed Forces Preparatory Institute (AFPI) in Sector 77, Sahibzada Ajit Singh Nagar (Mohali). The academy's primary objective is to prepare boys for a career in the armed forces as commissioned officers through the NDA and other service academies. The Hon'ble Chief Minister of Punjab serves as the governing body of the institute. By providing specialized training and support, the AFPI strives to equip its students with the skills and knowledge necessary to succeed in the highly competitive and demanding field of military service.</p>
 

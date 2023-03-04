@@ -21,7 +21,7 @@ function Navbar() {
                                     <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA + School</Link>
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{fontWeight: "bold"}}>NDA + School</Link>
                                             <ul class="dropdown-menu shadow">
                                                 <Link exact to="/nda-after-8th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 8th</li></Link>
                                                 <Link exact to="/nda-after-9th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 9th</li></Link>
@@ -30,7 +30,7 @@ function Navbar() {
                                             </ul>
                                         </li>
                                         <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA Only</Link>
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{fontWeight: "bold"}}>NDA Only</Link>
                                             <ul class="dropdown-menu shadow">
                                                 <Link exact to="/nda-crash-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Crash Course</li></Link>
                                                 <Link exact to="/nda-detail-course" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Detail Course</li></Link>
@@ -39,15 +39,15 @@ function Navbar() {
                                             </ul>
                                         </li>
                                         <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">NDA + Graduation</Link>
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{fontWeight: "bold"}}>NDA + Graduation</Link>
                                             <ul class="dropdown-menu shadow">
                                                 <Link exact to="/residential" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Residential Graduation Integrated Program</li></Link>
                                                 <Link exact to="/coaching" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Coaching Classes Only</li></Link>
                                             </ul>
                                         </li>
-                                        <Link exact to="/ssb-training" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">SSB & Interview</li></Link>
+                                        <Link exact to="/ssb-training" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>SSB & Interview</li></Link>
                                         <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">AFPI Entrance</Link>
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{fontWeight: "bold"}}>AFPI Entrance</Link>
                                             <ul class="dropdown-menu shadow">
                                                 <Link exact to="/afpi" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Maharaja Ranjit Singh Armed Force Preparatory Instituse</li></Link>
                                                 <Link exact to="/gurukul" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gurukul</li></Link>
@@ -55,7 +55,7 @@ function Navbar() {
                                             </ul>
                                         </li>
                                         <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown">Sainik & Military School</Link>
+                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{fontWeight: "bold"}}>Sainik & Military School</Link>
                                             <ul class="dropdown-menu shadow">
                                                 <Link exact to="/aissee" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Sainik School - AISSEE for 6th & 9th entry</li></Link>
                                                 <Link exact to="/rms" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Rashtriya Military School - RMS for 6th & 9th entry</li></Link>
@@ -72,9 +72,9 @@ function Navbar() {
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
                                     <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">School Integrated Programme</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <Link exact to="/school-integrated-programme" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Programme Details</li></Link>
-                                        <Link exact to="/physical-ssb-training" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Physical & SSB Training</li></Link>
-                                        <Link exact to="/hostel-facility" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Hostel Facilites</li></Link>
+                                        <Link exact to="/school-integrated-programme" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Programme Details</li></Link>
+                                        <Link exact to="/physical-ssb-training" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Physical & SSB Training</li></Link>
+                                        <Link exact to="/hostel-facility" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Hostel Facilites</li></Link>
                                     </ul>
                                 </li>
                             </Link>
@@ -82,9 +82,9 @@ function Navbar() {
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
                                     <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Application Forms</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <Link exact to="/enquiry-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Enquiry Form</li></Link>
-                                        <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Admission Form</li></Link>
-                                        <Link exact to="/scholarship-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Scholarship Form</li></Link>
+                                        <Link exact to="/enquiry-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Enquiry Form</li></Link>
+                                        <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Admission Form</li></Link>
+                                        <Link exact to="/scholarship-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Scholarship Form</li></Link>
                                     </ul>
                                 </li>
                             </Link>
