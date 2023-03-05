@@ -21,6 +21,8 @@ import Payment from "./components/Other comps/Payment";
 import Form from "./components/Other comps/Form";
 import Hostel from "./components/Structure/Hostel";
 import Aissee from "./components/Other comps/Aissee";
+import NdaGallery from "./components/Other comps/NdaGallery";
+import SainikGallery from "./components/Other comps/SainikGallery";
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
         <Route path="/hostel-facility" element={<Hostel/>}/>
         <Route path="/admission-form" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/nda-gallery" element={<NdaGallery/>}/>
+        <Route path="/sainik-school-gallery" element={<SainikGallery/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
       </Routes>
       <Footer />
