@@ -1,3 +1,4 @@
+import NdaAch from '../assets/Nda achievers.jpg';
 import i1 from '../assets/img1.jpg';
 import i2 from '../assets/img2.jpg';
 import i3 from '../assets/img3.jpg';
@@ -22,6 +23,7 @@ function NdaGallery() {
                 <div style={{ textAlign: "center" }} className="container pt-2">
                     <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold" }} className="text text-danger">NDA Selection</h1>
                     <hr />
+                    <img className="mt-2" width="100%" height="auto" src={NdaAch} alt="" />
                     <div className="row pt-4">
                         {/* row-1 */}
                         <div className="col-md-3 mt-4">

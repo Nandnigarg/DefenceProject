@@ -8,6 +8,7 @@ function Hostel() {
         <div style={{ backgroundColor: "rgb(180, 225, 151)" }} className="container-fluid mt-5">
             <div style={{ textAlign: "center" }} className="container pt-5 pb-4">
                 <h1 style={{ fontSize: "3rem", textAlign: "center" }} className="text text-danger">HOSTEL FACILITY</h1>
+                <hr/>
                 <div className="row mt-3 pb-4">
                     <div style={{ textAlign: "left"}} className="col-md-6">
                         <h3 style={{ fontSize: "2rem", fontWeight: "bold" }} className="text text-success">RESIDENTIAL LIFE</h3>

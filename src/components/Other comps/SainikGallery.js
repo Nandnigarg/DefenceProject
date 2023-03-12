@@ -1,3 +1,4 @@
+import SainikAch from '../assets/Sainik Achievers.jpg';
 import S1 from '../assets/Sainik-1.jpg';
 import S2 from '../assets/Sainik-2.jpg';
 import S3 from '../assets/Sainik-3.jpg';
@@ -46,6 +47,7 @@ function SainikGallery() {
                 <div style={{ textAlign: "center" }} className="container pt-2">
                     <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold" }} className="text text-danger">Sainik School Selection</h1>
                     <hr />
+                    <img className="mt-2" width="100%" height="auto" src={SainikAch} alt="" />
                     <div className="row mt-2">
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S1} alt="" height="auto" width="100%" />
