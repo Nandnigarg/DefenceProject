@@ -49,7 +49,7 @@ function Afpi() {
                 </ul>
                 <br />
 
-                <table class="table table-striped table-hover" style={{textAlign: "center"}}>
+                <table class="table table-striped table-hover" style={{textAlign: "center", width: "90%"}}>
                     <thead className="table-secondary">
                         <tr>
                             <th style={{ border: "2px solid black" }}>Name of Tests</th>

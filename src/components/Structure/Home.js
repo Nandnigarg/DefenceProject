@@ -22,7 +22,6 @@ function Home() {
 
     return (
         <div>
-            <Background text="India's Best NDA Coaching Academy" t2="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
@@ -135,19 +134,29 @@ function Home() {
                     <p style={{ fontSize: "20px", textAlign: "justify" }}>DCG Defence Academy is the top-ranked institute in the list of top 10 nda coaching institutes in India. The academy provides the best nda coaching in India for students who want to combine their NDA coaching with school. It offers NDA schooling, defence school, NDA foundation courses after 10th, NDA preparation after 10th, NDA 12th, and NDA ki Taiyari.</p>
                     <p style={{ fontSize: "20px", textAlign: "justify" }}>The core objective of the course is to expand the reach of DCG Defence Academy's expertise in NDA training to students from various parts of the country. It aims to benefit the students by providing them with adequate exposure to specialized coaching, physical training, and SSB classes.</p>
                     <p style={{ fontSize: "20px", textAlign: "justify" }}>The integrated program helps students imbibe fundamental concepts of Physics, Chemistry, Mathematics, GK, English, and sharpens their analytical skills and parallel thinking process, making them capable of creatively resolving complex and tricky problems by mere application of basic concepts. It prepares them for a quantum jump in their performance in NDA Preparation after 12th, and enables them to excel not only in NDA but also in X and XII Board Exams.</p>
-                    <div className="row mt-5 mb-5">
-                        <div className="col-md-6 mb-5">
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/jrvnbWZ1rTE" title="India's No.1 Defence Academy - DCG Defence Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/jrvnbWZ1rTE" title="India's No.1 Defence Academy - DCG Defence Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/XLidH9HHNmo" title="Sure Shot Success Formula for SSB | Success Mantra for SSB - by Col. Puneet Sehgal (Retd.)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/l_BiGgcGeiQ" title="How to Crack NDA Exam in First Attempt! | Mr. Vatsom  - DCG Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/20MESXeYVik" title="Best Coaching Academy for NDA Exam Preparation | Shining Star of DCG Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
-                        <div className="col-md-6 mb-5">
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/l_BiGgcGeiQ" title="How to Crack NDA Exam in First Attempt! | Mr. Vatsom  - DCG Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div className="col-md-6 mb-5">
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/20MESXeYVik" title="Best Coaching Academy for NDA Exam Preparation | Shining Star of DCG Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div className="col-md-6 mb-5">
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/XLidH9HHNmo" title="Sure Shot Success Formula for SSB | Success Mantra for SSB - by Col. Puneet Sehgal (Retd.)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -185,6 +194,7 @@ function Home() {
                 </div>
             </div>
             <Officer />
+            <Background text="India's Best NDA Coaching Academy" t2="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
         </div>
     )
 }

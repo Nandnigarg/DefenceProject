@@ -20,7 +20,7 @@ function Army() {
                 <br />
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "2rem", fontWeight: "bold" }}>Common Entrance Test </h3>
                 <p style={{ fontSize: "18px" }}>Under the guidance of the Army Welfare Education Society (AWES) in New Delhi, a Common Entrance Test will be held for admission to classes V to IX in five English Medium Residential Army Public Schools. These schools are affiliated with the Central Board of Secondary Education (CBSE) and are located in Daghsai, Noida (Girls Only), Dhaula Kuan (Boys Only), Beas, and Gen BC Joshi APS in Pithoragarh. The entrance exam will be conducted for the academic session of 2023-24. Further information regarding the exam can be found below.</p>
-                <table className="table table-striped table-hover" style={{ textAlign: "center", paddingLeft: "0", paddingRight: "0" }}>
+                <table className="table table-striped table-hover" style={{ textAlign: "center", paddingLeft: "0", paddingRight: "0", width: "90%" }}>
                     <tbody>
                         <tr>
                             <td style={{ border: "2px solid black" }}>Online Registration</td>
@@ -81,7 +81,7 @@ function Army() {
                     <li>On-line portal for registration to appear in the Common Entrance Test (CET) for admission to
                         classes V to IX in 05x Residential Army Public Schools as listed below is open up to 31 Dec 2022.
                         <br /><br />
-                        <table class="table table-striped table-hover" style={{ textAlign: "center" }}>
+                        <table class="table table-striped table-hover" style={{ textAlign: "center", width: "90%" }}>
                             <thead className="table-secondary">
                                 <tr>
                                     <th style={{ border: "2px solid black" }}>Ser No</th>
@@ -131,7 +131,7 @@ function Army() {
                     <li><span style={{ fontWeight: "bold", textDecoration: "underline" }}> Age Limit: -</span> As per AWES Rules and Regulations, the candidate should have completed the
                         years of age, mentioned against each class, as on 31 March 2023:-
                         <br /><br />
-                        <table class="table table-striped table-hover" style={{ textAlign: "center" }}>
+                        <table class="table table-striped table-hover" style={{ textAlign: "center", width: "90%" }}>
                             <thead className="table-secondary">
                                 <tr>
                                     <th style={{ border: "2px solid black" }}>Class</th>

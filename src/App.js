@@ -25,6 +25,8 @@ import SainikGallery from "./components/Other comps/SainikGallery";
 import Enquiry from "./components/Structure/Enquiry";
 import Physical from "./components/Structure/Physical";
 import Icons from "./components/Other comps/Icons";
+import Ssb from "./components/Structure/Ssb";
+import SsbFaq from "./components/Structure/SsbFaq";
 
 function App() {
   return (
@@ -38,11 +40,13 @@ function App() {
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
         <Route path="/nda-faq" element={<NDAFaq/>}/>
+        <Route path="/ssb-faq" element={<SsbFaq/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
         <Route path="/nda-after-9th" element={<Nda9/>}/>
         <Route path="/nda-after-10th" element={<Nda10/>}/>
         <Route path="/nda-after-11th" element={<Nda11/>}/>
+        <Route path="/ssb-training" element={<Ssb/>}/>
         <Route path="/afpi" element={<Afpi/>}/>
         <Route path="/gurukul" element={<Gurukul/>}/>
         <Route path="/army-public-school" element={<Army/>}/>
