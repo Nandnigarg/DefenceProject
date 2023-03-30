@@ -2,7 +2,6 @@ import Header from "./components/Structure/Header";
 import Navbar from "./components/Structure/Navbar";
 import Home from "./components/Structure/Home";
 import {Routes, Route} from 'react-router-dom';
-import NDAFaq from "./components/Structure/NDAFaq";
 import Schooling from "./components/Structure/Schooling";
 import Registration from "./components/Structure/Registration";
 import Gallery from "./components/Structure/Gallery";
@@ -26,7 +25,9 @@ import Enquiry from "./components/Structure/Enquiry";
 import Physical from "./components/Structure/Physical";
 import Icons from "./components/Other comps/Icons";
 import Ssb from "./components/Structure/Ssb";
-import SsbFaq from "./components/Structure/SsbFaq";
+import NDAFaq from "./components/FAQS/NDAFaq";
+import SsbFaq from "./components/FAQS/SsbFaq";
+import Foundation from "./components/Other comps/Foundation";
 
 function App() {
   return (
@@ -39,13 +40,14 @@ function App() {
         <Route path="/eligibility" element={<Eligibility/>}/>
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
-        <Route path="/nda-faq" element={<NDAFaq/>}/>
+        <Route path="/nda-recruitment" element={<NDAFaq/>}/>
         <Route path="/ssb-faq" element={<SsbFaq/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
         <Route path="/nda-after-9th" element={<Nda9/>}/>
         <Route path="/nda-after-10th" element={<Nda10/>}/>
         <Route path="/nda-after-11th" element={<Nda11/>}/>
+        <Route path="/nda-foundation" element={<Foundation/>}/>
         <Route path="/ssb-training" element={<Ssb/>}/>
         <Route path="/afpi" element={<Afpi/>}/>
         <Route path="/gurukul" element={<Gurukul/>}/>

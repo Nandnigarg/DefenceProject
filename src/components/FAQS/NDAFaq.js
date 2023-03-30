@@ -1,6 +1,9 @@
+import NdaNavbar from "./NdaNavbar";
+
 function Faq() {
     return (
         <div class="container-fluid mt-2 mb-5">
+            <NdaNavbar/>
             <div className="container pt-2 pb-5">
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA</h1>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger mt-2 mb-4">NATIONAL DEFENCE ACADEMY</h1>
@@ -56,6 +59,7 @@ function Faq() {
                     <p style={{ fontSize: "18px" }}>The NDA exam is divided into two stages, the written exam and SSB Interview. The written exam comprises of two papers, and a total of 900 marks are allotted to it. The SSB Interview is conducted for 900 marks as well. The NDA syllabus is designed to test the candidate's knowledge of the topics studied in Class 10, 11, and 12. The Mathematics section comprises topics like Algebra, Matrices, and Determinants, Trigonometry, Integral Calculus, and Differential Equation, Vector Algebra, etc. The GAT section comprises topics from General Knowledge and English. Aspirants must prepare well and revise their Class 10, 11, and 12 syllabus thoroughly to score well in the exam.</p>
                 </div>
                 <div id="ndaFaq">
+                    <h5 style={{fontWeight: "bold"}}>NDA FAQs</h5>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item mb-3">
                             <h2 class="accordion-header" id="headingOne">

@@ -67,9 +67,9 @@ function Navbar() {
                             </Link>
                             <Link class="nav-link">
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
-                                    <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">FAQ</button>
+                                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">FAQ</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <Link exact to="/nda-faq" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>NDA FAQ</li></Link>
+                                        <Link exact to="/nda-recruitment" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>NDA FAQ</li></Link>
                                         <Link exact to="/sainik-school-faq" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Sainik School FAQ</li></Link>
                                         <Link exact to="/ssb-faq" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>SSB FAQ</li></Link>
                                     </ul>
