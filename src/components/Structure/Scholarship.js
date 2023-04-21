@@ -21,6 +21,7 @@ function Scholarship() {
     const [otp, setotp] = useState('');
     const [show, setshow] = useState(false);
     const [final, setfinal] = useState(null);
+    const [verify, setverify] = useState(false);
 
     const sendOTP = (e) => {
         e.preventDefault();
@@ -48,6 +49,7 @@ function Scholarship() {
         }
         final.confirm(otp).then((result) => {
             window.alert("Verification Successful!!")
+            setverify(true);
         }).catch((err) => {
             window.alert("Wrong code!!");
         })
@@ -58,16 +60,24 @@ function Scholarship() {
     const sendEmail = (e) => {
         e.preventDefault();
         var name = document.querySelector('#name').value;
-        var num = document.querySelector('#number').value;
+        var mobile = document.querySelector('#mobile').value;
         var mail = document.querySelector('#mail').value;
-        var msg = document.querySelector('#message').value;
+        var dob = document.querySelector('#dob').value;
+        var Class = document.querySelector('#Class').value;
+        var mode = document.querySelector('#mode').value;
+        var state = document.querySelector('#state').value;
+        var center = document.querySelector('#center').value;
 
-        if (name === '' || num === '' || mail === '' || msg === '') {
+        if (name === '' || mobile === '' || mail === '' || dob === '' || Class === 'Select Present Class *' || mode === 'Select Class Mode *' || state === 'Select State *' || center === 'Select Stude Center *') {
             window.alert('Please enter all the details carefully!')
         }
 
         else {
-            emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
+            if(verify !== true){
+                window.alert('Please verify your mobile number!!')
+            }
+            else{
+                emailjs.sendForm('service_pa5g7tp', 'template_g7oeolf', form.current, 'SMWY2N68zRuPkdjMx')
                 .then((result) => {
                     var element = document.getElementById("feed_form");
                     element.reset();
@@ -77,6 +87,7 @@ function Scholarship() {
                     element.reset();
                     console.log(error.text);
                 });
+            }
         }
     };
 
@@ -92,10 +103,10 @@ function Scholarship() {
                     <div style={{ textAlign: "center" }}>
                         <form ref={form} onSubmit={sendEmail} id="feed_form">
                             <div class="mb-3 mt-3">
-                                <input type="text" class="form-control" id="name" placeholder="Student Name *" />
+                                <input type="text" class="form-control" id="name" placeholder="Student Name *" name="name"/>
                             </div>
                             <div class="input-group mb-3">
-                                <input type="text" maxLength="10" class="form-control" id="mobile" placeholder="Mobile Number *" />
+                                <input type="text" maxLength="10" class="form-control" id="mobile" placeholder="Mobile Number *" name="mobile"/>
                                 <div id="recaptcha-container"></div>
                                 <button class="btn btn-primary" type="button" onClick={sendOTP}>Send OTP</button>
                             </div>
@@ -104,11 +115,11 @@ function Scholarship() {
                                 <button style={{ display: show ? "block" : "none" }} class="btn btn-success" onClick={ValidateOtp}>Verify</button>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="mail" placeholder="Email Id *" />
+                                <input type="email" class="form-control" id="mail" placeholder="Email Id *" name="mail"/>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected disabled hidden>Select Present Class *</option>
+                                <select class="form-select" aria-label="Default select example" id="Class" name="Class">
+                                    <option selected hidden>Select Present Class *</option>
                                     {/* <option value="3rd">3rd appearing</option>
                                     <option value="4th">4th appearing</option>
                                     <option value="5th">5th appearing</option>
@@ -123,18 +134,18 @@ function Scholarship() {
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected disabled hidden>Select Class Mode *</option>
+                                <select class="form-select" aria-label="Default select example" id="mode" name="mode">
+                                    <option selected hidden>Select Class Mode *</option>
                                     <option value="Online">Online</option>
                                     <option value="Offline">Offline</option>
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <input type="date" class="form-control" id="dob" placeholder="Date of Birth *" />
+                                <input type="date" class="form-control" id="dob" placeholder="Date of Birth *" name="dob"/>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected disabled hidden>Select State *</option>
+                                <select class="form-select" aria-label="Default select example" id="state" name="state">
+                                    <option selected hidden>Select State *</option>
                                     <option value="Andaman and Nicobar Island">Andaman and Nicobar Islands</option>
                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -175,9 +186,9 @@ function Scholarship() {
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected disabled hidden>Select Stude Center *</option>
-                                    <option value="CHD">Chandigarh</option>
+                                <select class="form-select" aria-label="Default select example" id="center" name="center">
+                                    <option selected hidden>Select Stude Center *</option>
+                                    <option value="CHANDIGARH">Chandigarh</option>
                                     <option value="DELHI">Delhi</option>
                                     <option value="ONLINE">Online Classes</option>
                                 </select>

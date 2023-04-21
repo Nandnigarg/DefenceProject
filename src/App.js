@@ -28,6 +28,10 @@ import Ssb from "./components/Structure/Ssb";
 import NDAFaq from "./components/FAQS/NDAFaq";
 import SsbFaq from "./components/FAQS/SsbFaq";
 import Foundation from "./components/Other comps/Foundation";
+import NdaAdmit from "./components/FAQS/NdaAdmit";
+import NdaApplication from "./components/FAQS/NdaApp";
+import NdaDates from "./components/FAQS/NdaDates";
+import NdaCutoff from "./components/FAQS/NdaCutoff";
 
 function App() {
   return (
@@ -41,6 +45,10 @@ function App() {
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
         <Route path="/nda-recruitment" element={<NDAFaq/>}/>
+        <Route path="/nda-admit-card" element={<NdaAdmit/>}/>
+        <Route path="/nda-application" element={<NdaApplication/>}/>
+        <Route path="/nda-dates" element={<NdaDates/>}/>
+        <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
         <Route path="/ssb-faq" element={<SsbFaq/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>

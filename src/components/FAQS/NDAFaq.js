@@ -3,7 +3,7 @@ import NdaNavbar from "./NdaNavbar";
 function Faq() {
     return (
         <div class="container-fluid mt-2 mb-5">
-            <NdaNavbar/>
+            <NdaNavbar text="NDA Recruitment 2023: Check Vacancies, Eligibility, Selection Process & Result"/>
             <div className="container pt-2 pb-5">
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA</h1>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger mt-2 mb-4">NATIONAL DEFENCE ACADEMY</h1>

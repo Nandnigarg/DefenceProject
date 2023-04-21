@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import Chatbot from './Chatbot';
 
-function NdaNavbar() {
+function NdaNavbar(props) {
     return (
         <div className="container-fluid">
             <div style={{ border: "1px solid gray", boxShadow: "0px 1px 2px gray" }} className="container p-4">
                 <div className="row mb-4">
                     <div className="col-md-8">
-                        <h3>NDA Recruitment 2023: Check Vacancies, Eligibility, Selection Process & Result</h3>
+                        <h3>{props.text}</h3>
                     </div>
                     <div className="col-md-4">
                         <button style={{ border: "1px solid blue" }} className="btn btn-light text text-primary mt-3 me-3">Get Question Papers</button>

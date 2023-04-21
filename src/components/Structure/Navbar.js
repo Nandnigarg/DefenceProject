@@ -77,7 +77,7 @@ function Navbar() {
                             </Link>
                             <Link class="nav-link">
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
-                                    <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">School Integrated Programme</button>
+                                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">School Integrated Programme</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link exact to="/school-integrated-programme" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Programme Details</li></Link>
                                         <Link exact to="/physical-ssb-training" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Physical & SSB Training</li></Link>
@@ -87,7 +87,7 @@ function Navbar() {
                             </Link>
                             <Link class="nav-link">
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
-                                    <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Application Forms</button>
+                                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Application Forms</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link exact to="/enquiry-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Enquiry Form</li></Link>
                                         <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{fontWeight: "bold"}}>Admission Form</li></Link>
