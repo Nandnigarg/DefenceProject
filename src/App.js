@@ -26,6 +26,12 @@ import Physical from "./components/Structure/Physical";
 import Icons from "./components/Other comps/Icons";
 import Ssb from "./components/Structure/Ssb";
 import Foundation from "./components/Other comps/Foundation";
+import NDAFaq from "./components/FAQS/NDAFaq";
+import NdaAdmit from "./components/FAQS/NdaAdmit";
+import NdaApp from "./components/FAQS/NdaApp";
+import NdaCutoff from "./components/FAQS/NdaCutoff";
+import NdaDates from "./components/FAQS/NdaDates";
+import SsbFaq from "./components/FAQS/SsbFaq";
 
 function App() {
   return (
@@ -57,6 +63,12 @@ function App() {
         <Route path="/nda-gallery" element={<NdaGallery/>}/>
         <Route path="/sainik-school-gallery" element={<SainikGallery/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
+        <Route path="/nda-recruitment" element={<NDAFaq/>}/>
+        <Route path="/nda-admit-card" element={<NdaAdmit/>}/>
+        <Route path="/nda-application" element={<NdaApp/>}/>
+        <Route path="/nda-dates" element={<NdaDates/>}/>
+        <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
+        <Route path="/ssb-faq" element={<SsbFaq.js/>}/>
       </Routes>
       <Footer />
     </div>
