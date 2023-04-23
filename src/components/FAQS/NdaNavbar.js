@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Chatbot from './Chatbot';
 
 function NdaNavbar(props) {
     return (
@@ -89,6 +90,7 @@ function NdaNavbar(props) {
                     </div>
                 </nav>
             </div>
+            <Chatbot />
         </div>
     )
 }
