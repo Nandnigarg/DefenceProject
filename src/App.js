@@ -38,7 +38,6 @@ function App() {
         <Route path="/eligibility" element={<Eligibility/>}/>
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
-        <Route path="/ssb-faq" element={<SsbFaq/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
         <Route path="/nda-after-9th" element={<Nda9/>}/>
