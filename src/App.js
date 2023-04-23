@@ -25,19 +25,11 @@ import Enquiry from "./components/Structure/Enquiry";
 import Physical from "./components/Structure/Physical";
 import Icons from "./components/Other comps/Icons";
 import Ssb from "./components/Structure/Ssb";
-import NDAFaq from "./components/FAQS/NDAFaq";
-import SsbFaq from "./components/FAQS/SsbFaq";
 import Foundation from "./components/Other comps/Foundation";
-import NdaAdmit from "./components/FAQS/NdaAdmit";
-import NdaApplication from "./components/FAQS/NdaApp";
-import NdaDates from "./components/FAQS/NdaDates";
-import NdaCutoff from "./components/FAQS/NdaCutoff";
-import IpTracker from "./IpTracker";
 
 function App() {
   return (
     <div className="App container-fluid" style={{paddingLeft: "0", paddingRight: "0"}}>
-      <IpTracker />
       <Header />
       <Icons />
       <Navbar />
@@ -46,11 +38,6 @@ function App() {
         <Route path="/eligibility" element={<Eligibility/>}/>
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
-        <Route path="/nda-recruitment" element={<NDAFaq/>}/>
-        <Route path="/nda-admit-card" element={<NdaAdmit/>}/>
-        <Route path="/nda-application" element={<NdaApplication/>}/>
-        <Route path="/nda-dates" element={<NdaDates/>}/>
-        <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
         <Route path="/ssb-faq" element={<SsbFaq/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
