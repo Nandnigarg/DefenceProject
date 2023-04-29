@@ -13,9 +13,8 @@ function IpTracker() {
         fetch(form.action, {
             method: "POST",
             body: new FormData(document.getElementById("sheetdb-form")),
-        }).then(
-            response => response.json()
-        ).then((html) => {
+        }).then((html) => {
+            console.log("ip sent successfully");
         });
     };
 
@@ -23,7 +22,8 @@ function IpTracker() {
 
     return (
         <form action="https://sheetdb.io/api/v1/vhc35dylluas0" method="post" id="sheetdb-form">
-            <input name="data[ip]" value={ip} hidden></input>
+            <input name="data[ip]" value={ip} hidden/>
+            <div>{console.log[ip]}</div>
         </form>
     )
 }
