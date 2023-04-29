@@ -32,10 +32,12 @@ import NdaApp from "./components/FAQS/NdaApp";
 import NdaCutoff from "./components/FAQS/NdaCutoff";
 import NdaDates from "./components/FAQS/NdaDates";
 import SsbFaq from "./components/FAQS/SsbFaq";
+import IpTracker from "./IpTracker";
 
 function App() {
   return (
     <div className="App container-fluid" style={{paddingLeft: "0", paddingRight: "0"}}>
+      <IpTracker />
       <Header />
       <Icons />
       <Navbar />
