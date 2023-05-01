@@ -12,7 +12,7 @@ function Footer() {
 
                 <div>
                     <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>Chandigarh Branch: </h6>
-                    <address style={{ fontSize: "17px", color: "white" }}>SCO: 215-216-217,(Near ICICI Bank), Opposite Petrol Pump Sector - 34 A Chandigarh. Pincode: 160022</address>
+                    <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Defence unit of Delhi Career Group,Near old sale tax barrier,On National Highway 64, Banur, Punjab.</address>
                 </div>
                 <div>
                     <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>Delhi Branch: </h6>

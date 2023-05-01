@@ -32,7 +32,7 @@ function Background(props) {
     };
 
     return (
-        <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
+        <div className='top-mobile' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
             <div className="container p-5">
                 <div className="row">
                     <div style={{ color: "white" }} className="col-md-6">
