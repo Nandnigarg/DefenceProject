@@ -44,7 +44,7 @@ function Background(props) {
                     </div>
                     <div style={{ textAlign: "center" }} className="col-md-6">
                         <form class="bg bg-warning p-4" ref={form} onSubmit={sendEmail} id="feed_form">
-                            <h2 className="text text-success">Get "{props.text} Coaching"</h2>
+                            <h2 className="text text-success">Get "{props.text}"</h2>
                             <p>AFPI EXPERT: Get all your queries answered</p>
                             <div class="form-floating mb-2">
                                 <input type="text" class="form-control" id="name" placeholder="text" name="name" />

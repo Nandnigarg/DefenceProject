@@ -37,7 +37,36 @@ function Home() {
                     <div className="row mt-5">
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB coaching after 8th Class</h4>
+                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA with Schooling Program after 11th Class</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 11th Passed Students</p>
+                                <Link exact to="/nda-after-11th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button></Link>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid green", ...divStyle }} className="div">
+                                <h4 style={{ color: "green" }}>NDA with Schooling Program after 10th Class</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>11th & 12th <br />
+                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 10th Passed Students</p>
+                                <Link exact to="/nda-after-10th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "green" }}>Know More -&gt;</button></Link>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
+                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA with Schooling Program after 9th Class</h4>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>10th,11th & 12th <br />
+                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 9th Passed Students</p>
+                                <Link exact to="/nda-after-9th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button></Link>
+                            </div>
+                        </div>
+                        <div className="col-md-4 mb-5">
+                            <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
+                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA with Schooling Program after 8th Class</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>9th,10th,11th & 12th <br />
                                     CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
@@ -47,37 +76,8 @@ function Home() {
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA + SSB coaching after 9th Class</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>10th,11th & 12th <br />
-                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 9th Passed Students</p>
-                                <Link exact to="/nda-after-9th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button></Link>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-5">
-                            <div style={{ border: "3px solid green", ...divStyle }} className="div">
-                                <h4 style={{ color: "green" }}>NDA + SSB coaching after 10th Class</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>11th & 12th <br />
-                                    CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 10th Passed Students</p>
-                                <Link exact to="/nda-after-10th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "green" }}>Know More -&gt;</button></Link>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-5">
-                            <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
-                                <h4 style={{ color: "rgb(242,113,0)" }}>NDA + SSB coaching after 11th Class</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>CBSE Residential School + NDA (Written & SSB) - INTEGRATED PROGRAMME</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Integrated Residential Programme</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 11th Passed Students</p>
-                                <Link exact to="/nda-after-11th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button></Link>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-5">
-                            <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA coaching classes</h4>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}><b style={{ fontSize: "25px" }}>NDA Target Batch</b> <br /> Written + Physical + SSB & Interview</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}><b style={{ fontSize: "20px" }}>NDA Crash / Target / Foundation batches</b> <br /> Written + Physical + SSB & Interview</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Appearing & Passout Students</p>
                                 <button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button>
                             </div>
