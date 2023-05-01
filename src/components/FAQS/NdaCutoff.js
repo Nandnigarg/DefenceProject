@@ -224,10 +224,6 @@ function NdaCutoff() {
                     <h5 style={{ fontWeight: "bold" }}>NDA Result 2023</h5>
                     <p style={{ fontSize: "18px" }}>The NDA result 2023 is announced online in PDF form separately for the written exam and SSB interview/final selection. The roll numbers of the qualified candidates are displayed in the NDA result PDF. After qualifying the written exam, candidates are called for the SSB interview, and the final selection is based on the written exam and SSB interview.</p>
                 </div>
-                <div id="">
-                    <h5 style={{ fontWeight: "bold" }}></h5>
-                    <p style={{ fontSize: "18px" }}></p>
-                </div>
             </div>
         </div>
     )

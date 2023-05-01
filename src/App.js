@@ -33,6 +33,7 @@ import NdaCutoff from "./components/FAQS/NdaCutoff";
 import NdaDates from "./components/FAQS/NdaDates";
 import SsbFaq from "./components/FAQS/SsbFaq";
 import IpTracker from "./IpTracker";
+import NdaNoti from "./components/FAQS/NdaNoti";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
         <Route path="/nda-admit-card" element={<NdaAdmit/>}/>
         <Route path="/nda-application" element={<NdaApp/>}/>
         <Route path="/nda-dates" element={<NdaDates/>}/>
+        <Route path="/nda-notification" element={<NdaNoti/>}/>
         <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
         <Route path="/ssb-faq" element={<SsbFaq.js/>}/>
       </Routes>
