@@ -43,8 +43,8 @@ function Header() {
                     </div>
                     <div>
                         <h6 style={{ color: "rgb(21, 52, 98)", fontSize: "1.2rem", fontWeight: "bold", lineHeight: "0.3" }}>Helpline & Support (8am to 10pm)<br /></h6>
-                            <p><a href="tel:08968024595" className="text-decoration-none"><i class="fa-solid fa-phone"></i><span>8968024595 &nbsp;&nbsp;&nbsp;</span></a>
-                            <a href="https://wa.me/+918968024595" target="_blank" className="text-decoration-none"><i class="fa-brands fa-whatsapp"></i><span>8968024595</span></a></p>
+                            <p><a href="tel:08427414076" className="text-decoration-none"><i class="fa-solid fa-phone"></i><span>8427414076 &nbsp;&nbsp;&nbsp;</span></a>
+                            <a href="https://wa.me/+918146258794" target="_blank" className="text-decoration-none"><i class="fa-brands fa-whatsapp"></i><span>8146258794</span></a></p>
                     </div>
                 </div>
             </div>
