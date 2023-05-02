@@ -6,7 +6,7 @@ function Navbar() {
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <div class="heading">
-                        <h5 class="text text-danger text-lg" style={{fontWeight: "bold", fontSize: "1.3rem"}}>India's #1 Defence Academy</h5>
+                        <h5 class="text text-danger text-lg" style={{fontWeight: "bold", fontSize: "2.5rem"}}>India's #1<br /> Defence Academy</h5>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>

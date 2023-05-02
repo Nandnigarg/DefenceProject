@@ -23,7 +23,7 @@ function Header() {
         <div className="container-fluid" style={headerStyle}>
             <div className="row">
                 <div className="col-md-6">
-                    <img width="100%" height="auto" style={{ maxHeight: "300px", maxWidth: "300px" }} src={dcgLogo} alt="" />
+                    <img width="100%" height="auto" style={{ maxHeight: "80px", maxWidth: "80px" }} src={dcgLogo} alt="" /><span className="text text-success" style={{fontSize: "2rem", fontWeight: "bold"}}>DELHI CAREER GROUP</span>
                     <p style={{ fontWeight: "bold" }} className="text text-danger">EMPOWERING YOUNG MINDS</p>
                     <h5 style={{color: "rgb(111,105,172)"}}>ARMED FORCE PREPARATORY INSTITUTE (AFPI)</h5>
                 </div>
@@ -43,8 +43,8 @@ function Header() {
                     </div>
                     <div>
                         <h6 style={{ color: "rgb(21, 52, 98)", fontSize: "1.2rem", fontWeight: "bold", lineHeight: "0.5" }}>Helpline & Support (8am to 10pm)<br /></h6>
-                            <p style={{fontSize: "1.2rem"}}><a href="tel:08427414076" className="text-decoration-none"><i class="fa-solid fa-phone"></i><span>8427414076 &nbsp;&nbsp;&nbsp;</span></a>
-                            <a href="https://wa.me/+918146258794" target="_blank" className="text-decoration-none"><i class="fa-brands fa-whatsapp"></i><span>8146258794</span></a></p>
+                            <button className="btn btn-dark me-4 mt-2" style={{fontSize: "1.2rem"}}><a href="tel:08427414076" className="text-decoration-none text text-light"><i class="fa-solid fa-phone"></i><span>8427414076</span></a></button>
+                            <button className="btn btn-dark me-4 mt-2" style={{fontSize: "1.2rem"}}><a href="https://wa.me/+918146258794" target="_blank" className="text-decoration-none text text-light"><i class="fa-brands fa-whatsapp"></i><span>8146258794</span></a></button>
                     </div>
                 </div>
             </div>
