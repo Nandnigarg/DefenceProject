@@ -36,7 +36,7 @@ function NdaNavbar(props) {
                                 <Link exact to="/nda-results" class="nav-link">
                                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Results</li>
                                 </Link>
-                                <Link exact to="/analysis" class="nav-link">
+                                <Link exact to="/nda-analysis" class="nav-link">
                                     <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Analysis</li>
                                 </Link>
                                 <Link exact to="/nda-ques-paper" class="nav-link">

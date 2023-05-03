@@ -187,10 +187,6 @@ function NdaResult() {
                         </tbody>
                     </table>
                 </div>
-                <div id="">
-                    <h5 style={{ fontWeight: "bold" }}></h5>
-                    <p style={{ fontSize: "18px" }}></p>
-                </div>
             </div>
         </div>
     )
