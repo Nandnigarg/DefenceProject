@@ -76,7 +76,7 @@ function App() {
         <Route path="/nda-results" element={<NdaResult/>}/>
         <Route path="/nda-analysis" element={<NdaAnalysis/>}/>
         <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
-        <Route path="/ssb-faq" element={<SsbFaq.js/>}/>
+        <Route path="/ssb-faq" element={<SsbFaq/>}/>
       </Routes>
       <Footer />
     </div>
