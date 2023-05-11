@@ -52,7 +52,7 @@ function Background(props) {
                             </div>
                             <div class="form-floating mb-2">
                                 <input type="number" class="form-control" id="number" placeholder="number" name="number" />
-                                <label for="number">Enter Mobile/WhatsApp Number</label>
+                                <label for="number">Enter Mobile No</label>
                             </div>
                             <div class="form-floating mb-2">
                                 <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />

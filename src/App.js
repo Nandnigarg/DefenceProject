@@ -36,6 +36,7 @@ import IpTracker from "./IpTracker";
 import NdaNoti from "./components/FAQS/NdaNoti";
 import NdaResult from "./components/FAQS/NdaResult";
 import NdaAnalysis from "./components/FAQS/NdaAnalysis";
+import NdaSchooling from "./components/Other comps/NdaSchooling";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/enquiry-form" element={<Enquiry/>}/>
         <Route path="/scholarship-form" element={<Scholarship/>}/>
+        <Route path="/nda-schooling" element={<NdaSchooling/>}/>
         <Route path="/nda-after-8th" element={<Nda8/>}/>
         <Route path="/nda-after-9th" element={<Nda9/>}/>
         <Route path="/nda-after-10th" element={<Nda10/>}/>

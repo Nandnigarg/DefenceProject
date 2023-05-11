@@ -20,15 +20,7 @@ function Navbar() {
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
                                     <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA with Schooling Program</Link>
-                                            <ul class="dropdown-menu shadow">
-                                                <Link exact to="/nda-after-8th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 8th</li></Link>
-                                                <Link exact to="/nda-after-9th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 9th</li></Link>
-                                                <Link exact to="/nda-after-10th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 10th</li></Link>
-                                                <Link exact to="/nda-after-11th" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA After 11th</li></Link>
-                                            </ul>
-                                        </li>
+                                        <Link exact to="/nda-schooling" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA with Schooling Program</li></Link>
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA Coaching</Link>
                                             <ul class="dropdown-menu shadow">
@@ -78,7 +70,7 @@ function Navbar() {
                                 <li class="nav-item dropdown dropdown-mega text-decoration-none">
                                     <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">School Integrated Programme</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <Link exact to="/" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA with Schooling Program</li></Link>
+                                        <Link exact to="/nda-schooling" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA with Schooling Program</li></Link>
                                         <Link exact to="/school-integrated-programme" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Programme Details</li></Link>
                                         <Link exact to="/physical-ssb-training" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Physical & SSB Training</li></Link>
                                         <Link exact to="/hostel-facility" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Hostel Facilites</li></Link>

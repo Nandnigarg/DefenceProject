@@ -15,12 +15,12 @@ function Header() {
     }
 
     return (
-        <div className="container-fluid bg bg-success pt-2" style={{textAlign: "center"}}>
+        <div className="container-fluid bg bg-success pt-2" style={{ textAlign: "center" }}>
             <div className="row pb-1">
                 <div className="col-md-6">
-                    <img width="100%" height="auto" style={{ maxHeight: "80px", maxWidth: "80px" }} src={dcgLogo} alt="" /><span style={{fontSize: "2rem", fontWeight: "bold", color: "rgb(255,255,0)"}}>DELHI CAREER GROUP</span>
+                    <img width="100%" height="auto" style={{ maxHeight: "80px", maxWidth: "80px" }} src={dcgLogo} alt="" /><span style={{ fontSize: "2rem", fontWeight: "bold", color: "rgb(255,255,0)" }}>DELHI CAREER GROUP</span>
                     <p style={{ fontWeight: "bold", color: "white" }}>EMPOWERING YOUNG MINDS</p>
-                    <h5 style={{color: "rgb(255,255,0)"}}>ARMED FORCE PREPARATORY INSTITUTE (AFPI)</h5>
+                    <h5 style={{ color: "rgb(255,255,0)" }}>ARMED FORCE PREPARATORY INSTITUTE (AFPI)</h5>
                 </div>
                 <div className="col-md-6">
                     <div>
@@ -38,8 +38,14 @@ function Header() {
                     </div>
                     <div>
                         <h6 style={{ color: "white", fontSize: "1.2rem", fontWeight: "bold", lineHeight: "0.5" }}>Helpline & Support (8am to 10pm)<br /></h6>
-                            <p className="me-4 mt-3" style={{fontSize: "1.7rem"}}><a href="tel:08427414076" className="text-decoration-none me-4 glow" style={{color: "rgb(255,255,0)"}}><i class="fa-solid fa-phone"></i><span>8427414076</span></a>
-                            <a href="https://wa.me/+918146258794" target="_blank" className="text-decoration-none ms-4 glow" style={{color: "rgb(255,255,0)"}}><i class="fa-brands fa-whatsapp"></i><span>8146258794</span></a></p>
+                        <div className='row mb-2' style={{ fontSize: "1.7rem", textAlign: "center" }}>
+                            <div className='col-sm-6 mt-2'>
+                                <a href="tel:08427414076" className="text-decoration-none glow" style={{ color: "rgb(255,255,0)" }}><i class="fa-solid fa-phone"></i><span>8427414076</span></a>
+                            </div>
+                            <div className='col-sm-6 mt-2'>
+                                <a href="https://wa.me/+918146258794" target="_blank" className="text-decoration-none glow" style={{ color: "rgb(255,255,0)" }}><i class="fa-brands fa-whatsapp"></i><span>8146258794</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
