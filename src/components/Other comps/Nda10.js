@@ -1,6 +1,9 @@
+import Background from "./Background.js";
+
 function Nda10() {
     return (
-        <div class="container-fluid mt-5 mb-5">
+        <div class="container-fluid mt-2 mb-5" style={{ paddingLeft: "0", paddingRight: "0" }}>
+            <Background text="NDA Coaching with Schooling after 10th class" t3="Teaching and Training on the Pattern of Military School" src="NDA after 10th Program" />
             <div className="container pt-2 pb-4">
                 <div style={{ textAlign: "center" }}>
                     <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Tips to prepare for Nda Entrance Exam with schooling after 10th class</h1>

@@ -37,6 +37,8 @@ import NdaNoti from "./components/FAQS/NdaNoti";
 import NdaResult from "./components/FAQS/NdaResult";
 import NdaAnalysis from "./components/FAQS/NdaAnalysis";
 import NdaSchooling from "./components/Other comps/NdaSchooling";
+import NdaCoaching from "./components/Other comps/NdaCoaching";
+import NdaOnline from "./components/Other comps/NdaOnline";
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
         <Route path="/nda-after-9th" element={<Nda9/>}/>
         <Route path="/nda-after-10th" element={<Nda10/>}/>
         <Route path="/nda-after-11th" element={<Nda11/>}/>
+        <Route path="/nda-coaching" element={<NdaCoaching/>}/>
+        <Route path="/nda-online" element={<NdaOnline/>}/>
         <Route path="/nda-foundation" element={<Foundation/>}/>
         <Route path="/ssb-training" element={<Ssb/>}/>
         <Route path="/afpi" element={<Afpi/>}/>

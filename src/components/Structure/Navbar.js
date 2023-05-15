@@ -21,14 +21,15 @@ function Navbar() {
                                     <button class="btn btn-success dropdown-toggle" data-bs-auto-close="outside" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link exact to="/nda-schooling" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA with Schooling Program</li></Link>
-                                        <li class="dropend">
-                                            <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA Coaching</Link>
+                                        <Link exact to="/nda-coaching" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA Coaching</li></Link>
+                                        {/* <li class="dropend">
+                                            <Link exact to="/nda-coaching" class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA Coaching</Link>
                                             <ul class="dropdown-menu shadow">
-                                                <Link exact to="/nda-coaching" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Online Coaching</li></Link>
+                                                <Link exact to="/nda-online" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Online Coaching</li></Link>
                                                 <Link exact to="/nda-delhi" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Coaching in Delhi</li></Link>
                                                 <Link exact to="/nda-chandigarh" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Coaching in Chandigarh</li></Link>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA + Graduation</Link>
                                             <ul class="dropdown-menu shadow">
