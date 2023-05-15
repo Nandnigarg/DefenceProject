@@ -3,7 +3,7 @@ function Nda10() {
         <div class="container-fluid mt-5 mb-5">
             <div className="container pt-2 pb-4">
                 <div style={{ textAlign: "center" }}>
-                    <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Tips for Combined Preparation of CBSE School Board and NDA from Class 11</h1>
+                    <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Tips to prepare for Nda Entrance Exam with schooling after 10th class</h1>
                     <hr />
                 </div>
                 <div>
@@ -32,7 +32,7 @@ function Nda10() {
                     <p style={{ fontSize: "18px", textAlign: "justify" }}>The Foundation course offers comprehensive preparation for the NDA Examination, covering subjects like physics, chemistry, mathematics, history, Indian politics, and more. DCG Classes has officers and certified professors for instruction, ensuring you receive adequate preparation for the NDA written exam and SSB interview.</p>
                     <p style={{ fontSize: "18px", textAlign: "justify" }}>NDA Foundation Course = School Course (11th and 12th) + NDA Written + SSB Interview</p>
                     <p style={{ fontSize: "18px", textAlign: "justify" }}>Start your journey towards the Indian Armed Forces by enrolling in the best NDA Foundation Coaching in India at DCG Classes.</p>
-                    <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Program Focus & Objectives:</h3>
+                    <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Program Focus & Objectives  for NDA Preparation with 11th Class by DCG Defence Academy</h3>
                     <p style={{ fontSize: "18px", textAlign: "justify" }}>Achieving excellence in NDA and officer entries in Defence entrance exams requires students to have a solid understanding of the fundamental concepts of Physics, Chemistry, Mathematics, GK, and English, as well as strong analytical and parallel thinking skills. Through rigorous preparation, students can learn to creatively resolve complex and tricky problems by applying basic concepts, which can result in a significant improvement in their NDA preparation after 10th grade. Each student should develop their own strategy for time management to maximize their performance and ensure optimal output. Moreover, by excelling in NDA preparation, students can also improve their performance in XII Board Exams, as both require a similar skill set and level of dedication.</p>
                 </div>
             </div>

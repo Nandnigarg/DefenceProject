@@ -3,7 +3,7 @@ function Nda11() {
         <div class="container-fluid mt-5 mb-5">
             <div className="container pt-2 pb-4" style={{ textAlign: "justify" }}>
                 <div style={{ textAlign: "center" }}>
-                    <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Tips for Combined Preparation of CBSE School Board and NDA from Class 12</h1>
+                    <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Tips to prepare for Nda Entrance Exam with schooling after 11th class</h1>
                     <hr />
                 </div>
                 <div>
@@ -28,7 +28,7 @@ function Nda11() {
                     </ol>
                     <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Join DCG Defence Academy's NDA Foundation Course</h3>
                     <p style={{ fontSize: "18px" }}>DCG Defence Academy's aim is to train students in every possible manner and make them eligible to clear the NDA exam and become officers in the Indian Armed Forces. Joining the foundation course can help students be at a different level and succeed in clearing the NDA examination. So, if you aspire to become a part of the Indian Armed Forces, join DCG Defence Academy's NDA Foundation Course and fulfill your dream.</p>
-                    <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Program Focus & Objectives:</h3>
+                    <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Program Focus & Objectives  for NDA Preparation with 12th Class by DCG Defence Academy</h3>
                     <p style={{ fontSize: "18px" }}>The achievement of success in Defence entrance exams through NDA and officer entries requires students to internalize fundamental concepts of Physics, Chemistry, Mathematics, GK, and English, as well as develop their analytical skills and parallel thinking abilities. Such skills enable students to creatively resolve complex and tricky problems, leading to a significant improvement in their NDA preparation after 11th grade. To ensure maximum output, each student should devise a unique time management strategy that suits their individual needs. This approach not only allows students to excel in NDA but also in XII Board Exams.</p>
                 </div>
             </div>

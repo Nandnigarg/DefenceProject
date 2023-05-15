@@ -24,7 +24,7 @@ function Home() {
     if (isMobile) {
     return (
         <div>
-            <Background text="India's Best NDA Coaching Academy" t2="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
+            <Background text="India's Best NDA Coaching Academy" t3="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
@@ -342,7 +342,7 @@ function Home() {
                 </div>
             </div>
             <Officer />
-            <Background text="India's Best NDA Coaching Academy" t2="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
+            <Background text="India's Best NDA Coaching Academy" t3="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
         </div>
     )
 }

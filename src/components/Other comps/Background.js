@@ -21,6 +21,7 @@ function Background(props) {
             emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
             .then((result) => {
                 var element = document.getElementById("feed_form");
+                window.alert("Form Submitted Successfully!!")
                 element.reset();
                 console.log(result.text);
             }, (error) => {
@@ -35,16 +36,14 @@ function Background(props) {
         <div className='top-mobile' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
             <div className="container p-5">
                 <div className="row">
-                    <div style={{ color: "white" }} className="col-md-6">
+                    <div style={{ color: "white" }} className="col-md-6 pt-4">
                         <h1><span style={{ color: "rgb(255,255,0)" }}>{props.text} </span><br/>{props.t2}</h1>
-                        <br /><br /><br /><br /><br />
-                        <h1><span style={{ color: "rgb(255,255,0)" }}>ONLINE & OFFLINE Coaching</span></h1>
-                        <br />
-                        <h4>+10k Selections in Defence Exams</h4>
+                        <br /><br /><br /><br /><br /><br />
+                        <h1>{props.t3}</h1>
                     </div>
                     <div style={{ textAlign: "center" }} className="col-md-6">
                         <form class="bg bg-warning p-4" ref={form} onSubmit={sendEmail} id="feed_form">
-                            <h2 className="text text-success">Get "{props.text}"</h2>
+                            <h2 className="text text-success">Get more info about "{props.text}"</h2>
                             <p>AFPI EXPERT: Get all your queries answered</p>
                             <div class="form-floating mb-2">
                                 <input type="text" class="form-control" id="name" placeholder="text" name="name" />
