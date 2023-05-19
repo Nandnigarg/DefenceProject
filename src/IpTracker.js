@@ -17,7 +17,7 @@ function IpTracker() {
                 console.log("ip sent successfully");
             });
     };
-    useEffect(() => { getData(); });
+    useEffect(() => { getData(); }, []);
 
     return (
         <div>{console.log[IP]}</div>
