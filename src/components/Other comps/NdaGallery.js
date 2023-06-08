@@ -1,4 +1,12 @@
 import NdaAch from '../assets/Nda achievers.jpg';
+import n1 from '../assets/Nda1.jpg';
+import n2 from '../assets/Nda2.jpg';
+import n3 from '../assets/Nda3.jpg';
+import n4 from '../assets/Nda4.jpg';
+import n5 from '../assets/Nda5.jpg';
+import n6 from '../assets/Nda6.jpg';
+import n7 from '../assets/Nda7.jpg';
+import n8 from '../assets/Nda8.jpg';
 import i1 from '../assets/img1.jpg';
 import i2 from '../assets/img2.jpg';
 import i3 from '../assets/img3.jpg';
@@ -27,6 +35,34 @@ function NdaGallery() {
                     <div className="row pt-4">
                         {/* row-1 */}
                         <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n1} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n2} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n3} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n4} alt="" />
+                        </div>
+
+                        {/* row-2 */}
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n5} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n6} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n7} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="auto" src={n8} alt="" />
+                        </div>
+
+                        {/* row-3 */}
+                        <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i1} alt="" />
                         </div>
                         <div className="col-md-3 mt-4">
@@ -39,7 +75,7 @@ function NdaGallery() {
                             <img width="100%" height="auto" src={i4} alt="" />
                         </div>
 
-                        {/* row-2 */}
+                        {/* row-4 */}
                         <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i5} alt="" />
                         </div>
@@ -53,7 +89,7 @@ function NdaGallery() {
                             <img width="100%" height="auto" src={i8} alt="" />
                         </div>
 
-                        {/* row-3 */}
+                        {/* row-5 */}
                         <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i9} alt="" />
                         </div>
@@ -67,7 +103,7 @@ function NdaGallery() {
                             <img width="100%" height="auto" src={i12} alt="" />
                         </div>
 
-                        {/* row-4 */}
+                        {/* row-6 */}
                         <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i13} alt="" />
                         </div>

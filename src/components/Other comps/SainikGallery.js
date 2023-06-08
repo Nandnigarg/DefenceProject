@@ -39,6 +39,38 @@ import S37 from '../assets/Sainik-37.jpg';
 import S38 from '../assets/Sainik-38.jpg';
 import S39 from '../assets/Sainik-39.jpg';
 import S40 from '../assets/Sainik-40.jpg';
+import Sa1 from '../assets/Sai1.jpg';
+import Sa2 from '../assets/Sai2.jpg';
+import Sa3 from '../assets/Sai3.jpg';
+import Sa4 from '../assets/Sai4.jpg';
+import Sa5 from '../assets/Sai5.jpg';
+import Sa6 from '../assets/Sai6.jpg';
+import Sa7 from '../assets/Sai7.jpg';
+import Sa8 from '../assets/Sai8.jpg';
+import Sa9 from '../assets/Sai9.jpg';
+import Sa10 from '../assets/Sai10.jpg';
+import Sa11 from '../assets/Sai11.jpg';
+import Sa12 from '../assets/Sai12.jpg';
+import Sa13 from '../assets/Sai13.jpg';
+import Sa14 from '../assets/Sai14.jpg';
+import Sa15 from '../assets/Sai15.jpg';
+import Sa16 from '../assets/Sai16.jpg';
+import Sa17 from '../assets/Sai17.jpg';
+import Sa18 from '../assets/Sai18.jpg';
+import Sa19 from '../assets/Sai19.jpg';
+import Sa20 from '../assets/Sai20.jpg';
+import Sa21 from '../assets/Sai21.jpg';
+import Sa22 from '../assets/Sai22.jpg';
+import Sa23 from '../assets/Sai23.jpg';
+import Sa24 from '../assets/Sai24.jpg';
+import Sa25 from '../assets/Sai25.jpg';
+import Sa26 from '../assets/Sai26.jpg';
+import Sa27 from '../assets/Sai27.jpg';
+import Sa28 from '../assets/Sai28.jpg';
+import Sa29 from '../assets/Sai29.jpg';
+import Sa30 from '../assets/Sai30.jpg';
+import Sa31 from '../assets/Sai31.jpg';
+import Sa32 from '../assets/Sai32.jpg';
 
 function SainikGallery() {
     return (
@@ -49,6 +81,111 @@ function SainikGallery() {
                     <hr />
                     <img className="mt-2" width="100%" height="auto" src={SainikAch} alt="" />
                     <div className="row mt-2">
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa1} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa2} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa3} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa4} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa5} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa6} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa7} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa8} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa9} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa10} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa11} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa12} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa13} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa14} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa15} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa16} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa17} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa18} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa19} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa20} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa21} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa22} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa23} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa24} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa25} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa26} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa27} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa28} alt="" height="auto" width="100%" />
+                        </div>
+
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa29} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa30} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa31} alt="" height="auto" width="100%" />
+                        </div>
+                        <div className="col-md-3 mt-3 p-2">
+                            <img src={Sa32} alt="" height="auto" width="100%" />
+                        </div>
+
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S1} alt="" height="auto" width="100%" />
                         </div>
@@ -61,6 +198,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S4} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S5} alt="" height="auto" width="100%" />
                         </div>
@@ -73,6 +211,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S8} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S9} alt="" height="auto" width="100%" />
                         </div>
@@ -85,6 +224,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S12} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S13} alt="" height="auto" width="100%" />
                         </div>
@@ -97,6 +237,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S16} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S17} alt="" height="auto" width="100%" />
                         </div>
@@ -109,6 +250,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S20} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S21} alt="" height="auto" width="100%" />
                         </div>
@@ -121,6 +263,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S24} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S25} alt="" height="auto" width="100%" />
                         </div>
@@ -133,6 +276,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S28} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S29} alt="" height="auto" width="100%" />
                         </div>
@@ -145,6 +289,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S32} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S33} alt="" height="auto" width="100%" />
                         </div>
@@ -157,6 +302,7 @@ function SainikGallery() {
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S36} alt="" height="auto" width="100%" />
                         </div>
+
                         <div className="col-md-3 mt-3 p-2">
                             <img src={S37} alt="" height="auto" width="100%" />
                         </div>
@@ -185,7 +331,7 @@ function SainikGallery() {
                             <iframe width="100%" height="450" src="https://www.youtube.com/embed/UgqlbvB5fKo" title="DCG Created History | Sainik School Result 2023 | Highest Selection | #achievers #proud #dcg #viral" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div className="col-md-6 mt-3">
-                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/4sIbchkPOvY" title="Sainik School 2023 Achievers &amp; Parents Feedback | Achievers Experience | Topper |  #dcg #result" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/4sIbchkPOvY" title="Sainik School 2023 Achievers &amp; Parents Feedback | Achievers Experience | Topper |  #dcg #result" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
