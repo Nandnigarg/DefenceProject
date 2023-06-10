@@ -50,29 +50,29 @@ function App() {
       <Icons />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/eligibility" element={<Eligibility/>}/>
-        <Route path="/payment" element={<Payment/>}/>
-        <Route path="/enquiry-form" element={<Enquiry/>}/>
-        <Route path="/scholarship-form" element={<Scholarship/>}/>
-        <Route path="/nda-schooling" element={<NdaSchooling/>}/>
-        <Route path="/nda-after-8th" element={<Nda8/>}/>
-        <Route path="/nda-after-9th" element={<Nda9/>}/>
-        <Route path="/nda-after-10th" element={<Nda10/>}/>
-        <Route path="/nda-after-11th" element={<Nda11/>}/>
-        <Route path="/nda-coaching" element={<NdaCoaching/>}/>
-        <Route path="/nda-online" element={<NdaOnline/>}/>
-        <Route path="/nda-delhi" element={<NdaDelhi/>}/>
-        <Route path="/nda-chandigarh" element={<NdaChandigarh/>}/>
-        <Route path="/nda-foundation" element={<Foundation/>}/>
-        <Route path="/ssb-training" element={<Ssb/>}/>
-        <Route path="/afpi" element={<Afpi/>}/>
-        <Route path="/gurukul" element={<Gurukul/>}/>
-        <Route path="/army-public-school" element={<Army/>}/>
-        <Route path="/aissee" element={<Aissee/>}/>
-        <Route path="/school-integrated-programme" element={<Schooling/>}/>
-        <Route path="/physical-ssb-training" element={<Physical/>}/>
-        <Route path="/hostel-facility" element={<Hostel/>}/>
+        <Route path="/sitemap.xml" element={<Home/>}/>
+        <Route path="/eligibility/sitemap.xml" element={<Eligibility/>}/>
+        <Route path="/payment/sitemap.xml" element={<Payment/>}/>
+        <Route path="/enquiry-form/sitemap.xml" element={<Enquiry/>}/>
+        <Route path="/scholarship-form/sitemap.xml" element={<Scholarship/>}/>
+        <Route path="/nda-schooling/sitemap.xml" element={<NdaSchooling/>}/>
+        <Route path="/nda-after-8th/sitemap.xml" element={<Nda8/>}/>
+        <Route path="/nda-after-9th/sitemap.xml" element={<Nda9/>}/>
+        <Route path="/nda-after-10th/sitemap.xml" element={<Nda10/>}/>
+        <Route path="/nda-after-11th/sitemap.xml" element={<Nda11/>}/>
+        <Route path="/nda-coaching/sitemap.xml" element={<NdaCoaching/>}/>
+        <Route path="/nda-online/sitemap.xml" element={<NdaOnline/>}/>
+        <Route path="/nda-delhi/sitemap.xml" element={<NdaDelhi/>}/>
+        <Route path="/nda-chandigarh/sitemap.xml" element={<NdaChandigarh/>}/>
+        <Route path="/nda-foundation/sitemap.xml" element={<Foundation/>}/>
+        <Route path="/ssb-training/sitemap.xml" element={<Ssb/>}/>
+        <Route path="/afpi/sitemap.xml" element={<Afpi/>}/>
+        <Route path="/gurukul/sitemap.xml" element={<Gurukul/>}/>
+        <Route path="/army-public-school/sitemap.xml" element={<Army/>}/>
+        <Route path="/aissee/sitemap.xml" element={<Aissee/>}/>
+        <Route path="/school-integrated-programme/sitemap.xml" element={<Schooling/>}/>
+        <Route path="/physical-ssb-training/sitemap.xml" element={<Physical/>}/>
+        <Route path="/hostel-facility/sitemap.xml" element={<Hostel/>}/>
         <Route path="/admission-form" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/nda-gallery" element={<NdaGallery/>}/>
