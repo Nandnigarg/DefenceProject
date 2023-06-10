@@ -1,17 +1,22 @@
 import { Link } from 'react-router-dom';
 import "../Structure/glow.css";
+import { Helmet } from "react-helmet";
 
 function NdaSchooling() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
+            <Helmet>
+                <title>NDA foundation coaching in Chandigarh | NDA Coaching with schooling - Delhi Career Group</title>
+                <meta name="description" content="Delhi Career Group is the best NDA coaching in Chandigarh & Delhi. We provide Best NDA Foundation course After 10th & 11th in Chandigarh, india." />
+            </Helmet>
             <div className="container mt-5 mb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA Coaching with Schooling Program</h1>
                 <hr />
                 <br /><br />
                 <p style={{ fontSize: "18px" }}>One of the best NDA coaching institutes in India is DCG Defence Academy. DCG Defence Academy offers a comprehensive and integrated program that prepares students for all aspects of the NDA exam, including academics, physical fitness, and SSB interview. The academy has a team of experienced and qualified faculty members, physical training instructors, and SSB interview experts who are committed to helping students achieve their goals.</p>
-                <div style={{borderRadius: "20px", backgroundColor: "rgb(40,120,70)" }} className='p-4'>
+                <div style={{ borderRadius: "20px", backgroundColor: "rgb(40,120,70)" }} className='p-4'>
                     <h3 style={{ color: "rgb(255,255,0)", fontSize: "2.7rem", textAlign: "center" }}>NDA Foundation Course Programs Offered by Delhi Career Group</h3>
-                    <div className="row mb-5" style={{textAlign: "center"}}>
+                    <div className="row mb-5" style={{ textAlign: "center" }}>
                         <div className="col-sm-6 mt-4">
                             <Link exact to="/nda-after-8th" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className='btn btn-lg glow-btn' style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(255,255,0)", border: "none" }}>NDA Coaching with Schooling after 8th</button></Link>
                         </div>
