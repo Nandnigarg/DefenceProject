@@ -18,15 +18,15 @@ import S17 from '../assets/Sainik-17.jpg';
 import S18 from '../assets/Sainik-18.jpg';
 import S19 from '../assets/Sainik-19.jpg';
 import S20 from '../assets/Sainik-20.jpg';
-import {Helmet} from "react-helmet";
+import MetaTags from 'react-meta-tags';
 
 function Aissee() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Helmet>
+            <MetaTags>
                 <title>Sainik School Coaching in Chandigarh | AISSEE Coaching Classes</title>
                 <meta name="description" content="Delhi Career Group Is The Best Sainik School Coaching Institute In Chandigarh. Get Enrolled In Sainik School, Join Our Sainik School Coaching Batch." />
-            </Helmet>
+            </MetaTags>
             <div className="container mt-5 mb-4" style={{textAlign: "justify"}}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Sainik School - AISSEE</h1>
                 <hr />

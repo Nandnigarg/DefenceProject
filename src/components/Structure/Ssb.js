@@ -1,12 +1,12 @@
-import {Helmet} from "react-helmet";
+import MetaTags from 'react-meta-tags';
 
 function Ssb() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Helmet>
+            <MetaTags>
                 <title>SSB Training | Top SSB Interview Coaching Institute</title>
                 <meta name="description" content="Best SSB Coaching Institute In Chandigarh–Delhi Career Group is in Top 10 SSB Coaching Institute In Chandigarh & Delhi. Best Coaching Institute to get success in SSB Exam" />
-            </Helmet>
+            </MetaTags>
             <div className="container mt-3 mb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger mb-3">ALL ABOUT SSB</h1>
                 <hr />

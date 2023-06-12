@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import "../Structure/glow.css";
-import { Helmet } from "react-helmet";
+import MetaTags from 'react-meta-tags';
 
 function NdaSchooling() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Helmet>
+            <MetaTags>
                 <title>NDA foundation coaching in Chandigarh | NDA Coaching with schooling - Delhi Career Group</title>
                 <meta name="description" content="Delhi Career Group is the best NDA coaching in Chandigarh & Delhi. We provide Best NDA Foundation course After 10th & 11th in Chandigarh, india." />
-            </Helmet>
+            </MetaTags>
             <div className="container mt-5 mb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA Coaching with Schooling Program</h1>
                 <hr />

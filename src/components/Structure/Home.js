@@ -3,7 +3,7 @@ import mainBanner from '../assets/nda banner.jpg';
 import { Link } from 'react-router-dom';
 import Background from "../Other comps/Background";
 import { isMobile } from 'react-device-detect';
-import { Helmet } from "react-helmet";
+import MetaTags from 'react-meta-tags';
 
 function Home() {
     const boxStyle = {
@@ -25,15 +25,16 @@ function Home() {
     if (isMobile) {
         return (
             <div>
-                <Helmet>
+                <MetaTags>
                     <title>NDA Coaching in Chandigarh | Best NDA Coaching in Chandigarh - Delhi Career Group</title>
-                    <meta name="description" content="Delhi Career Group provides the best NDA Exam coaching in Chandigarh. Join NDA Institute in Chandigarh to crack NDA exams in India." />
+                    <meta name="description"
+                        content="Delhi Career Group provides the best NDA Exam coaching in Chandigarh. Join NDA Institute in Chandigarh to crack NDA exams in India." />
                     <meta name="DC.title" content="Delhi Career Group" />
                     <meta name="geo.region" content="IN-PB" />
                     <meta name="geo.placename" content="Banur" />
                     <meta name="geo.position" content="22.351115;78.667743" />
                     <meta name="ICBM" content="22.351115, 78.667743" />
-                </Helmet>
+                </MetaTags>
                 <Background text="India's Best NDA Coaching Academy" t3="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
                 <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
                 <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
@@ -196,15 +197,16 @@ function Home() {
     }
     return (
         <div>
-            <Helmet>
+            <MetaTags>
                 <title>NDA Coaching in Chandigarh | Best NDA Coaching in Chandigarh - Delhi Career Group</title>
-                <meta name="description" content="Delhi Career Group provides the best NDA Exam coaching in Chandigarh. Join NDA Institute in Chandigarh to crack NDA exams in India." />
+                <meta name="description"
+                    content="Delhi Career Group provides the best NDA Exam coaching in Chandigarh. Join NDA Institute in Chandigarh to crack NDA exams in India." />
                 <meta name="DC.title" content="Delhi Career Group" />
                 <meta name="geo.region" content="IN-PB" />
                 <meta name="geo.placename" content="Banur" />
                 <meta name="geo.position" content="22.351115;78.667743" />
                 <meta name="ICBM" content="22.351115, 78.667743" />
-            </Helmet>
+            </MetaTags>
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">

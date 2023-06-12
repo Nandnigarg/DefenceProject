@@ -1,13 +1,13 @@
 import Background from "./Background";
-import {Helmet} from "react-helmet";
+import MetaTags from 'react-meta-tags';
 
 function Army() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <Helmet>
+            <MetaTags>
                 <title>ARMY PUBLIC SCHOOL Coaching in Chandigarh - Delhi Career Group</title>
                 <meta name="description" content="Army Public Schools Coaching in Chandigarh - All Best and Top Chandigarh Army Public Schools List With All Details. Best Army Public Schools coaching in Chandigarh, Top Army Public Chandigarh." />
-            </Helmet>
+            </MetaTags>
             <Background text="ARMY PUBLIC SCHOOL" src="ARMY PUBLIC SCHOOL"/>
             <div className="container mt-5 mb-5" style={{textAlign: "justify"}}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">ARMY PUBLIC SCHOOL</h1>
