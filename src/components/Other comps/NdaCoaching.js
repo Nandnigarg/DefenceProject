@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import "../Structure/glow.css";
-import MetaTags from 'react-meta-tags';
+import {Helmet} from "react-helmet";
 
 function NdaCoaching(){
     return(
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <MetaTags>
+            <Helmet>
                 <title>NDA Coaching in Chandigarh | NDA Coaching in Delhi - Delhi Career Group</title>
                 <meta name="description" content="1.  NDA coaching in Chandigarh: Delhi Career Group is the top leading brand of Chandigarh for NDA Exam Preparation. Offer study materials, Current Affairs and test series are updated as per NDA Exam Pattern. 2. Delhi Career Group is the Best NDA Coaching Institute in Chandigarh. Delhi Career Group is one of the top NDA coaching Centre in Chandigarh." />
-            </MetaTags>
+            </Helmet>
             <div className="container mt-5 mb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA Coaching</h1>
                 <hr /><br />

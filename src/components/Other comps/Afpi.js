@@ -1,15 +1,15 @@
 import Afibanner from '../assets/Afibanner.jpg';
 import Background from './Background';
 import Officer from './Officer';
-import MetaTags from 'react-meta-tags';
+import {Helmet} from "react-helmet";
 
 function Afpi() {
     return (
         <div className="container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
-            <MetaTags>
+            <Helmet>
                 <title>MAHARAJA RANJIT SINGH AFPI Coaching in Chandigarh - Delhi Career Group</title>
                 <meta name="description" content="AFPI Maharaja Ranjit Singh Coaching in Chandigarh. Delhi Career Group is the best AFPI Coaching Institute in Chandigarh, India." />
-            </MetaTags>
+            </Helmet>
             <Background text="MAHARAJA RANJIT SINGH AFPI" t2="Entrance Exam Coaching" src="MAHARAJA RANJIT SINGH AFPI"/>
             <div className="container mt-3 mb-5" style={{textAlign: "justify"}}>
                 <h2 className="text text-success mt-5">MAHARAJA RANJIT SINGH AFPI Coaching</h2>
