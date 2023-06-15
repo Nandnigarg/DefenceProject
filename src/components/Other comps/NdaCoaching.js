@@ -12,6 +12,7 @@ function NdaCoaching(){
             <div className="container mt-5 mb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">NDA Coaching</h1>
                 <hr /><br />
+                <div style={{textAlign: "center"}}><iframe width="80%" height="400" src="https://www.youtube.com/embed/l_BiGgcGeiQ" title="How to Crack NDA Exam in First Attempt! | Mr. Vatsom  - DCG Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                 <p style={{ fontSize: "18px" }}>DCG understands the needs of every student and has designed various NDA coaching programs to suit the needs of NDA  aspirants. We offer NDA coaching to our students in both online and offline modes.</p>
                 <p style={{ fontSize: "18px" }}>Our online portal provides NDA classes in two formats: NDA Online live interactive classes and NDA Online recorded lectures.  Offline  mode students can attend our NDA classes at our NDA coaching centers in Delhi and Chandigarh.</p>
                 <p style={{ fontSize: "18px" }}>Our online NDA coaching program is designed to be convenient and flexible for students who want to study for NDA from the comfort of their own homes. Our NDA online live interactive classes allow students to interact with our experienced faculty in real time. While  our NDA recorded lectures can be accessed at any time.</p>

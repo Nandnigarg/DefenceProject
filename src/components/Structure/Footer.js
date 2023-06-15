@@ -16,7 +16,7 @@ function Footer() {
                 </div>
                 <div>
                     <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>Delhi Branch: </h6>
-                    <address style={{ fontSize: "17px", color: "white" }}>Delhi Career Group, near Shiksha Bharti College Gate No 2 on Service Road, Sector 7, Dwarka, New Delhi - 110075</address>
+                    <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Shiksha Bharti College, Gate No - 2 Mall Road, Sector - 7 Dwarka, New Delhi - 110077 <br /> Helpline No - 7888910762</address>
                 </div>
             </div>
             <hr class="bg bg-light" />
