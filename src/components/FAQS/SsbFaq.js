@@ -4,6 +4,9 @@ function SsbFaq() {
             <div className="container pt-2 pb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", ontWeight: "bold", textAlign: "center" }} className="text text-danger">SSB</h1>
                 <hr />
+                <h2 className="text text-success">SSB</h2>
+                <p style={{ fontSize: "18px" }}>SSB (Services Selection Board) coaching refers to specialized training programs designed to prepare candidates for the selection process conducted by the Services Selection Board. The aim of SSB coaching is to enhance the candidate's knowledge, skills, and overall performance in order to increase their chances of success in the SSB interview.</p>
+                <p style={{ fontSize: "18px" }}>The Service Selection Board was established to assess the qualifications, personality, and aptitude of potential defense candidates. Candidates are evaluated based on the Mansa, Vacha, and Karmana mantra, which is the fundamental tenet of the SSB. Mansa denotes ideas, Vacha refers to words, and Karmana denotes acts. A battery of psychological tests, interviews, and group tests are used in the SSB 5 Days Procedure to assess the candidates' qualifications. Along with these characteristics, particular Officer Like Qualities must also exist in candidates for SSB recommendation.</p>
                 <h2 className="text text-success">Ranks</h2>
                 <p style={{ fontSize: "18px" }}>Below are the tables that showcase the commissioned ranks in the Army, Navy, and Air Force:</p>
                 <table class="table table-striped table-hover" style={{ textAlign: "center", width: "90%" }}>
@@ -114,8 +117,106 @@ function SsbFaq() {
                     <li>Additionally, it is advisable for candidates to dress in a smart and polished manner, with clean and tidy attire that is appropriate for the occasion. Candidates should avoid certain styles, such as ponytails or visible tattoos, and should refrain from wearing any excessive or distracting jewelry or other accessories. Overall, presenting oneself in a professional and polished manner can help to make a positive impression on the selection committee.</li>
                 </ul>
                 <div id="ssbFaq">
-                    <h5 style={{ fontWeight: "bold" }}>SSB FAQs</h5>
-                    
+                    <h2 className="text text-success">SSB FAQs</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>What is SSB training?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>SSB training refers to the training program conducted by the Services Selection Board to assess and select candidates for officer-level positions in the Indian Armed Forces. It includes various psychological, physical, and interview-based tests to evaluate a candidate's aptitude, personality, leadership qualities, and suitability for a career in the armed forces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h5>What are the different parts covered by SSB?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>The different parts covered by SSB are Screening tests, Psychological Tests, Group Testing Officer (GTO) Tasks, and Personal interviews.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h5>What are the different stages of SSB training?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>SSB training consists of various stages, which typically include the following: </p>
+                                    <ul>
+                                        <li><u>Stage I:</u> Officer Intelligence Rating (OIR) Test and Picture Perception and Description Test (PPDT).</li>
+                                        <li><u>Stage II:</u> Psychological Tests, Group Testing Officer (GTO) tasks, and Personal Interviews.</li>
+                                        <li><u>Stage III:</u> The final stage is where all the assessors discuss and finalize the selection of candidates.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <h5>How can I prepare for SSB training?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>To prepare for SSB training, you can follow these tips: </p>
+                                    <ol>
+                                        <li>Understand the selection process and the specific tests involved.</li>
+                                        <li>Develop good communication skills, both verbal and written.</li>
+                                        <li>Enhance your general knowledge, current affairs, and awareness about the armed forces.</li>
+                                        <li>Practice physical fitness activities and improve your stamina.</li>
+                                        <li>Work on your leadership qualities, decision-making abilities, and teamwork skills.</li>
+                                        <li>Participate in mock tests and group discussions to improve your performance.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <h5>What qualities are assessed during SSB training?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>SSB training aims to assess various qualities in candidates, including <br />a. Leadership potential and ability to influence others. <br />b. Effective communication and interpersonal skills. <br />c. Problem-solving and decision-making abilities. <br />d. Emotional stability and resilience. <br />e. Teamwork and cooperation. <br />f. Adaptability and flexibility. <br />g. Social awareness and responsibility.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <h5>What happens if I fail in SSB training?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>If you are unsuccessful in SSB training, you may not be selected for the officer-level positions. However, you can always re-apply and try again in the future. It is essential to analyze your performance, identify areas of improvement, and work on them to enhance your chances of success in subsequent attempts.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <h5>Can SSB training be undertaken by females?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, SSB training is open to both male and female candidates. Women can also apply for officer-level positions in the Indian Armed Forces and go through the SSB selection process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
