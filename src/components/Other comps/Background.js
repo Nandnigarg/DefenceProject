@@ -18,7 +18,7 @@ function Background(props) {
         }
         
         else{
-            emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'SMWY2N68zRuPkdjMx')
+            emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'AXOnCkME7VCrGXjzC')
             .then((result) => {
                 var element = document.getElementById("feed_form");
                 window.alert("Form Submitted Successfully!!")
