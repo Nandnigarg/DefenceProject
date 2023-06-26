@@ -30,7 +30,32 @@ function Aissee() {
             <div className="container mt-5 mb-4" style={{textAlign: "justify"}}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Sainik School - AISSEE</h1>
                 <hr />
-                <br /><br />
+                <br /><br />                <p style={{ fontSize: "18px" }}>Sainik Schools are a system of residential schools in India that aim to prepare young students for a career in the armed forces. The concept of Sainik Schools was introduced in India in 1961 by the Ministry of Defence to provide quality education coupled with military training to aspiring students. These schools follow a unique curriculum that combines academic instruction with physical fitness, character development, and discipline.</p>
+                <p style={{ fontSize: "18px" }}>The primary goal of Sainik Schools is to nurture young minds and develop their overall personality, emphasizing the qualities of leadership, patriotism, and service to the nation. The schools aim to create a pool of talented individuals who can potentially join the prestigious National Defence Academy (NDA), the Indian Naval Academy, or other officer-training institutions in the armed forces.</p>
+                <p style={{ fontSize: "18px" }}>Attending a Sainik School offers several advantages. It provides a strong academic foundation, instills discipline, and inculcates values of patriotism and service. Delhi Career Group also provides the best coaching for RIMC and RMS Candidates.Delhi Career Group is known for its comprehensive coaching programs, experienced faculty, and successful track record in helping students achieve their goals.</p>
+                <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Sainik School Admission Eligibility Criteria</h3>
+                <p style={{ fontSize: "18px" }}><b>Age Limit - Sainik School</b></p>
+                <p style={{ fontSize: "18px" }}>The age limit criteria for admission in Sainik Schools in India may vary slightly from school to school. However, the general age eligibility criteria are as follows:</p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li>Class 6: 10 yrs to 12 yrs (Note: Age limit is same for girls applicant)</li>
+                    <li>Class 9:  13 yrs to 15 yrs (Note: Girls are not applicable for class IX)</li>
+                </ul>
+                <p style={{ fontSize: "18px" }}>Additionally, the admission process for Sainik Schools typically includes a written entrance examination, a medical examination, and an interview. The selection process may also consider factors such as the student's performance in previous classes and extracurricular activities.</p>
+                <p style={{ fontSize: "18px" }}><b>Educational Qualification - Sainik School</b></p>
+                <p style={{ fontSize: "18px" }}>The educational qualification required for admission to Sainik Schools in India is as follows:</p>
+                <p style={{ fontSize: "18px" }}>For Class 6:
+                    <ul>
+                        <li>The student should have completed Class 5 or should be studying in Class 5 at the time of application.</li>
+                    </ul>
+                </p>
+                <p style={{ fontSize: "18px" }}>For Class 9:
+                    <ul>
+                        <li>The student should have completed Class 8 or should be studying in Class 8 at the time of application.</li>
+                    </ul>
+                </p>
+                <p style={{ fontSize: "18px" }}>In addition to the educational qualification, candidates are required to meet the age eligibility criteria, as mentioned earlier. They must fulfill any other specific requirements set by the respective Sainik School.</p>
+                <p style={{ fontSize: "18px" }}>It's important to note that Sainik Schools conduct an entrance examination as part of the admission process, which evaluates the candidate's knowledge and aptitude in mathematics, English, general knowledge, and mental ability. The syllabus for the entrance examination is usually based on the curriculum followed in the previous class (Class 5 for Class 6 admission and Class 8 for Class 9 admission).</p>
+
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Top Reasons to Choose DCG Defence Academy for Sainik School Entrance Exam Preparation</h3>
                 <p style={{ fontSize: "18px" }}>If you aspire to serve the nation by joining the defense forces and wear stars on your shoulders, then getting into a Sainik School is an excellent way to start. However, cracking the Sainik School Entrance Exam is no easy feat, and it requires the right guidance and mentoring. That's where DCG Defence Academy comes in. In this article, we will explore the top reasons why DCG Defence Academy is the best choice for Sainik School Entrance Exam preparation.</p>
                 <h3 style={{ color: "rgb(21, 52, 98)", fontSize: "1.7rem", fontWeight: "bold" }}>Expert Coaching:</h3>
