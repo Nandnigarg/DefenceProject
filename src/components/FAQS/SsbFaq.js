@@ -4,9 +4,43 @@ function SsbFaq() {
             <div className="container pt-2 pb-5" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", ontWeight: "bold", textAlign: "center" }} className="text text-danger">SSB</h1>
                 <hr />
-                <h2 className="text text-success">SSB</h2>
                 <p style={{ fontSize: "18px" }}>SSB (Services Selection Board) coaching refers to specialized training programs designed to prepare candidates for the selection process conducted by the Services Selection Board. The aim of SSB coaching is to enhance the candidate's knowledge, skills, and overall performance in order to increase their chances of success in the SSB interview.</p>
                 <p style={{ fontSize: "18px" }}>The Service Selection Board was established to assess the qualifications, personality, and aptitude of potential defense candidates. Candidates are evaluated based on the Mansa, Vacha, and Karmana mantra, which is the fundamental tenet of the SSB. Mansa denotes ideas, Vacha refers to words, and Karmana denotes acts. A battery of psychological tests, interviews, and group tests are used in the SSB 5 Days Procedure to assess the candidates' qualifications. Along with these characteristics, particular Officer Like Qualities must also exist in candidates for SSB recommendation.</p>
+                <h2 className="text text-success">SSB 5 Days Procedure</h2>
+                <p style={{ fontSize: "18px" }}>For the three wings of the Indian Armed Forces, the SSB Interview lasts for five days and is essentially the same. There are two stages to the SSB Interview.</p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li><b>Phase I- Screening</b></li>
+                    <li><b>Phase 2- Psychological Tests, Group Tests, Interviews, and board conference</b></li>
+                </ul>
+                <p style={{ fontSize: "18px" }}>Candidates must be on time at the center they selected during the application process or the centers assigned to them. In their SSB Call letter, the candidates' reporting time, center, and other data are stated. Let's now examine the activities for each day of the five-day SSB interview procedure.</p>
+                <p style={{ fontSize: "18px" }}><b>Day 1: Screening Tests</b></p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li>Reporting: Candidates report to the designated SSB center.</li>
+                    <li>Registration and Document Verification: Candidates complete the necessary paperwork and provide the required documents.</li>
+                    <li>Officer Intelligence Rating (OIR) Test: It includes verbal and non-verbal reasoning tests.</li>
+                    <li>Picture Perception and Description Test (PPDT): Candidates view a picture for 30 seconds and then write a story based on it.</li>
+                </ul>
+                <p style={{ fontSize: "18px" }}><b>Day 2: Psychological Tests</b></p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li>Thematic Apperception Test (TAT): Candidates write stories based on a series of ambiguous pictures shown to them.</li>
+                    <li>Word Association Test (WAT): Candidates write a sentence that comes to their mind upon seeing a given word.</li>
+                    <li>Situation Reaction Test (SRT): Candidates respond to a series of situational scenarios with their immediate reactions.</li>
+                    <li>Self-Description Test (SD): Candidates provide self-descriptions based on specific prompts.</li>
+                </ul>
+                <p style={{ fontSize: "18px" }}><b>Day 3 & 4: Group Testing Officer (GTO) Tasks</b></p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li>Group Discussion (GD): Candidates engage in a group discussion on a given topic.</li>
+                    <li>Group Planning Exercise (GPE): Candidates plan and discuss solutions to a given problem as a group.</li>
+                    <li>Progressive Group Task (PGT): Candidates complete a series of outdoor group tasks that test their teamwork and leadership skills.</li>
+                    <li>Half Group Task (HGT): Similar to PGT, but with a smaller group.</li>
+                    <li>Individual Obstacles: Candidates individually navigate a set of physical obstacles.</li>
+                    <li>Command Task: Candidates are given command over a few subordinates to complete a task.</li>
+                    <li>Final Group Task (FGT): The entire group is given a task to complete together.</li>
+                </ul>
+                <p style={{ fontSize: "18px" }}><b>Day 5: Personal Interview</b></p>
+                <ul style={{ fontSize: "18px" }}>
+                    <li>Personal Interview: Candidates appear for an interview with an interviewing officer. They are asked questions about their background, interests, career goals, and general knowledge.</li>
+                </ul>
                 <h2 className="text text-success">Ranks</h2>
                 <p style={{ fontSize: "18px" }}>Below are the tables that showcase the commissioned ranks in the Army, Navy, and Air Force:</p>
                 <table class="table table-striped table-hover" style={{ textAlign: "center", width: "90%" }}>
