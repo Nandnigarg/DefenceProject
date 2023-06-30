@@ -22,14 +22,6 @@ function Navbar() {
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link exact to="/nda-schooling" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA with Schooling Program</li></Link>
                                         <Link exact to="/nda-coaching" class="nav-link"><li class="nav-item text text-success text-decoration-none ms-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>NDA Coaching</li></Link>
-                                        {/* <li class="dropend">
-                                            <Link exact to="/nda-coaching" class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA Coaching</Link>
-                                            <ul class="dropdown-menu shadow">
-                                                <Link exact to="/nda-online" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Online Coaching</li></Link>
-                                                <Link exact to="/nda-delhi" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Coaching in Delhi</li></Link>
-                                                <Link exact to="/nda-chandigarh" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">NDA Coaching in Chandigarh</li></Link>
-                                            </ul>
-                                        </li> */}
                                         <li class="dropend">
                                             <Link class="dropdown-item dropdown-toggle text text-success text-decoration-none" data-bs-toggle="dropdown" style={{ fontWeight: "bold" }}>NDA + Graduation</Link>
                                             <ul class="dropdown-menu shadow">
@@ -52,6 +44,9 @@ function Navbar() {
                                                 <Link exact to="/aissee" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Sainik School - AISSEE for 6th & 9th entry</li></Link>
                                                 <Link exact to="/rms" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Rashtriya Military School - RMS for 6th & 9th entry</li></Link>
                                                 <Link exact to="/rimc" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Rashtriya Indian Military College - RIMC for 8th entry</li></Link>
+                                                <Link exact to="/cds" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Combined defense services (CDS)</li></Link>
+                                                <Link exact to="/afcat" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Air Force Common Admission Test (AFCAT)</li></Link>
+                                                <Link exact to="/mns" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Military Nursing Services (MNS)</li></Link>
                                             </ul>
                                         </li>
                                     </ul>

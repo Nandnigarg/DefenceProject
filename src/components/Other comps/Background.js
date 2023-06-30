@@ -13,22 +13,29 @@ function Background(props) {
         var msg = document.querySelector('#message').value;
         var src = `${props.src}`
 
-        if(name === '' || num === '' || mail === '' || msg === '' || src === ''){
+        if (name === '' || num === '' || mail === '' || msg === '' || src === '') {
             window.alert('Please enter all the details carefully!')
         }
-        
-        else{
+
+        else {
             emailjs.sendForm('service_pa5g7tp', 'template_zuy64pe', form.current, 'AXOnCkME7VCrGXjzC')
-            .then((result) => {
-                var element = document.getElementById("feed_form");
-                window.alert("Form Submitted Successfully!!")
-                element.reset();
-                console.log(result.text);
-            }, (error) => {
-                var element = document.getElementById("feed_form");
-                element.reset();
-                console.log(error.text);
-            });
+                .then((result) => {
+                    var element = document.getElementById("feed_form");
+                    emailjs.sendForm('service_pa5g7tp', 'template_g6x1k9r', form.current, 'AXOnCkME7VCrGXjzC')
+                        .then((result) => {
+                            var element = document.getElementById("feed_form");
+                            window.alert("Form Submitted Successfully!!")
+                         }, (error) => {
+                            var element = document.getElementById("feed_form");
+                            element.reset();
+                        });
+                    element.reset();
+                    console.log(result.text);
+                }, (error) => {
+                    var element = document.getElementById("feed_form");
+                    element.reset();
+                    console.log(error.text);
+                });
         }
     };
 
@@ -37,7 +44,7 @@ function Background(props) {
             <div className="container p-5">
                 <div className="row">
                     <div style={{ color: "white" }} className="col-md-6 pt-4">
-                        <h1><span style={{ color: "rgb(255,255,0)" }}>{props.text} </span><br/>{props.t2}</h1>
+                        <h1><span style={{ color: "rgb(255,255,0)" }}>{props.text} </span><br />{props.t2}</h1>
                         <br /><br /><br /><br /><br /><br />
                         <h1>{props.t3}</h1>
                     </div>

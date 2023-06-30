@@ -42,6 +42,8 @@ import NdaOnline from "./components/Other comps/NdaOnline";
 import NdaDelhi from "./components/Other comps/NdaDelhi";
 import NdaChandigarh from "./components/Other comps/NdaChandigarh";
 import Rms from "./components/Other comps/Rms";
+import Rimc from "./components/Other comps/Rimc";
+import Cds from "./components/Other comps/Cds";
 
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
         <Route path="/army-public-school" element={<Army/>}/>
         <Route path="/aissee" element={<Aissee/>}/>
         <Route path="/rms" element={<Rms/>}/>
+        <Route path="/rimc" element={<Rimc/>}/>
+        <Route  path="/cds" element={<Cds/>}/>
         <Route path="/school-integrated-programme" element={<Schooling/>}/>
         <Route path="/physical-ssb-training" element={<Physical/>}/>
         <Route path="/hostel-facility" element={<Hostel/>}/>
