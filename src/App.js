@@ -44,6 +44,8 @@ import NdaChandigarh from "./components/Other comps/NdaChandigarh";
 import Rms from "./components/Other comps/Rms";
 import Rimc from "./components/Other comps/Rimc";
 import Cds from "./components/Other comps/Cds";
+import Afcat from "./components/Other comps/Afcat";
+import Mns from "./components/Other comps/Mns";
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
         <Route path="/rms" element={<Rms/>}/>
         <Route path="/rimc" element={<Rimc/>}/>
         <Route  path="/cds" element={<Cds/>}/>
+        <Route path="/afcat" element={<Afcat/>}/>
+        <Route path="/mns" element={<Mns/>}/>
         <Route path="/school-integrated-programme" element={<Schooling/>}/>
         <Route path="/physical-ssb-training" element={<Physical/>}/>
         <Route path="/hostel-facility" element={<Hostel/>}/>
