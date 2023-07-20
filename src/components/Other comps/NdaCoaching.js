@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import "../Structure/glow.css";
 import { Helmet } from "react-helmet";
+import Background from './Background';
 
 function NdaCoaching() {
     return (
@@ -9,7 +10,27 @@ function NdaCoaching() {
                 <title>NDA Coaching in Chandigarh | NDA Coaching in Delhi - Delhi Career Group</title>
                 <meta name="description" content="1.  NDA coaching in Chandigarh: Delhi Career Group is the top leading brand of Chandigarh for NDA Exam Preparation. Offer study materials, Current Affairs and test series are updated as per NDA Exam Pattern. 2. Delhi Career Group is the Best NDA Coaching Institute in Chandigarh. Delhi Career Group is one of the top NDA coaching Centre in Chandigarh." />
             </Helmet>
+            <Background text="India's Best NDA Coaching Academy" t3="Teaching and Training on the Pattern of Military School" src="ENQUIRY FORM" />
             <div className="container mt-5 mb-5" style={{ textAlign: "justify" }}>
+                <div style={{ backgroundColor: "rgb(0,100,0)" }} className='row p-4 m-2 mb-4'>
+                    <h1 className='mb-3' style={{ fontFamily: "cursive", fontSize: "2.3rem", fontWeight: "bold", textAlign: "center", color: "rgb(255,255,0)" }}><span style={{ color: "white" }}>Best</span> NDA Coaching in India</h1>
+                    <div className='col-md-6'>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Classes & Training With Hostel & Ground Facility for DCG Students</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Campus Hostel / Ground Facility For NDA Students with Safe Environment</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 - Year / 6 Months / 3 Months NDA Preparation Courses</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 Year & 2 Year Courses for Deep Preparation of NDA Exam</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Foundation Program From Class 4th to 12th with Schooling</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Exam Coaching with SSB Interview & Ground Training</p>
+                    </div>
+                    <div className='col-md-6'>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program For Class 11th & 12th (Foundation Batch)</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Test Series + Weekly Mock Tests & Group Discussion + Personality Development</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program from Class 8th, 9th & 10th (Pre-Foundation Batch)</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Coaching Guidance & Training Under RETD. Col. Puneet Sehgr</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Online & Offline NDA Classes(Written + Interview)</p>
+                        <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Full NDA Study Material, Intensive Practice Sessions for NDA Coaching Classes</p>
+                    </div>
+                </div>
                 <h1 style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Best NDA Coaching</h1>
                 <hr /><br />
                 <p style={{ fontSize: "18px" }}>DCG understands the needs of every student and has designed various NDA coaching programs to suit the needs of NDA  aspirants. We offer NDA coaching to our students in both online and offline modes.</p>
@@ -118,11 +139,11 @@ function NdaCoaching() {
                         <li>NDA Schooling Program after 11th Class</li>
                     </ol>
                 </p>
-                <h2 style={{textAlign: "center"}}>Top NDA Coaching Classes in Chandigarh and Delhi</h2>
+                <h2 style={{ textAlign: "center" }}>Top NDA Coaching Classes in Chandigarh and Delhi</h2>
                 <p style={{ fontSize: "18px" }}>Our NDA coaching sessions help students prepare for written exams while also enhancing their personalities and soft skills in order to get them ready for the SSB interview procedure. All of the modules in the syllabus are covered by NDA Written test Coaching in Delhi and Chandigarh in accordance with the most recent test pattern. DCG Defence Academy's main emphasis is on preparation for the written exam. To assist students in getting ready for the test, our team concentrates on offering practice sessions.</p>
-                <h3 style={{textAlign: "center"}}><u>Defence Academy</u></h3>
+                <h3 style={{ textAlign: "center" }}><u>Defence Academy</u></h3>
                 <p style={{ fontSize: "18px" }}>For NDA, CDS, and AFCAT Exam, DCG Defence Academy offers the Best Coaching In Delhi and Chandigarh in online as well as offline training. Whether you need to pass the Sainik School, RIMC, or RMS entrance exam, DCG Academy provides comprehensive study materials, mock exams, and professional advice to ensure that students are confident and thoroughly prepared for the exam. In Delhi and Chandigarh, offline and weekend batches are also available. In Delhi and Chandigarh, there are many Coaching Centers and among all DCG Defence Academy is rated as the best that conducts extra classes and doubt sessions for weak pupils. Students are taught the leadership qualities and personality attributes of a defense person at a young age. The DCG Defence Academy has a long tradition of producing outstanding Indian Defense Service officers.</p>
-                <h2 style={{textAlign: "center"}}>Why Prepare With Delhi Career Group?</h2>
+                <h2 style={{ textAlign: "center" }}>Why Prepare With Delhi Career Group?</h2>
                 <p style={{ fontSize: "18px" }}>For students to study for tests, Delhi and Chandigarh's Defence Entrance Coaching Classes offer the greatest and most encouraging environment.</p>
                 <ul style={{ fontSize: "18px" }}>
                     <li>One must understand the topics, format, and types of questions.</li>

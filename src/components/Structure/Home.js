@@ -38,25 +38,6 @@ function Home() {
                 <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
                 <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                     <div className="container">
-                        <div style={{ backgroundColor: "rgb(0,100,0)" }} className='row p-4 m-2 mb-4'>
-                            <h1 className='mb-3' style={{ fontFamily: "cursive", fontSize: "2.3rem", fontWeight: "bold", textAlign: "center", color: "rgb(255,255,0)" }}><span style={{ color: "white" }}>Best</span> NDA Coaching in India</h1>
-                            <div className='col-md-6'>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Classes & Training With Hostel & Ground Facility for DCG Students</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Campus Hostel / Ground Facility For NDA Students with Safe Environment</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 - Year / 6 Months / 3 Months NDA Preparation Courses</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 Year & 2 Year Courses for Deep Preparation of NDA Exam</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Foundation Program From Class 4th to 12th with Schooling</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Exam Coaching with SSB Interview & Ground Training</p>
-                            </div>
-                            <div className='col-md-6'>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program For Class 11th & 12th (Foundation Batch)</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Test Series + Weekly Mock Tests & Group Discussion + Personality Development</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program from Class 8th, 9th & 10th (Pre-Foundation Batch)</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Coaching Guidance & Training Under RETD. Col. Puneet Sehgr</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Online & Offline NDA Classes(Written + Interview)</p>
-                                <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Full NDA Study Material, Intensive Practice Sessions for NDA Coaching Classes</p>
-                            </div>
-                        </div>
                         <div style={boxStyle} className="bg bg-success">
                             <p style={{ textAlign: "justify", fontSize: "20px" }}>Delhi Career Group's DCG Defence Academy provides top-tier coaching for defense entrance
                                 exams in India. They specialize in preparing candidates for the NDA Written, Physical,
@@ -227,25 +208,6 @@ function Home() {
             <img width="100%" height="auto" style={{ maxHeight: "670px" }} src={mainBanner} alt="" />
             <div style={{ backgroundColor: "rgb(180, 225, 151)", padding: "5% 2%" }} className="container-fluid">
                 <div className="container">
-                    <div style={{ backgroundColor: "rgb(0,100,0)" }} className='row p-4 m-2 mb-4'>
-                        <h1 className='mb-3' style={{ fontFamily: "cursive", fontSize: "2.3rem", fontWeight: "bold", textAlign: "center", color: "rgb(255,255,0)" }}><span style={{ color: "white" }}>Best</span> NDA Coaching in India</h1>
-                        <div className='col-md-6'>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Classes & Training With Hostel & Ground Facility for DCG Students</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Campus Hostel / Ground Facility For NDA Students with Safe Environment</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 - Year / 6 Months / 3 Months NDA Preparation Courses</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>1 Year & 2 Year Courses for Deep Preparation of NDA Exam</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Foundation Program From Class 4th to 12th with Schooling</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Exam Coaching with SSB Interview & Ground Training</p>
-                        </div>
-                        <div className='col-md-6'>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program For Class 11th & 12th (Foundation Batch)</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Test Series + Weekly Mock Tests & Group Discussion + Personality Development</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA With Schooling Program from Class 8th, 9th & 10th (Pre-Foundation Batch)</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>NDA Coaching Guidance & Training Under RETD. Col. Puneet Sehgr</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Online & Offline NDA Classes(Written + Interview)</p>
-                            <p style={{ backgroundColor: "rgb(178,0,0)", color: "rgb(252,248,0)", fontSize: "17px", fontWeight: "bold", borderRadius: "10px" }} className='p-3 glow-btn m-3'>Full NDA Study Material, Intensive Practice Sessions for NDA Coaching Classes</p>
-                        </div>
-                    </div>
                     <div style={boxStyle} className="bg bg-success">
                         <p style={{ textAlign: "justify", fontSize: "20px" }}>Delhi Career Group's DCG Defence Academy provides top-tier coaching for defense entrance
                             exams in India. They specialize in preparing candidates for the NDA Written, Physical,
