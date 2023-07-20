@@ -1,6 +1,7 @@
 import bg from '../assets/AfpiBG.jpg';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { isMobile } from 'react-device-detect';
 
 function Background(props) {
     const form = useRef();
@@ -25,7 +26,7 @@ function Background(props) {
                         .then((result) => {
                             var element = document.getElementById("feed_form");
                             window.alert("Form Submitted Successfully!!")
-                         }, (error) => {
+                        }, (error) => {
                             var element = document.getElementById("feed_form");
                             element.reset();
                         });
@@ -39,6 +40,42 @@ function Background(props) {
         }
     };
 
+    if (isMobile) {
+        return (
+            <div className='top-mobile' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center"}}>
+                <div className="container p-5">
+                    <div className="row">
+                        <div style={{ textAlign: "center" }} className="col-md-6">
+                            <form class="bg bg-warning p-4" ref={form} onSubmit={sendEmail} id="feed_form">
+                                <h2 className="text text-success">Get more info about "{props.text}"</h2>
+                                <p>AFPI EXPERT: Get all your queries answered</p>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="name" placeholder="text" name="name" />
+                                    <label for="name">Enter Student Name</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="number" class="form-control" id="number" placeholder="number" name="number" />
+                                    <label for="number">Enter Mobile No</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />
+                                    <label for="mail">Enter Email Id</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
+                                    <label for="message">Enter Your Message</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="source" name="source" value={props.src} placeholder={props.src} />
+                                </div>
+                                <button class="btn btn-dark mt-2 mb-5">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
     return (
         <div className='top-mobile' style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${bg})`, minHeight: "650px", backgroundPosition: "center", backgroundAttachment: "fixed" }}>
             <div className="container p-5">

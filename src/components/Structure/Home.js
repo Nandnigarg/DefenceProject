@@ -92,7 +92,7 @@ function Home() {
                                     <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA coaching classes</h4>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}><b style={{ fontSize: "20px" }}>NDA Crash / Target / Foundation batches</b> <br /> Written + Physical + SSB & Interview</p>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Appearing & Passout Students</p>
-                                    <button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button>
+                                    <Link exact to="/nda-coaching" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button></Link>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">
@@ -101,7 +101,7 @@ function Home() {
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>WE STRIVE FOR EXCELLENCE</p>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>By Senior Experienced Ex. SSB Officers</p>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>For More Information On SSB Training</p>
-                                    <button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button>
+                                    <Link exact to="/ssb-training" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button></Link>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">
@@ -262,7 +262,7 @@ function Home() {
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>NDA coaching classes</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}><b style={{ fontSize: "20px" }}>NDA Crash / Target / Foundation batches</b> <br /> Written + Physical + SSB & Interview</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For 12th Appearing & Passout Students</p>
-                                <button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button>
+                                <Link exact to="/nda-coaching" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(51, 47, 208)" }}>Know More -&gt;</button></Link>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
@@ -271,7 +271,7 @@ function Home() {
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>WE STRIVE FOR EXCELLENCE</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>By Senior Experienced Ex. SSB Officers</p>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>For More Information On SSB Training</p>
-                                <button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button>
+                                <Link exact to="/ssb-training" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn text text-light" style={{ backgroundColor: "rgb(242,113,0)" }}>Know More -&gt;</button></Link>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
