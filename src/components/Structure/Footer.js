@@ -9,14 +9,23 @@ function Footer() {
             <h4 style={{ color: "white" }}>DCG Defence Academy</h4>
             <h6 style={{ color: "white" }}>Unit of Delhi Career Group</h6>
             <div className="container mt-5">
-
-                <div>
-                    <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>Chandigarh Branch: </h6>
-                    <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Defence unit of Delhi Career Group, Near old sale tax barrier, On National Highway 64, Banur, Punjab <br /> Helpline No - 09876335141, 09569782865</address>
-                </div>
-                <div>
-                    <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>Delhi Branch: </h6>
-                    <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Shiksha Bharti College, Gate No - 2 Mall Road, Sector - 7 Dwarka, New Delhi - 110077 <br /> Helpline No - 09876335141, 09569782865</address>
+                <div className="row">
+                    <div className="col-md-6 mt-4 p-3">
+                        <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>DCG DEFENCE ACADEMY DELHI CAMPUS ADDRESS </h6>
+                        <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Shiksha Bharti collage Gate No 2 on Service Road, Mall Road, Sector 7 Dwarka, New Delhi, Delhi - 110075. <br /> Helpline No - 09876335141, 09569782865</address>
+                    </div>
+                    <div className="col-md-6 mt-4 p-3">
+                        <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>CHANDIGARH TRICITY BRANCH FOR DEFENCE ASPIRANTS ONLY </h6>
+                        <address style={{ fontSize: "17px", color: "white" }}>(Chandigarh Tricity Campus offers a Hostel facility and Ground training facility exclusively for defense aspirants.)<br />DCG Defence Academy <br />Near old sale tax barrier, On National Highway 64, Banur, Punjab - 140601<br /> Helpline No - 09876335141, 09569782865</address>
+                    </div>
+                    <div className="col-md-6 mt-4 p-3">
+                    <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>DELHI CAREER GROUP, DWARKA, NEW DELHI OFFICE ADDRESS </h6>
+                        <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />713, C-Block, Service Road, Near Shiksha Bharati College Gate No 2, Sector - 7, Dwarka, New Delhi, Delhi - 110075<br /> Helpline No - 09876335141, 09569782865</address>
+                    </div>
+                    <div className="col-md-6 mt-4 p-3">
+                        <h6 style={{ color: "rgb(255,255,0)", ...iconSize }}>PUNE BRANCH </h6>
+                        <address style={{ fontSize: "17px", color: "white" }}>DCG Defence Academy <br />Sinhgad Road, Vadgaon (Budruk) Pune Maharashtra Pincode: 411041 <br /> Helpline No - 09876335141, 09569782865</address>
+                    </div>
                 </div>
             </div>
             <hr class="bg bg-light" />

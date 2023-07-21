@@ -108,16 +108,16 @@ function Home() {
                                 <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                     <h4 style={{ color: "rgb(242,113,0)" }}>Sainik & Military School Admission Entrance Coaching Only</h4>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry <Link exact to="/aissee" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
-                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
-                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry<Link exact to="/rms" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
+                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry<Link exact to="/rimc" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">
                                 <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                     <h4 style={{ color: "rgb(51, 47, 208)" }}>Residential CBSE School Programme with Entrance Exam Coaching</h4>
                                     <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry <Link exact to="/aissee" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
-                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
-                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry<Link exact to="/rms" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
+                                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry<Link exact to="/rimc" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">
@@ -278,16 +278,16 @@ function Home() {
                             <div style={{ border: "3px solid rgb(242,113,0)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(242,113,0)" }}>Sainik & Military School Admission Entrance Coaching Only</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry <Link exact to="/aissee" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry<Link exact to="/rms" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry<Link exact to="/rimc" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">
                             <div style={{ border: "3px solid rgb(51, 47, 208)", ...divStyle }} className="div">
                                 <h4 style={{ color: "rgb(51, 47, 208)" }}>Residential CBSE School Programme with Entrance Exam Coaching</h4>
                                 <p style={{ fontWeight: "bold", fontSize: "20px" }}>Sainik School - AISSEE for 6th & 9th entry <Link exact to="/aissee" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry</p>
-                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry</p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Military School - RMS for 6th & 9th entry<Link exact to="/rms" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
+                                <p style={{ fontWeight: "bold", fontSize: "20px" }}>Rashtriya Indian Military College - RIMC for 8th entry<Link exact to="/rimc" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}>Know More -&gt;</Link></p>
                             </div>
                         </div>
                         <div className="col-md-4 mb-5">

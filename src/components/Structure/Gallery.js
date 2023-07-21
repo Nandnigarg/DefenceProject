@@ -20,7 +20,7 @@ function Gallery() {
                             <Link exact to="/nda-gallery" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn btn-success btn-lg">NDA Gallery</button></Link>
                         </div>
                         <div className="col-md-6 mt-3">
-                            <Link exact to="/sainik-school-gallery" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn btn-success btn-lg">Sainik School Gallery</button></Link>
+                            <Link exact to="/sainik-school-gallery" onClick={() => { window.scroll({ top: 0, left: 0, behavior: "smooth" }); }}><button className="btn btn-success btn-lg">Sainik School/RMS/RIMC Gallery</button></Link>
                         </div>
                     </div>
                     <hr />

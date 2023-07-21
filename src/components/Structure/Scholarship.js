@@ -8,9 +8,6 @@ import Percentile from '../assets/Percentile.jpg';
 import Time from '../assets/Time.jpg';
 import Syllabus from '../assets/syllabus.jpg';
 import Pattern from '../assets/pattern.jpg';
-import N1 from '../assets/number1.jpg';
-import N2 from '../assets/number2.jpg';
-import N3 from '../assets/number3.jpg';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Scholar1 from '../assets/Scholar-1.jpg';
@@ -248,11 +245,11 @@ function Scholarship() {
                     <div style={{ textAlign: "center", backgroundColor: "rgb(255,243,231)" }} class="p-4">
                         <img src={Time} alt="" />
                         <h6 className="mt-3" style={{ fontSize: "20px" }}>Starts On</h6>
-                        <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.5rem", fontWeight: "bold" }}>December 31st , 11:00 AM - 8:00 PM</h4>
+                        <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.5rem", fontWeight: "bold" }}>August 27, 2:00 PM to 4:00 PM</h4>
                     </div>
                     <div style={{ textAlign: "center" }} class="mt-3">
                         <h6 style={{ fontSize: "20px" }}>Results will be announced on</h6>
-                        <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.5rem", fontWeight: "bold" }}>January 2nd , 9:30 AM</h4>
+                        <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.5rem", fontWeight: "bold" }}>August 29, 9:30 AM</h4>
                     </div>
                     <div style={{ textAlign: "center" }}>
                         <div className="row p-4">
@@ -264,23 +261,6 @@ function Scholarship() {
                                 <img height="auto" width="20%" src={Syllabus} alt="" />
                                 <h4 className="mt-3" style={{ color: "rgb(21, 52, 98)", fontSize: "1.3rem", fontWeight: "bold" }}>Syllabus</h4>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <h2 style={{ fontSize: "2.5rem", fontWeight: "bold" }} className="text text-danger">How to clear DCG-SAT?</h2>
-                <div style={{ textAlign: "center" }} className="container mt-4">
-                    <div className="row p-4">
-                        <div className="col-md-4 mt-3">
-                            <img height="auto" width="25%" src={N1} alt="" />
-                            <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.3rem", fontWeight: "bold" }}>Register for the test online</h4>
-                        </div>
-                        <div className="col-md-4 mt-3">
-                            <img height="auto" width="25%" src={N2} alt="" />
-                            <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.3rem", fontWeight: "bold" }}>Prepare With Live Classes</h4>
-                        </div>
-                        <div className="col-md-4 mt-3">
-                            <img height="auto" width="25%" src={N3} alt="" />
-                            <h4 style={{ color: "rgb(21, 52, 98)", fontSize: "1.3rem", fontWeight: "bold" }}>Attempt it LIVE</h4>
                         </div>
                     </div>
                 </div>

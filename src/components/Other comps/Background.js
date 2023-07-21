@@ -58,8 +58,8 @@ function Background(props) {
                                     <label for="number">Enter Mobile No</label>
                                 </div>
                                 <div class="form-floating mb-2">
-                                    <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />
-                                    <label for="mail">Enter Email Id</label>
+                                    <input type="text" class="form-control" id="mail" placeholder="text" name="mail" />
+                                    <label for="mail">Enter Course Name</label>
                                 </div>
                                 <div class="form-floating mb-2">
                                     <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
@@ -98,8 +98,8 @@ function Background(props) {
                                 <label for="number">Enter Mobile No</label>
                             </div>
                             <div class="form-floating mb-2">
-                                <input type="email" class="form-control" id="mail" placeholder="text" name="mail" />
-                                <label for="mail">Enter Email Id</label>
+                                <input type="text" class="form-control" id="mail" placeholder="text" name="mail" />
+                                <label for="mail">Enter Course Name</label>
                             </div>
                             <div class="form-floating mb-2">
                                 <textarea class="form-control h-25" id="message" placeholder="text" rows="4" name="message" />
