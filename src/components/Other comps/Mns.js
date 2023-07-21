@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Background from "./Background";
 
 function Mns() {
     return (
@@ -6,6 +7,7 @@ function Mns() {
             <Helmet>
                 <title>Military Nursing Services (MNS)</title>
             </Helmet>
+            <Background text="Military Nursing Services (MNS)" src="Military Nursing Services (MNS)"/>
             <div className="container mt-5 mb-4" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Military Nursing Services (MNS)</h1>
                 <hr />

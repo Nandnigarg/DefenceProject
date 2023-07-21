@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Background from "./Background";
 
 function Rms() {
     return (
@@ -7,6 +8,7 @@ function Rms() {
                 <title>RMS Coaching in Chandigarh | Online / Offline Classes for RMS Exam</title>
                 <meta name="description" content="Rashtriya Military School (RMS) Coaching in Chandigarh- RMS Coaching Institute in Chandigarh for the best RMS exam preparation." />
             </Helmet>
+            <Background text="Rashtriya Military School (RMS)" src="Rashtriya Military School (RMS)"/>
             <div className="container mt-5 mb-4" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Rashtriya Military School (RMS)</h1>
                 <hr />

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Background from "./Background";
 
 function Afcat() {
     return (
@@ -6,6 +7,7 @@ function Afcat() {
             <Helmet>
                 <title>Air Force Common Admission Test (AFCAT)</title>
             </Helmet>
+            <Background text="Air Force Common Admission Test (AFCAT)" src="Air Force Common Admission Test (AFCAT)"/>
             <div className="container mt-5 mb-4" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Air Force Common Admission Test (AFCAT)</h1>
                 <hr />

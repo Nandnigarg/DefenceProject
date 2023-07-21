@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Background from "./Background";
 
 function Rimc() {
     return (
@@ -7,6 +8,7 @@ function Rimc() {
                 <title>RIMC Coaching in Chandigarh | RIMC Online Coaching</title>
                 <meta name="description" content="Delhi Career Group is one of the best RIMC coaching institutes in Chandigarh. We provide the best coaching classes for RIMC in Chandigarh." />
             </Helmet>
+            <Background text="Rashtriya Indian Military College (RIMC)" src="Rashtriya Indian Military College (RIMC)"/>
             <div className="container mt-5 mb-4" style={{ textAlign: "justify" }}>
                 <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">Rashtriya Indian Military College (RIMC)</h1>
                 <hr />
