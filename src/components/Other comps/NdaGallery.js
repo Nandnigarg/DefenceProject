@@ -7,6 +7,18 @@ import n5 from '../assets/Nda5.jpg';
 import n6 from '../assets/Nda6.jpg';
 import n7 from '../assets/Nda7.jpg';
 import n8 from '../assets/Nda8.jpg';
+import n9 from '../assets/Nda9.jpg';
+import n10 from '../assets/Nda10.jpg';
+import n11 from '../assets/Nda11.jpg';
+import n12 from '../assets/Nda12.jpg';
+import n13 from '../assets/Nda13.jpg';
+import n14 from '../assets/Nda14.jpg';
+import n15 from '../assets/Nda15.jpg';
+import n16 from '../assets/Nda16.jpg';
+import n17 from '../assets/Nda17.jpg';
+import n18 from '../assets/Nda18.jpg';
+import n19 from '../assets/Nda19.jpg';
+import n20 from '../assets/Nda20.jpg';
 import i1 from '../assets/img1.jpg';
 import i2 from '../assets/img2.jpg';
 import i3 from '../assets/img3.jpg';
@@ -115,6 +127,48 @@ function NdaGallery() {
                         </div>
                         <div className="col-md-3 mt-4">
                             <img width="100%" height="auto" src={i16} alt="" />
+                        </div>
+
+                        {/* row-7 */}
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n9} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n10} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n11} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n12} alt="" />
+                        </div>
+
+                        {/* row-8 */}
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n13} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n14} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n15} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n16} alt="" />
+                        </div>
+
+                        {/* row-9 */}
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n17} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n18} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n19} alt="" />
+                        </div>
+                        <div className="col-md-3 mt-4">
+                            <img width="100%" height="250px" src={n20} alt="" />
                         </div>
                     </div>
                 </div>
