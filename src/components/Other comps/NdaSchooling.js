@@ -16,6 +16,10 @@ function NdaSchooling() {
                 <hr />
                 <br /><br />
                 <p style={{ fontSize: "18px" }}>One of the best NDA coaching institutes in India is DCG Defence Academy. DCG Defence Academy offers a comprehensive and integrated program that prepares students for all aspects of the NDA exam, including academics, physical fitness, and SSB interview. The academy has a team of experienced and qualified faculty members, physical training instructors, and SSB interview experts who are committed to helping students achieve their goals.</p>
+                <div className='row'>
+                    <div className='col-sm-6 mt-3' style={{ textAlign: "center" }}><iframe width="95%" height="380" src="https://www.youtube.com/embed/jrvnbWZ1rTE" title="India&#39;s No.1 Defence Academy - DCG Defence Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div className='col-sm-6 mt-3' style={{ textAlign: "center" }}><iframe width="95%" height="380" src="https://www.youtube.com/embed/FSBuBjtrftA" title="10th के बाद NDA की तैयारी क्यों है जरूरी ? NDA Foundation Course after 10th | Importance | DCG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                </div>
                 <div style={{ borderRadius: "20px", backgroundColor: "rgb(40,120,70)" }} className='p-4'>
                     <h3 style={{ color: "rgb(255,255,0)", fontSize: "2.7rem", textAlign: "center" }}>NDA Foundation Course Programs Offered by Delhi Career Group</h3>
                     <div className="row mb-5" style={{ textAlign: "center" }}>
