@@ -83,7 +83,7 @@ function Navbar() {
                                     <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Application Forms</button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link exact to="/enquiry-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Enquiry Form</li></Link>
-                                        <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Admission Form</li></Link>
+                                        {/* <Link exact to="/admission-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Admission Form</li></Link> */}
                                         <Link exact to="/scholarship-form" class="dropdown-item"><li class="nav-item text text-success text-decoration-none" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style={{ fontWeight: "bold" }}>Scholarship Form</li></Link>
                                     </ul>
                                 </li>

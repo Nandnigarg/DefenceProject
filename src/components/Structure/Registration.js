@@ -42,7 +42,7 @@ function Registration() {
             <div className="container-fluid mt-4 mb-5">
                 <div style={{ maxWidth: "800px", textAlign: "center" }} className="container">
                     <form>
-                        <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">ADMISSION FORM</h1>
+                        <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">BRANCH VISITING FORM</h1>
                         <hr />
                         <div class="mb-3 mt-3">
                             <input type="text" class="form-control" id="name" placeholder="Student Name *" />
