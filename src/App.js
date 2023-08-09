@@ -83,7 +83,7 @@ function App() {
         <Route path="/school-integrated-programme" element={<Schooling/>}/>
         <Route path="/physical-ssb-training" element={<Physical/>}/>
         <Route path="/hostel-facility" element={<Hostel/>}/>
-        <Route path="/branch-enquiry-form" element={<Registration />}/>
+        <Route path="/branch-visiting-form" element={<Registration />}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/nda-gallery" element={<NdaGallery/>}/>
         <Route path="/sainik-school-gallery" element={<SainikGallery/>}/>

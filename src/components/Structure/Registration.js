@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { firebase, auth } from '../../firebase';
 
 function Registration() {
     const [otp, setotp] = useState('');
     const [show, setshow] = useState(false);
     const [final, setfinal] = useState(null);
+    const [verify, setverify] = useState(false);
 
     const sendOTP = (e) => {
         e.preventDefault();
@@ -32,16 +35,53 @@ function Registration() {
         }
         final.confirm(otp).then((result) => {
             window.alert("Verification Successful!!")
+            setverify(true);
         }).catch((err) => {
             window.alert("Wrong code!!");
         })
     }
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        var name = document.querySelector('#name').value;
+        var mobile = document.querySelector('#mobile').value;
+        var mail = document.querySelector('#mail').value;
+        var dob = document.querySelector('#dob').value;
+        var Class = document.querySelector('#Class').value;
+        var mode = document.querySelector('#mode').value;
+        var state = document.querySelector('#state').value;
+        var center = document.querySelector('#center').value;
+
+        if (name === '' || mobile === '' || mail === '' || dob === '' || Class === 'Select Present Class *' || mode === 'Select Class Mode *' || state === 'Select State *' || center === 'Select Stude Center *') {
+            window.alert('Please enter all the details carefully!')
+        }
+
+        else {
+            if(verify !== true){
+                window.alert('Please verify your mobile number!!')
+            }
+            else{
+                emailjs.sendForm('service_tn5b93m', 'template_jwvw3wj', form.current, 'SMWY2N68zRuPkdjMx')
+                .then((result) => {
+                    var element = document.getElementById("feed_form");
+                    element.reset();
+                    console.log(result.text);
+                }, (error) => {
+                    var element = document.getElementById("feed_form");
+                    element.reset();
+                    console.log(error.text);
+                });
+            }
+        }
+    };
+
     return (
         <div>
             <div className="container-fluid mt-4 mb-5">
                 <div style={{ maxWidth: "800px", textAlign: "center" }} className="container">
-                    <form>
+                    <form ref={form} onSubmit={sendEmail} id="feed_form">
                         <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">BRANCH VISITING FORM</h1>
                         <hr />
                         <div class="mb-3 mt-3">
