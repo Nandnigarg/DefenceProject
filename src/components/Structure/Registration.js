@@ -1,71 +1,70 @@
 import React, { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { firebase, auth } from '../../firebase';
+// import { firebase, auth } from '../../firebase';
 
 function Registration() {
-    const [otp, setotp] = useState('');
-    const [show, setshow] = useState(false);
-    const [final, setfinal] = useState(null);
-    const [verify, setverify] = useState(false);
+    // const [otp, setotp] = useState('');
+    // const [show, setshow] = useState(false);
+    // const [final, setfinal] = useState(null);
+    // const [verify, setverify] = useState(false);
 
-    const sendOTP = (e) => {
-        e.preventDefault();
-        var num = document.getElementById('mobile').value;
-        var mynumber = `+91${num}`;
-        if (mynumber === "" || mynumber.length < 10) return;
+    // const sendOTP = (e) => {
+    //     e.preventDefault();
+    //     var num = document.getElementById('mobile').value;
+    //     var mynumber = `+91${num}`;
+    //     if (mynumber === "" || mynumber.length < 10) return;
 
-        let verify = new firebase.auth.RecaptchaVerifier('recaptcha-container');
-        auth.signInWithPhoneNumber(mynumber, verify).then((result) => {
-            setfinal(result);
-            console.log(result);
-            window.alert("code sent");
-            setshow(true);
-        })
-            .catch((err) => {
-                console.log(err);
-            });
-    }
+    //     let verify = new firebase.auth.RecaptchaVerifier('recaptcha-container');
+    //     auth.signInWithPhoneNumber(mynumber, verify).then((result) => {
+    //         setfinal(result);
+    //         console.log(result);
+    //         window.alert("code sent");
+    //         setshow(true);
+    //     })
+    //         .catch((err) => {
+    //             console.log(err);
+    //         });
+    // }
 
-    const ValidateOtp = (e) => {
-        e.preventDefault();
-        if (otp === null || final === null){
-            window.alert("Something wrong!!");
-            window.location.reload();
-        }
-        final.confirm(otp).then((result) => {
-            window.alert("Verification Successful!!")
-            setverify(true);
-        }).catch((err) => {
-            window.alert("Wrong code!!");
-        })
-    }
-
+    // const ValidateOtp = (e) => {
+    //     e.preventDefault();
+    //     if (otp === null || final === null) {
+    //         window.alert("Something wrong!!");
+    //         window.location.reload();
+    //     }
+    //     final.confirm(otp).then((result) => {
+    //         window.alert("Verification Successful!!")
+    //         setverify(true);
+    //     }).catch((err) => {
+    //         window.alert("Wrong code!!");
+    //     })
+    // }
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
         var name = document.querySelector('#name').value;
         var mobile = document.querySelector('#mobile').value;
         var mail = document.querySelector('#mail').value;
-        var dob = document.querySelector('#dob').value;
         var Class = document.querySelector('#Class').value;
         var mode = document.querySelector('#mode').value;
+        var dob = document.querySelector('#dob').value;
         var state = document.querySelector('#state').value;
+        var city = document.querySelector('#city').value;
         var center = document.querySelector('#center').value;
 
-        if (name === '' || mobile === '' || mail === '' || dob === '' || Class === 'Select Present Class *' || mode === 'Select Class Mode *' || state === 'Select State *' || center === 'Select Stude Center *') {
+        if (name === '' || mobile === '' || mail === '' || dob === '' || city === '' || Class === 'Select Present Class *' || mode === 'Select Class Mode *' || state === 'Select State *' || center === 'Select DCG Branch *') {
             window.alert('Please enter all the details carefully!')
         }
 
         else {
-            if(verify !== true){
-                window.alert('Please verify your mobile number!!')
-            }
-            else{
-                emailjs.sendForm('service_tn5b93m', 'template_jwvw3wj', form.current, 'SMWY2N68zRuPkdjMx')
+            // if(verify !== true){
+            //     window.alert('Please verify your mobile number!!')
+            // }
+            emailjs.sendForm('service_tn5b93m', 'template_jwvw3wj', form.current, 'AXOnCkME7VCrGXjzC')
                 .then((result) => {
                     var element = document.getElementById("feed_form");
+                    window.alert("Form Submitted Successfully!!");
                     element.reset();
                     console.log(result.text);
                 }, (error) => {
@@ -73,7 +72,6 @@ function Registration() {
                     element.reset();
                     console.log(error.text);
                 });
-            }
         }
     };
 
@@ -85,22 +83,22 @@ function Registration() {
                         <h1 style={{ fontFamily: "cursive", fontSize: "3rem", fontWeight: "bold", textAlign: "center" }} className="text text-danger">BRANCH VISITING FORM</h1>
                         <hr />
                         <div class="mb-3 mt-3">
-                            <input type="text" class="form-control" id="name" placeholder="Student Name *" />
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name *" name="name"/>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="text" maxLength="10" class="form-control" id="mobile" placeholder="Mobile Number *" />
-                            <div id="recaptcha-container"></div>
-                            <button class="btn btn-primary" type="button" onClick={sendOTP}>Send OTP</button>
+                            <input type="text" maxLength="10" class="form-control" id="mobile" placeholder="Mobile Number *" name="mobile"/>
+                            {/* <div id="recaptcha-container"></div>
+                            <button class="btn btn-primary" type="button" onClick={sendOTP}>Send OTP</button> */}
                         </div>
-                        <div class="input-group mb-3">
-                            <input style={{ display: show ? "block" : "none" }} class="form-control" type="text" placeholder={"Enter your OTP"} value={otp} onChange={(e) => { setotp(e.target.value)}} />
+                        {/* <div class="input-group mb-3">
+                            <input style={{ display: show ? "block" : "none" }} class="form-control" type="text" placeholder={"Enter your OTP"} value={otp} onChange={(e) => { setotp(e.target.value) }} />
                             <button style={{ display: show ? "block" : "none" }} class="btn btn-success" onClick={ValidateOtp}>Verify</button>
+                        </div> */}
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="mail" placeholder="Email Id *" name="mail"/>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="mail" placeholder="Email Id *" />
-                        </div>
-                        <div class="mb-3">
-                            <select class="form-select" aria-label="Default select example">
+                            <select id="Class" name="Class" class="form-select" aria-label="Default select example">
                                 <option selected disabled hidden>Select Present Class *</option>
                                 <option value="3rd">3rd appearing</option>
                                 <option value="4th">4th appearing</option>
@@ -116,17 +114,17 @@ function Registration() {
                             </select>
                         </div>
                         <div class="mb-3">
-                            <select class="form-select" aria-label="Default select example">
+                            <select id="mode" name="mode" class="form-select" aria-label="Default select example">
                                 <option selected disabled hidden>Select Class Mode *</option>
                                 <option value="Online">Online</option>
                                 <option value="Offline">Offline</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <input type="date" class="form-control" id="dob" placeholder="Date of Birth *" />
+                            <input type="date" class="form-control" id="dob" placeholder="Date of Birth *" name="dob"/>
                         </div>
                         <div class="mb-3">
-                            <select class="form-select" aria-label="Default select example">
+                            <select id="state" name="state" class="form-select" aria-label="Default select example">
                                 <option selected disabled hidden>Select State *</option>
                                 <option value="Andaman and Nicobar Island">Andaman and Nicobar Islands</option>
                                 <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -168,11 +166,14 @@ function Registration() {
                             </select>
                         </div>
                         <div class="mb-3">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected disabled hidden>Select Stude Center *</option>
-                                <option value="CHD">Chandigarh</option>
+                            <input type="text" class="form-control" id="city" placeholder="Enter City *" name="city"/>
+                        </div>
+                        <div class="mb-3">
+                            <select id="center" name="center" class="form-select" aria-label="Default select example">
+                                <option selected disabled hidden>Select DCG Branch *</option>
                                 <option value="DELHI">Delhi</option>
-                                <option value="ONLINE">Online Classes</option>
+                                <option value="CHANDIGARG TRICITY BRANCH">Chandigarh Tricity Branch</option>
+                                <option value="PUNE">Pune</option>
                             </select>
                         </div>
                         <button class="btn btn-dark mt-2 mb-5">Submit</button>
