@@ -52,6 +52,7 @@ function Registration() {
         var state = document.querySelector('#state').value;
         var city = document.querySelector('#city').value;
         var center = document.querySelector('#center').value;
+        // var image = document.querySelector('#image').value;
 
         if (name === '' || mobile === '' || mail === '' || dob === '' || city === '' || Class === 'Select Present Class *' || mode === 'Select Class Mode *' || state === 'Select State *' || center === 'Select DCG Branch *') {
             window.alert('Please enter all the details carefully!')
@@ -100,6 +101,10 @@ function Registration() {
                         <div class="mb-3">
                             <select id="Class" name="Class" class="form-select" aria-label="Default select example">
                                 <option selected disabled hidden>Select Present Class *</option>
+                                <option value="Graduate">Graduate</option>
+                                <option value="Post Graduate">Post Graduate</option>
+                                <option value="Diploma">Diploma</option>
+                                <option value="ITI">ITI</option>
                                 <option value="3rd">3rd appearing</option>
                                 <option value="4th">4th appearing</option>
                                 <option value="5th">5th appearing</option>
@@ -121,7 +126,7 @@ function Registration() {
                             </select>
                         </div>
                         <div class="mb-3">
-                            <input type="date" class="form-control" id="dob" placeholder="Date of Birth *" name="dob"/>
+                            <input type="date" class="form-control" id="dob" name="dob"/>
                         </div>
                         <div class="mb-3">
                             <select id="state" name="state" class="form-select" aria-label="Default select example">
@@ -176,6 +181,9 @@ function Registration() {
                                 <option value="PUNE">Pune</option>
                             </select>
                         </div>
+                        {/* <div class="mb-3">
+                            <input type="file" accept="image/*" class="form-control" id="image" name="image" placeholder="Upload Image"/>
+                        </div> */}
                         <button class="btn btn-dark mt-2 mb-5">Submit</button>
                     </form>
                 </div>
