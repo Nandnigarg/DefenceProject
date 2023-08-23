@@ -1,7 +1,7 @@
 import Header from "./components/Structure/Header";
 import Navbar from "./components/Structure/Navbar";
 import Home from "./components/Structure/Home";
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Schooling from "./components/Structure/Schooling";
 import Registration from "./components/Structure/Registration";
 import Gallery from "./components/Structure/Gallery";
@@ -46,59 +46,59 @@ import Rimc from "./components/Other comps/Rimc";
 import Cds from "./components/Other comps/Cds";
 import Afcat from "./components/Other comps/Afcat";
 import Mns from "./components/Other comps/Mns";
+import { Fragment } from "react";
 
 function App() {
   const isRegistrationPage = window.location.pathname === "/branch-visiting-form";
 
   return (
-    <div className="App container-fluid" style={{paddingLeft: "0", paddingRight: "0"}}>
+    <div className="App container-fluid" style={{ paddingLeft: "0", paddingRight: "0" }}>
       <IpTracker />
-      <Header />
       <Icons />
-      {!isRegistrationPage && <Navbar />}
+      {!isRegistrationPage && <Fragment><Header /> <Navbar/> </Fragment>}
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/eligibility" element={<Eligibility/>}/>
-        <Route path="/payment" element={<Payment/>}/>
-        <Route path="/enquiry-form" element={<Enquiry/>}/>
-        <Route path="/scholarship-form" element={<Scholarship/>}/>
-        <Route path="/nda-schooling" element={<NdaSchooling/>}/>
-        <Route path="/nda-after-8th" element={<Nda8/>}/>
-        <Route path="/nda-after-9th" element={<Nda9/>}/>
-        <Route path="/nda-after-10th" element={<Nda10/>}/>
-        <Route path="/nda-after-11th" element={<Nda11/>}/>
-        <Route path="/nda-coaching" element={<NdaCoaching/>}/>
-        <Route path="/nda-online" element={<NdaOnline/>}/>
-        <Route path="/nda-delhi" element={<NdaDelhi/>}/>
-        <Route path="/nda-chandigarh" element={<NdaChandigarh/>}/>
-        <Route path="/nda-foundation" element={<Foundation/>}/>
-        <Route path="/ssb-training" element={<Ssb/>}/>
-        <Route path="/afpi" element={<Afpi/>}/>
-        <Route path="/gurukul" element={<Gurukul/>}/>
-        <Route path="/army-public-school" element={<Army/>}/>
-        <Route path="/aissee" element={<Aissee/>}/>
-        <Route path="/rms" element={<Rms/>}/>
-        <Route path="/rimc" element={<Rimc/>}/>
-        <Route  path="/cds" element={<Cds/>}/>
-        <Route path="/afcat" element={<Afcat/>}/>
-        <Route path="/mns" element={<Mns/>}/>
-        <Route path="/school-integrated-programme" element={<Schooling/>}/>
-        <Route path="/physical-ssb-training" element={<Physical/>}/>
-        <Route path="/hostel-facility" element={<Hostel/>}/>
-        <Route path="/branch-visiting-form" element={<Registration />}/>
-        <Route path="/gallery" element={<Gallery/>}/>
-        <Route path="/nda-gallery" element={<NdaGallery/>}/>
-        <Route path="/sainik-school-gallery" element={<SainikGallery/>}/>
-        <Route path="/contact-us" element={<Contact/>}/>
-        <Route path="/nda-recruitment" element={<NDAFaq/>}/>
-        <Route path="/nda-admit-card" element={<NdaAdmit/>}/>
-        <Route path="/nda-application" element={<NdaApp/>}/>
-        <Route path="/nda-dates" element={<NdaDates/>}/>
-        <Route path="/nda-notification" element={<NdaNoti/>}/>
-        <Route path="/nda-results" element={<NdaResult/>}/>
-        <Route path="/nda-analysis" element={<NdaAnalysis/>}/>
-        <Route path="/nda-cut-off" element={<NdaCutoff/>}/>
-        <Route path="/ssb-faq" element={<SsbFaq/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/eligibility" element={<Eligibility />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/enquiry-form" element={<Enquiry />} />
+        <Route path="/scholarship-form" element={<Scholarship />} />
+        <Route path="/nda-schooling" element={<NdaSchooling />} />
+        <Route path="/nda-after-8th" element={<Nda8 />} />
+        <Route path="/nda-after-9th" element={<Nda9 />} />
+        <Route path="/nda-after-10th" element={<Nda10 />} />
+        <Route path="/nda-after-11th" element={<Nda11 />} />
+        <Route path="/nda-coaching" element={<NdaCoaching />} />
+        <Route path="/nda-online" element={<NdaOnline />} />
+        <Route path="/nda-delhi" element={<NdaDelhi />} />
+        <Route path="/nda-chandigarh" element={<NdaChandigarh />} />
+        <Route path="/nda-foundation" element={<Foundation />} />
+        <Route path="/ssb-training" element={<Ssb />} />
+        <Route path="/afpi" element={<Afpi />} />
+        <Route path="/gurukul" element={<Gurukul />} />
+        <Route path="/army-public-school" element={<Army />} />
+        <Route path="/aissee" element={<Aissee />} />
+        <Route path="/rms" element={<Rms />} />
+        <Route path="/rimc" element={<Rimc />} />
+        <Route path="/cds" element={<Cds />} />
+        <Route path="/afcat" element={<Afcat />} />
+        <Route path="/mns" element={<Mns />} />
+        <Route path="/school-integrated-programme" element={<Schooling />} />
+        <Route path="/physical-ssb-training" element={<Physical />} />
+        <Route path="/hostel-facility" element={<Hostel />} />
+        <Route path="/branch-visiting-form" element={<Registration />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/nda-gallery" element={<NdaGallery />} />
+        <Route path="/sainik-school-gallery" element={<SainikGallery />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/nda-recruitment" element={<NDAFaq />} />
+        <Route path="/nda-admit-card" element={<NdaAdmit />} />
+        <Route path="/nda-application" element={<NdaApp />} />
+        <Route path="/nda-dates" element={<NdaDates />} />
+        <Route path="/nda-notification" element={<NdaNoti />} />
+        <Route path="/nda-results" element={<NdaResult />} />
+        <Route path="/nda-analysis" element={<NdaAnalysis />} />
+        <Route path="/nda-cut-off" element={<NdaCutoff />} />
+        <Route path="/ssb-faq" element={<SsbFaq />} />
       </Routes>
       <Footer />
     </div>
