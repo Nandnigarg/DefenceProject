@@ -48,12 +48,14 @@ import Afcat from "./components/Other comps/Afcat";
 import Mns from "./components/Other comps/Mns";
 
 function App() {
+  const isRegistrationPage = window.location.pathname === "/branch-visiting-form";
+
   return (
     <div className="App container-fluid" style={{paddingLeft: "0", paddingRight: "0"}}>
       <IpTracker />
       <Header />
       <Icons />
-      <Navbar />
+      {!isRegistrationPage && <Navbar />}
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/eligibility" element={<Eligibility/>}/>

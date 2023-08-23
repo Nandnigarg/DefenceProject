@@ -40,6 +40,7 @@ function Registration() {
     //         window.alert("Wrong code!!");
     //     })
     // }
+
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
