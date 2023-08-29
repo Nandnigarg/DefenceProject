@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import dcgLogo from '../assets/dcgLogo.jpg';
-import "./glow.css";
+// import "./glow.css";
 
 function Header() {
     const headerButton = {
@@ -40,10 +40,10 @@ function Header() {
                         <h6 style={{ color: "white", fontSize: "1.2rem", fontWeight: "bold", lineHeight: "0.5" }}>Helpline & Support (8am to 10pm)<br /></h6>
                         <div className='row mb-2' style={{ fontSize: "1.7rem", textAlign: "center" }}>
                             <div className='col-sm-6 mt-2'>
-                                <a href="tel:09876335141" className="text-decoration-none glow" style={{ color: "rgb(255,255,0)" }}><i class="fa-solid fa-phone"></i><span>09876335141</span></a>
+                                <a href="tel:09876335141" className="text-decoration-none" style={{ color: "rgb(255,255,0)" }}><i class="fa-solid fa-phone"></i><span>09876335141</span></a>
                             </div>
                             <div className='col-sm-6 mt-2'>
-                                <a href="https://wa.me/+919569782865" target="_blank" className="text-decoration-none glow" style={{ color: "rgb(255,255,0)" }}><i class="fa-brands fa-whatsapp"></i><span>09569782865</span></a>
+                                <a href="https://wa.me/+919569782865" target="_blank" className="text-decoration-none" style={{ color: "rgb(255,255,0)" }}><i class="fa-brands fa-whatsapp"></i><span>09569782865</span></a>
                             </div>
                         </div>
                     </div>
